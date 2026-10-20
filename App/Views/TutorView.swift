@@ -173,7 +173,8 @@ struct TutorView: View {
                                                                   topic: request, level: level)
                 let exercises = ExerciseFactory.make(lesson: lesson, unitWords: lesson.words,
                                                      allWords: course.allWords,
-                                                     unitSentences: lesson.sentences)
+                                                     unitSentences: lesson.sentences,
+                                                     known: Set(store.state.cards.keys))
                 generated = PracticeSet(lesson: lesson, exercises: exercises)
             } catch {
                 generateError = error.localizedDescription

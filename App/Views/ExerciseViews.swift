@@ -21,9 +21,19 @@ struct PromptBubble: View {
                         if let audio = exercise.promptAudio {
                             SpeakerButton(text: audio)
                         }
-                        Text(exercise.prompt)
-                            .font(.title3.weight(.semibold))
-                            .fixedSize(horizontal: false, vertical: true)
+                        VStack(alignment: .leading, spacing: 8) {
+                            if exercise.isNew {
+                                NewWordBadge()
+                            }
+                            if let hints = exercise.hints {
+                                HintedText(words: hints, slovak: exercise.hintsSlovak)
+                            } else {
+                                Text(exercise.prompt)
+                                    .font(.title3.weight(.semibold))
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     }
                     .padding(14)
                     .background(RoundedRectangle(cornerRadius: 16).fill(Color(.secondarySystemGroupedBackground)))
@@ -240,9 +250,13 @@ struct FillExerciseView: View {
             HStack(alignment: .top, spacing: 12) {
                 Mascot(size: 54)
                 VStack(alignment: .leading, spacing: 8) {
-                    sentence
-                        .font(.title3.weight(.semibold))
-                        .fixedSize(horizontal: false, vertical: true)
+                    if let hints = exercise.hints {
+                        HintedText(words: hints, slovak: true, blank: selection)
+                    } else {
+                        sentence
+                            .font(.title3.weight(.semibold))
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
                     if !exercise.prompt.isEmpty {
                         Text(exercise.prompt)
                             .font(.subheadline)

@@ -221,6 +221,18 @@ struct LessonView: View {
             if case .almost(let hint) = result {
                 Text(hint).font(.subheadline).foregroundColor(color)
             }
+            if result != .correct, let tip = exercise.tip {
+                HStack(alignment: .top, spacing: 8) {
+                    Text("💡")
+                    markdownText(tip)
+                        .font(.subheadline)
+                        .foregroundColor(.primary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .padding(10)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 10).fill(Color(.systemBackground).opacity(0.8)))
+            }
             if isWrong {
                 Text("Правильный ответ:").font(.subheadline.weight(.bold)).foregroundColor(color)
                 Text(exercise.speakAfter ?? exercise.answer).font(.body).foregroundColor(color)

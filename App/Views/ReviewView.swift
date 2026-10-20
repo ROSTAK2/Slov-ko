@@ -96,8 +96,13 @@ struct ReviewView: View {
         let words = store.practiceWords()
         guard words.count >= 4 else { return }
         let pool = store.state.cards.values.map { WordPair(sk: $0.sk, ru: $0.ru) } + course.allWords
+        let done = store.state.completedLessons
+        let sentences = course.allLessons
+            .filter { done.contains($0.id) && !$0.isReview }
+            .flatMap { $0.sentences }
         let lesson = Lesson(id: "practice", title: "Тренировка", words: words, sentences: [], fills: [])
-        practice = PracticeSet(lesson: lesson, exercises: ExerciseFactory.practice(words: words, pool: pool))
+        practice = PracticeSet(lesson: lesson,
+                               exercises: ExerciseFactory.practice(words: words, pool: pool, sentences: sentences))
     }
 }
 

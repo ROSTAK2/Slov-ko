@@ -1,0 +1,259 @@
+# 11
+a Včera = Вчера | som bol = я был | v práci = на работе | do siedmej = до семи
+a Minulý týždeň = На прошлой неделе | sme boli = мы были | vo Viedni = в Вене
+a Čo = Что | si robil = ты делал | cez víkend = на выходных
+a Pred rokom = Год назад | som začal = я начал | študovať = учиться
+a Stretol som = Я встретил | kolegu = коллегу | v meste = в городе
+h Včera ___ bol doma. => Прошедшее время: «я был» = **som** bol. som / si стоят на втором месте.
+h Ona ___ v Prahe. => «Она» → женская форма: bol**a**. В 3-м лице «som» не нужен.
+h My sme ___ do kina. => ísť в прошедшем — особая форма: išiel, išla, во мн. ч. **išli**.
+a Narodil som sa = Я родился | v Minsku = в Минске
+a Vyrastala som = Я выросла | na dedine = в деревне
+a Najprv = Сначала | som študoval = я учился | potom = потом | som pracoval = работал
+a Skončila som = Я закончила | univerzitu = университет | v roku 2020 = в 2020 году
+a Minulý rok = В прошлом году | sme sa presťahovali = мы переехали
+h Ja som sa ___ v Kyjeve. => Прошедшее время — l-форма: narodiť → narodi**l**.
+h Oni sa ___ do Bratislavy. => «Они» → l-форма на **-li**: presťahova**li**.
+h Najprv som ___ študovať. => Прошедшее: začať → zača**l** (я начал).
+a Predtým = Раньше | som pracoval = я работал | ako účtovník = бухгалтером
+a Môj = Мой | bývalý = бывший | šéf = начальник | bol = был | veľmi = очень | prísny = строгим
+a Už = уже | si bol = Ты был | na Slovensku = в Словакии
+a Ešte nie = Ещё нет | ale = но | chcem = хочу | ísť = поехать
+a Projekt = Проект | trval = длился | dva = два | roky = года
+h Už ___ to videla? => «Ты видела» = videla **si**: с «ty» вспомогательный глагол — **si**.
+h Nikdy predtým som ___ v Tatrách. => Отрицание ставится к l-форме: **nebol** som (я не был).
+h Projekt ___ tri mesiace. => projekt — мужской род → trva**l** (без окончания).
+
+# 12
+a Kde = Где | je = (есть — глагол «быть») | najbližšia = ближайшая | zastávka = остановка
+a Do práce = На работу | chodím = я езжу | električkou = на трамвае
+a Lístok = Билет | si treba = нужно | označiť = прокомпостировать
+a Na námestí = На площади | prestúpte = пересядьте | na autobus = на автобус
+a Vystupujem = Я выхожу | na ďalšej zastávke = на следующей остановке
+h Idem do mesta ___. => «На чём?» — творительный без предлога: autobus → autobus**om**.
+h Kúpil som si ___. => lístok — неодушевлённый, в винительном не меняется.
+h Čakám na ___. => «Где?» — na + местный: zastávka → zastávk**e**.
+a Vlak = Поезд | do Košíc = в Кошице | mešká = опаздывает | desať minút = на десять минут
+a Z ktorého nástupišťa = С какой платформы | ide = отправляется | vlak = поезд
+a Jeden = Один | spiatočný lístok = билет туда и обратно | do Žiliny = до Жилины | prosím = пожалуйста
+a Rád cestujem = Я люблю ездить | vlakom = на поезде
+a Príchod = Прибытие | je = (есть — глагол «быть») | o pol tretej = в половине третьего
+h Vlak ___ dvadsať minút. => vlak — «он», 3-е лицо: mešk**á**.
+h Cestujem do ___. => do + родительный: Žilina → do Žilin**y**.
+h Rád cestujem ___. => «На чём?» — творительный: vlak → vlak**om**.
+a Na diaľnici = На автомагистрали | potrebujete = нужна | diaľničnú známku = виньетка
+a Kde = Где | môžem = можно | parkovať = припарковаться
+a Ráno = Утром | bola = была | veľká = большая | zápcha = пробка
+a Musím = Мне нужно | natankovať = заправиться
+a Cesta = Дорога | trvá = занимает | dve hodiny = два часа
+h Mám slovenský vodičský ___. => После «mám» — винительный; preukaz (неодушевлённый) не меняется.
+h Stáli sme v ___. => v + местный: zápcha → v zápch**e**.
+h Idem do práce ___. => «На чём?» — творительный: auto → aut**om**.
+
+# 13
+a Hľadám = Ищу | dvojizbový byt = двухкомнатную квартиру | v Bratislave = в Братиславе
+a Byt má = В квартире | veľkú = большая | kuchyňu = кухня | a = и | balkón = балкон
+a Garsónka = Студия | je = (есть — глагол «быть») | malá = маленькая | ale = но | lacná = дешёвая
+a V kúpeľni = В ванной | je = есть | aj = и | práčka = стиральная машина
+a Spálňa = Спальня | je = (есть — глагол «быть») | tichá = тихая
+h Byt má dve ___. => 2–4 + именительный мн. ч.: izba → izb**y**.
+h Varím v ___. => v + местный: kuchyňa → v kuchyn**i**.
+h Hľadám ___ byt. => byt — мужской род, неодушевлённый → в винительном dvojizbov**ý** не меняется.
+a Koľko = Сколько | je = (есть — глагол «быть») | nájomné = арендная плата
+a Energie = Коммунальные услуги | nie sú = не | v cene = в цену
+a Zábezpeka = Залог | je = (есть — глагол «быть») | jeden mesačný nájom = арендная плата за один месяц
+a Môžem = Можно | prísť = прийти | na obhliadku = на осмотр | zajtra = завтра
+a Byt = Квартира | je = (есть — глагол «быть») | kompletne = полностью | zariadený = меблирована
+h Podpíšeme nájomnú ___. => podpísať + винительный: zmluva → zmluv**u**.
+h Nájomné platím ___. => «Кому?» — дательный: prenajímateľ → prenajímateľ**ovi**.
+h Je byt ___? => byt — мужской род → zariaden**ý** (хотя «квартира» по-русски женского рода).
+a Pokazila sa = Сломалась | práčka = стиральная машина
+a Kúrenie = Отопление | nefunguje = не работает
+a Môžete = Можете | to = это | opraviť = починить | tento týždeň = на этой неделе
+a Sused = Сосед | je = (есть — глагол «быть») | veľmi = очень | hlučný = шумный
+a V sobotu = В субботу | upratujeme = мы убираем | byt = квартиру
+h Chladnička sa ___. => chladnička — женский род → pokazil**a**.
+h Treba opraviť ___. => kúrenie — средний род, в винительном не меняется.
+h Môj ___ je hlučný. => Подлежащее — в именительном падеже: sused.
+
+# 14
+a Bolí ma = У меня болит | hlava = голова
+a Bolí ma = У меня болит | hrdlo = горло | a = и | mám horúčku = температура
+a Bolia ma = У меня болят | zuby = зубы
+a Zlomil som si = Я сломал | ruku = руку
+a Mám = У меня | problémy = проблемы | s chrbtom = со спиной
+h Bolí ma ___. => «Bolí ma» + именительный падеж: brucho.
+h ___ ma nohy. => Болит много (nohy — мн. ч.) → **bolia**.
+h Mám problém so ___. => s / so + творительный: zub → zub**om**.
+a Chcem = Я хочу | sa objednať = записаться | k lekárovi = к врачу
+a Mám = У меня | horúčku = температура | a = и | kašeľ = кашель
+a Lekár = Врач | mi = мне | predpísal = выписал | liek = лекарство
+a Ste poistený = Вы застрахованы
+a Užívajte = Принимайте | to = это | trikrát denne = три раза в день
+h Idem k ___. => k + дательный: lekár → k lekár**ovi**.
+h Potrebujem ___ na liek. => potrebovať + винительный; recept не меняется.
+h ___ mi zle. => «Мне плохо» = **Je** mi zle (дословно «есть мне плохо»).
+a Zavolajte = Вызовите | sanitku = скорую
+a Mal som = У меня была | úraz = травма | v práci = на работе
+a Mám = У меня | alergiu = аллергия | na penicilín = на пенициллин
+a Som = Я | tri dni = три дня | na PN = на больничном
+a Zajtra = Завтра | mám = у меня | vyšetrenie = обследование | v nemocnici = в больнице
+h Mám alergiu ___ orechy. => alergia **na** + винительный — как в русском «аллергия на».
+h Leží v ___. => v + местный: nemocnica → v nemocnic**i**.
+h Musíte ísť na ___. => na + винительный; pohotovosť (женский род на согласную) не меняется.
+
+# 15
+a Vyplňte = Заполните | tento = этот | formulár = бланк
+a Potrebujem = Мне нужна | potvrdenie = справка | o ubytovaní = о жилье
+a Tu je = Вот | môj = мой | pas = паспорт
+a Chýba = Не хватает | váš = вашей | podpis = подписи
+a Prineste = Принесите | dve = две | fotografie = фотографии
+h Podávam ___. => žiadosť — женский род на согласную, в винительном не меняется.
+h Potrebujem ___ pasu. => potrebovať + винительный: kópia → kópi**u**.
+h Kde mám dať ___? => podpis — неодушевлённый, в винительном не меняется.
+a Chcem = Я хочу | požiadať = подать заявление | o prechodný pobyt = на временное проживание
+a Mám termín = У меня запись | na cudzineckej polícii = в иностранную полицию
+a Moje = Моё | povolenie = разрешение | platí = действует | do mája = до мая
+a Musím = Мне нужно | predĺžiť = продлить | pobyt = проживание
+a Vaša = Ваше | žiadosť = заявление | bola schválená = одобрено
+h Žiadam ___ prechodný pobyt. => (po)žiadať **o** + винительный: просить о чём-то.
+h Povolenie platí do ___. => do + родительный: máj → do máj**a**.
+h Žiadosť ___ schválená. => žiadosť — женский род → bol**a**.
+a Musím = Мне нужно | sa zaregistrovať = зарегистрироваться | v zdravotnej poisťovni = в медицинской страховой
+a Zamestnávateľ = Работодатель | platí = платит | odvody = взносы | za mňa = за меня
+a Dostal som = Я получил | preukaz poistenca = карточку застрахованного
+a Daňové priznanie = Налоговую декларацию | treba = нужно | podať = подать | do konca marca = до конца марта
+a Na úrade = В учреждении | bol = была | dlhý = длинная | rad = очередь
+h Daň z ___ je devätnásť percent. => z + родительный: príjem → z príjm**u** («е» выпадает).
+h Treba sa ___ v poisťovni. => После «treba» — инфинитив: zaregistrova**ť**.
+h Stál som v dlhom ___. => v + местный: rad → v rad**e**.
+
+# 16
+a Hľadám = Ищу | prácu = работу | na plný úväzok = на полную ставку
+a Plat = Зарплата | je = (есть — глагол «быть») | dvetisíc = две тысячи | eur = евро | v hrubom = брутто
+a Firma = Фирма | ponúka = предлагает | flexibilný = гибкий | pracovný čas = рабочий график
+a Videl som = Я видел | váš = ваше | inzerát = объявление | na internete = в интернете
+a Cez leto = Летом | som mal = у меня была | brigádu = подработка
+h Reagujem na váš ___. => na + винительный; inzerát не меняется.
+h Zamestnávateľ ponúka dobrý ___. => ponúkať + винительный; plat не меняется.
+h Hľadám prácu na čiastočný ___. => na + винительный; úväzok не меняется.
+a Posielam = Отправляю | vám = вам | svoj = своё | životopis = резюме
+a Mám = У меня | vysokoškolské vzdelanie = высшее образование
+a Mám = У меня | päť rokov = пять лет | praxe = опыта | v IT = в IT
+a Ovládam = Я владею | angličtinu = английским | a = и | ruštinu = русским
+a V prílohe = Во вложении | nájdete = вы найдёте | motivačný list = сопроводительное письмо
+h Mám tri roky ___. => «Сколько чего?» — родительный: prax → prax**e**.
+h Posielam vám ___ životopis. => «Свой» = **svoj** (мужской род, как životopis).
+h ___ angličtinu na úrovni B2. => «Я владею» — ovláda**m**. Глагол требует винительного: angličtin**u**.
+a Chceli by sme = Мы хотели бы | vás = вас | pozvať = пригласить | na pohovor = на собеседование
+a Vyhovuje = подходит | vám = Вам | utorok = вторник | o desiatej = в десять
+a Kedy = Когда | môžete = вы можете | nastúpiť = приступить к работе
+a Skúšobná doba = Испытательный срок | je = (есть — глагол «быть») | tri mesiace = три месяца
+a S radosťou = С радостью | prijímam = принимаю | vašu ponuku = ваше предложение
+h Pozvali ma na ___. => na + винительный; pohovor не меняется.
+h Môžem nastúpiť od ___. => od + родительный: pondelok → od pondelk**a** («о» выпадает).
+h Ten termín mi ___. => termín — «он», 3-е лицо: vyhovuj**e**.
+
+# 17
+a Budúci rok = В следующем году | sa presťahujem = я перееду | na Slovensko = в Словакию
+a O týždeň = Через неделю | začnem = я начну | novú prácu = новую работу
+a Budem sa učiť = Я буду заниматься | každý deň = каждый день
+a Chystám sa = Я собираюсь | na kurz = на курс | slovenčiny = словацкого
+a Mojím cieľom = Моя цель | je = (есть — глагол «быть») | úroveň = уровень | B2 = B2
+h Zajtra ___ pracovať z domu. => Будущее несовершенного вида: **budem** + инфинитив.
+h Oni ___ bývať v Košiciach. => С «oni» — **budú**.
+h Ja ___ do Viedne budúci týždeň. => Будущее от «ísť» — особая форма: ja **pôjdem**, ty pôjdeš, oni pôjdu.
+a Zajtra = Завтра | bude pršať = будет дождь
+a Podľa predpovede = По прогнозу | bude = будет | slnečno = солнечно
+a V zime = Зимой | je tu = здесь | veľa = много | snehu = снега
+a Dnes = Сегодня | je teplo = тепло | dvadsaťpäť = двадцать пять | stupňov = градусов
+a Zober si = Возьми | dáždnik = зонт
+h Zajtra ___ snežiť. => Будущее: **bude** + инфинитив (о погоде — 3-е лицо ед. ч.).
+h Je mi ___. => «Мне холодно» = je mi **zima**.
+h V lete ___ teplo. => Будущее время от «je» — **bude**.
+a Urobím = Я сделаю | to = это | do piatku = до пятницы
+a Zavolám = Я позвоню | vám = вам | zajtra ráno = завтра утром
+a Prídem = Я приду | určite = обязательно
+a Správu = Отчёт | odovzdám = я сдам | najneskôr = не позднее | v pondelok = понедельника
+a Sľúbil som = Я пообещал | že = что | pomôžem = помогу
+h Zajtra ti ___. => Совершенный вид: форма настоящего времени уже означает будущее — zavolá**m** (позвоню).
+h Ja ten e-mail ___ hneď. => napísať → ja napíše**m** (напишу).
+h Sľúbil som, ___ pomôžem. => «что» = **že**.
+
+# 18
+a Už = уже | som urobil = Я сделал | všetky úlohy = все задачи
+a Prečítal som = Я прочитал | celú knihu = всю книгу
+a Každý deň = Каждый день | čítam = я читаю | správy = новости
+a Musím = Мне нужно | dokončiť = доделать | prezentáciu = презентацию
+a Naučil som sa = Я выучил | sto = сто | nových slov = новых слов
+h Už som to ___. Tu je výsledok. => Есть результат → совершенный вид: **urobil** (сделал), а не robil (делал).
+h Každý deň ___ správy. => Повторяющееся действие → несовершенный вид, настоящее время: číta**m**.
+h Zajtra ___ ten e-mail. => Будущее совершенного вида — без budem: **napíšem**. «Budem napísať» — ошибка.
+a Povedz = Скажи | mi = мне | pravdu = правду
+a Vzal som si = Я взял | deň voľna = выходной
+a Zabudol som = Я забыл | heslo = пароль
+a Rozprávali sme sa = Мы разговаривали | celý večer = весь вечер
+a Daj = Дай | mi = мне | vedieť = знать
+h Môžeš mi ___, kde je stanica? => После «môžeš» — инфинитив; «сказать» (один раз) — **povedať**.
+h Zabudol som si ___. => dáždnik — неодушевлённый, в винительном не меняется.
+h Musím si to ___. => После «musím» — инфинитив: zapamäta**ť**.
+a Práve = только что | som prišiel = Я пришёл
+a Zavolám = Я позвоню | ti = тебе | hneď ako = как только | skončím = закончу
+a Počkaj = Подожди | kým = пока | sa vrátim = я вернусь
+a Zatiaľ čo = Пока | ja = я | varím = готовлю | ty = ты | upraceš = уберёшься
+a Už = больше | tu = здесь | nebývam = Я не живу
+h Zavolám, hneď ___ skončím. => «как только» = hneď **ako**.
+h Počkaj, ___ sa vrátim. => «пока (не)» = **kým**.
+h ___ som prišiel domov. => «только что» = **práve**.
+
+# 19
+a Tu je = (говорит — дословно «здесь есть») | Ivan Petrov = Иван Петров | dobrý deň = добрый день
+a Môžem = Могу я | hovoriť = поговорить | s pani Novákovou = с госпожой Новаковой
+a Moment = Минутку | prepojím = я соединю | vás = вас
+a Môžem = Могу я | jej = ей | nechať = оставить | odkaz = сообщение
+a Zavolám vám späť = Я перезвоню вам | o hodinu = через час
+h Môžem hovoriť s pánom ___? => s + творительный: Novák → s pánom Novák**om**.
+h Pani Nováková teraz nie je ___. => Женщина → женская форма: dostupn**á**.
+h Nechám ___ odkaz. => «Кому?» — дательный: **vám** (вам).
+a Vážená = Уважаемая | pani = госпожа | Nováková = Новакова
+a Ďakujem = Спасибо | za Vašu odpoveď = за Ваш ответ
+a V prílohe = Во вложении | Vám = Вам | posielam = отправляю | zmluvu = договор
+a Ospravedlňujem sa = Прошу прощения | za neskorú odpoveď = за поздний ответ
+a Teším sa na = С нетерпением жду | spoluprácu = сотрудничества
+h ___ pán Horváth, => pán — мужской род → Vážen**ý**.
+h Ďakujem ___ Vašu správu. => ďakovať **za** + винительный — как «спасибо за».
+h V ___ posielam faktúru. => v + местный: príloha → v príloh**e**.
+a Dovoľte mi = Позвольте | predstaviť sa = представиться
+a Prepáčte = Извините | že = что | vás = вас | ruším = беспокою
+a Chcel by som = Я хотел бы | sa poďakovať = поблагодарить
+a Ľutujem = Сожалею | ale = но | nemôžem = не могу | prísť = прийти
+a Ochotne = Охотно | vám = вам | pomôžem = помогу
+h Prepáčte, že vás ___. => С «ja» — **-m**: ruší**m** (я беспокою).
+h Chcem sa vám ___ za pomoc. => После «chcem» — инфинитив: poďakova**ť**.
+h Dovoľte ___ predstaviť sa. => «Позвольте мне» — дательный: **mi**.
+
+# 20
+a Rád hrám = Я люблю играть | futbal = в футбол
+a Cez víkend = На выходных | chodíme = мы ходим | na turistiku = в походы | do Tatier = в Татры
+a Páči sa mi = Мне нравится | slovenská = словацкая | hudba = музыка
+a Aké = Какие | máš = у тебя | záľuby = хобби
+a Moja = Моя | kolegyňa = коллега | rada pláva = любит плавать
+h Jana ___ pláva. => «Люблю делать» = rád / **rada** / radi + глагол. Jana — женщина → **rada**.
+h Páči ___ to mesto. => Порядок: páči **sa mi** — сначала «sa», потом «mi».
+h My ___ hráme tenis. => «Мы» → множественное число: **radi**.
+a Bratislava = Братислава | je = (есть — глагол «быть») | väčšia = больше | ako = чем | Košice = Кошице
+a Tento byt = Эта квартира | je = (есть — глагол «быть») | lacnejší = дешевле
+a To = Это | je = (есть — глагол «быть») | najlepšia = лучший | reštaurácia = ресторан | v meste = в городе
+a Nová = Новая | práca = работа | je = (есть — глагол «быть») | lepšia = лучше | ako stará = старой
+a Dnes = Сегодня | je = (есть — глагол «быть») | horšie = хуже | počasie = погода | ako = чем | včera = вчера
+h Vlak je rýchlejší ___ autobus. => «чем» = **ako**.
+h Tento počítač je ___ ako ten starý. => dobrý → **lepší** (лучше); počítač — мужской род.
+h To je ___ kaviareň v meste. => Превосходная степень: naj- + сравнительная — **najlepšia** (kaviareň — женский род).
+a Pozývam = Приглашаю | ťa = тебя | na oslavu = на празднование | narodenín = дня рождения
+a Všetko najlepšie k narodeninám = С днём рождения
+a V piatok = В пятницу | máme = у нас | firemný večierok = корпоратив
+a Na zdravie = За здоровье
+a Ďakujem = Спасибо | za pozvanie = за приглашение | rád prídem = с радостью приду
+h Všetko najlepšie k ___! => k + дательный: narodeniny → k narodenin**ám**.
+h Pozývam vás na ___. => na + винительный: oslava → oslav**u**.
+h Chcem ti ___ k sviatku. => После «chcem» — инфинитив: zablahoželať.

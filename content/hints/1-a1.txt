@@ -1,0 +1,264 @@
+# Подсказки к словам и правила при ошибках.
+# «a» — разбор предложения на части «словацкий = русский» (части в порядке словацкого предложения).
+#       Перевод в скобках — пояснение, его нет в русском предложении.
+# «h» — текст задания с пропуском => короткое правило, которое покажется при ошибке.
+
+# 1
+a Dobrý deň = Добрый день | pán = господин | Novák = Новак
+a Ahoj = Привет | ako sa máš = как дела
+a Ďakujem = Спасибо | dobre = хорошо
+a Dovidenia = До свидания | a = и | pekný deň = хорошего дня
+a Áno = Да | prosím = пожалуйста
+h ___ ráno, Peter! => «ráno» — среднего рода, поэтому dobr**é** ráno. А «deň» и «večer» — мужского: dobr**ý** deň, dobr**ý** večer.
+h Ahoj, Jana, ako sa ___? => С «ty» глагол оканчивается на **-š**: ako sa má**š**? На «vy» — ako sa má**te**?
+h Dobrý deň, pán Novák, ako sa ___? => К «pán / pani» обращаются на «vy», а у глагола с «vy» окончание **-te**: ako sa má**te**?
+a Ja = Я | som = (есть — глагол «быть») | Ivan = Иван
+a Ty = Ты | si = (есть — глагол «быть») | študent = студент
+a Ona = Она | je = (есть — глагол «быть») | Jana = Яна
+a Vy = Вы | ste = (есть — глагол «быть») | pán = господин | Horváth = Хорват
+a Oni = Они | sú = (есть — глагол «быть») | tu = здесь
+h Ja ___ Ivan. => Глагол «быть» с «ja» — **som**: ja som, ty si, on je, my sme, vy ste, oni sú.
+h Ty ___ študentka? => С «ty» — **si**: ty si študentka.
+h Oni ___ z Kyjeva. => С «oni» — **sú**.
+a Ako sa voláte = Как вас зовут
+a Volám sa = Меня зовут | Anna = Анна
+a Teší ma = Очень приятно | ja som = я | Marek = Марек
+a Odkiaľ = Откуда | ste = вы
+a Som = Я | z Ukrajiny = из Украины
+h Prepáčte, ako sa ___? => «Prepáčte» — вежливая форма, значит и дальше на «vy»: ako sa volá**te**?
+h Ja sa ___ Peter. => volať sa: ja sa volá**m**, ty sa voláš, on sa volá. Дословно «я себя зову».
+h Odkiaľ ___ ty? => С «ty» — **si**: Odkiaľ si?
+
+# 2
+a Hovoríte = Вы говорите | po anglicky = по-английски
+a Hovorím = Я говорю | trochu = немного | po slovensky = по-словацки
+a Prepáčte = Извините | nerozumiem = я не понимаю
+a Hovorte = Говорите | prosím = пожалуйста | pomaly = медленно
+a Rozumieš = Ты понимаешь | po rusky = по-русски
+h Ja ___ po slovensky. => hovoriť: ja hovorí**m**, ty hovoríš, on hovorí, oni hovoria. С «ja» почти всегда **-m**.
+h Oni ___ po anglicky. => У глаголов на -iť с «oni» окончание **-ia**: hovor**ia**.
+h My ___ dobre. => С «my» окончание **-me**: rozumie**me**.
+a Ona = Она | je = (есть — глагол «быть») | Slovenka = словачка
+a Bratislava = Братислава | je = (есть — глагол «быть») | hlavné mesto = столица | Slovenska = Словакии
+a Som = Я | Ukrajinec = украинец | a = и | bývam = живу | v Košiciach = в Кошице
+a Peter = Петер | nie je = не | Čech = чех | je = он | Slovák = словак
+a Slovensko = Словакия | je = (есть — глагол «быть») | malá = маленькая | krajina = страна
+h Jana nie ___ Češka. => Отрицание у «быть» — раздельно: nie som, nie si, nie **je**.
+h Ja nie ___ Slovák, som Rus. => «Я не...» — nie **som** (раздельно, в отличие от других глаголов: nehovorím).
+h Bratislava je hlavné ___ Slovenska. => После «je» — именительный падеж: hlavné **mesto**.
+a Kde = Где | bývaš = ты живёшь
+a Bývam = Я живу | v Bratislave = в Братиславе
+a Čo robíte = Чем вы занимаетесь
+a Pracujem = Я работаю | v banke = в банке
+a Teraz = Сейчас | študujem = я учусь | na univerzite = в университете
+h Kde ___ ty? => bývať: ja bývam, ty býva**š**, on býva.
+h Ja ___ v kancelárii. => Глаголы на -ovať: pracovať → prac**ujem** (я работаю).
+h Oni ___ na univerzite. => študovať → oni štud**ujú**.
+
+# 3
+a Mám = Мне | dvadsaťpäť = двадцать пять | rokov = лет
+a Koľko = Сколько | to = это | stojí = стоит
+a Stojí = стоит | to = Это | desať = десять | eur = евро
+a V kancelárii = В офисе | pracuje = работает | sto = сто | ľudí = человек
+a Moje = Мой | číslo = номер | je = (есть — глагол «быть») | nula = ноль | deväť = девять | nula = ноль | päť = пять
+h Mám tridsať ___. => Как в русском: 1 rok, 2–4 roky, 5 и больше — **rokov** (лет).
+h Syn má tri ___. => После 2, 3, 4 — **roky** (года).
+h Koľko to ___? => «to» — это «оно», 3-е лицо: sto**jí**.
+a Koľko je hodín = Который час
+a Je = (есть — глагол «быть») | osem = Восемь | hodín = часов
+a Prídem = Я приду | o deviatej = в девять
+a Porada = Совещание | je = (есть — глагол «быть») | o pol desiatej = в половине десятого
+a Dnes = Сегодня | pracujem = я работаю | do piatej = до пяти
+h Sú tri ___. => 2–4 → **hodiny**, и глагол во мн. ч.: «sú».
+h Je šesť ___. => 5 и больше → **hodín** (часов), а глагол — «je».
+h Je jedna ___. => Один → именительный падеж: jedna **hodina**.
+a V pondelok = В понедельник | mám = у меня | poradu = совещание
+a V stredu = В среду | ideme = мы идём | do kina = в кино
+a Cez víkend = На выходных | nepracujem = я не работаю
+a Vo štvrtok = В четверг | je = (есть — глагол «быть») | skúška = экзамен
+a V nedeľu = В воскресенье | odpočívam = я отдыхаю
+h Prídem v ___. => «В какой день» — v + винительный: sobota → v sobot**u**.
+h ___ štvrtok mám voľno. => Перед «št» говорят **vo** — так легче произнести: vo štvrtok.
+h V ___ pracujem z domu. => streda → v stred**u** (винительный, как «в среду»).
+
+# 4
+a Toto = Это | je = (есть — глагол «быть») | moja = моя | rodina = семья
+a Môj = Мой | otec = отец | je = (есть — глагол «быть») | inžinier = инженер
+a Mám = У меня есть | brata = брат | a = и | sestru = сестра
+a Moja = Моя | manželka = жена | pracuje = работает | v nemocnici = в больнице
+a Máte = У вас есть | deti = дети
+h ___ brat býva v Prahe. => brat — мужской род → **môj** brat (moja — для женского, moje — для среднего).
+h To je ___ sestra. => sestra — женский род → **moja** sestra.
+h Mám ___. => После «mať» — винительный падеж: sestra → sestr**u**.
+a Nemám = У меня нет | čas = времени
+a Majú = У них | dve = двое | deti = детей
+a Máš = У тебя | psa = собака | alebo = или | mačku = кошка
+a Môj priateľ = У моего друга | má = (есть — глагол «иметь») | nový = новая | byt = квартира
+a Máme = У нас | veľkú = большая | rodinu = семья
+h My ___ psa. => mať: ja mám, ty máš, on má, **my máme**, vy máte, oni majú.
+h Oni ___ byt v centre. => С «oni» — **majú**.
+h Ja ___ čas. => Отрицание пишется слитно: **nemám** (у меня нет).
+a Môj = Мой | šéf = начальник | je = (есть — глагол «быть») | mladý = молодой | a = и | milý = милый
+a Moja = Моя | sestra = сестра | je = (есть — глагол «быть») | vysoká = высокая
+a To = Это | je = (есть — глагол «быть») | nové = новая | auto = машина
+a Bývame = Мы живём | v malom byte = в маленькой квартире
+a Máš = У тебя | pekný = красивый | dom = дом
+h Moja mama je ___. => mama — женский род → окончание **-á**: mil**á**.
+h To je ___ mesto. => mesto — средний род → окончание **-é**: veľk**é**.
+h Môj brat je ___. => brat — мужской род → **-ý**: vysok**ý**.
+
+# 5
+a Kde = Где | je = (есть — глагол «быть») | pošta = почта
+a Banka = Банк | je = (есть — глагол «быть») | na námestí = на площади
+a Lekáreň = Аптека | je = (есть — глагол «быть») | vedľa obchodu = рядом с магазином
+a Bývam = Я живу | na Hlavnej ulici = на Главной улице
+a Je tu = Здесь есть | niekde = где-нибудь | bankomat = банкомат
+h Pracujem v ___. => «Где?» — v + местный падеж: banka → v bank**e**.
+h Čakám na ___. => «Где?» — na + местный: stanica → na stanic**i**.
+h Sme v ___. => centrum → v centr**e** (окончание -um отпадает).
+a Kam = Куда | ideš = идёшь
+a Idem = Я иду | do práce = на работу
+a Choďte = Идите | rovno = прямо | a = а | potom = потом | doľava = налево
+a Večer = Вечером | idem = я иду | domov = домой
+a Ideme = Мы идём | do obchodu = в магазин
+h Ja ___ do školy. => ísť: ja ide**m**, ty ideš, on ide, my ideme, oni idú.
+h Oni ___ na poštu. => С «oni» — **idú**.
+h Idem do ___. => «Куда?» — do + родительный: banka → do bank**y**.
+a Hľadám = Я ищу | stanicu = вокзал
+a Je to = Это | ďaleko = далеко
+a Nie = Нет | je to = это | blízko = близко
+a Obchod = Магазин | je = (есть — глагол «быть») | oproti banke = напротив банка
+a Počkám = Я подожду | ťa = тебя | pred školou = перед школой
+h Hľadám ___. => hľadať + винительный: pošta → pošt**u**.
+h Lekáreň je vedľa ___. => vedľa + родительный: banka → bank**y** (рядом с банком).
+h Čakám pred ___. => pred + творительный: škola → škol**ou** (перед школой).
+
+# 6
+a Chcem = Я хочу | kávu = кофе | s mliekom = с молоком
+a Dáte si = Будете | čaj = чай
+a Kúpim = Я куплю | chlieb = хлеб | a = и | syr = сыр
+a Nejem = Я не ем | mäso = мясо
+a Pohár vody = Стакан воды | prosím = пожалуйста
+h Chcem ___. => chcieť + винительный: voda → vod**u**.
+h Prosím si ___. => Женский род в винительном: -a → **-u**: káva → káv**u**.
+h On ___ čaj. => chcieť: ja chcem, ty chceš, **on chce**, oni chcú.
+a Môžem = Можно | platiť = оплатить | kartou = картой
+a Platím = Я плачу | v hotovosti = наличными
+a To = Это | je = (есть — глагол «быть») | príliš = слишком | drahé = дорого
+a Potrebujete = Вам нужен | tašku = пакет
+a Koľko = Сколько | stojí = стоит | tento = этот | syr = сыр
+h Môžem platiť ___? => «Чем?» — творительный падеж: karta → kart**ou**.
+h Ten syr je ___. => syr — мужской род → drah**ý**.
+h Chcem ___ chlieb. => После «chcem» — инфинитив (форма на **-ť**): kúpi**ť**.
+a Jedálny lístok = Меню | prosím = пожалуйста
+a Dám si = Я возьму | polievku = суп | a = и | šalát = салат
+a Zaplatím = Счёт | prosím = пожалуйста
+a Chcel by som = Я бы хотел | stôl = столик | pre dvoch = на двоих
+a Obed = Обед | je = (есть — глагол «быть») | o dvanástej = в двенадцать
+h Dám si ___. => dať si (взять себе) + винительный: polievka → polievk**u**.
+h Chcela ___ som kávu. => Русское «бы» — словацкое **by**: chcela by som.
+h Môžem ___ účet? => После «môžem» — инфинитив: dosta**ť**.
+
+# 7
+a Vstávam = Я встаю | o šiestej = в шесть
+a Ráno = Утром | sa ponáhľam = я спешу | do práce = на работу
+a Raňajkujem = Я завтракаю | doma = дома
+a Budík = Будильник | zvoní = звонит | o siedmej = в семь
+a Dnes = Сегодня | som vstal = я встал | neskoro = поздно
+h Ráno sa ___. => С «ja» окончание **-m**: umýva**m** sa.
+h Ja ___ o siedmej. => vstávať: ja vstáva**m**.
+h Oni ___ ponáhľajú. => ponáhľať **sa** — возвратный глагол, нужно «sa» (как русское «-ся»).
+a Večer = Вечером | čítam = я читаю | knihu = книгу
+a Píšem = Я пишу | e-mail = письмо | kolegovi = коллеге
+a Pijem = Я пью | veľa = много | vody = воды
+a Učím sa = Я учу | po slovensky = словацкий | každý deň = каждый день
+a Deti = Дети | už = уже | spia = спят
+h Ja ___ e-mail. => písať: ja **píšem**, ty píšeš, on píše, oni píšu.
+h My ___ kávu. => piť: ja pijem, **my pijeme**, oni pijú.
+h Ty ___ správy? => С «ty» — **-š**: číta**š**.
+a Večer = Вечером | varím = я готовлю | večeru = ужин
+a Niekedy = Иногда | pozerám = я смотрю | film = фильм
+a Nikdy = никогда | nepijem = Я не пью | kávu = кофе | večer = вечером
+a Cez víkend = На выходных | odpočívam = я отдыхаю | doma = дома
+a Každý deň = Каждый день | chodím = я хожу | na prechádzku = на прогулку
+h Nikdy ___ mäso. => После «nikdy» нужно отрицание, как в русском: nikdy **ne**jem.
+h Ja večer ___ doma. => С «ja» — **-m**: odpočíva**m**.
+h My často ___ do kina. => С «my» — **-me**: chodí**me**.
+
+# 8
+a Aké = Какая | je = (есть — глагол «быть») | vaše = у вас | povolanie = профессия
+a Som = Я | programátor = программист
+a Pracujem = Я работаю | ako účtovníčka = бухгалтером
+a Moja = Моя | sestra = сестра | je = (есть — глагол «быть») | lekárka = врач
+a Môj = Мой | otec = отец | je = (есть — глагол «быть») | vodič = водитель | autobusu = автобуса
+h Jana je ___. => Jana — женщина → женская форма профессии: učiteľ**ka**.
+h Pracujem ___ inžinier. => «Работаю кем» — pracujem **ako** + именительный падеж.
+h Peter je ___. => Peter — мужчина → мужская форма: lekár.
+a Pracujem = Я работаю | vo veľkej firme = в большой фирме
+a Môj = Мой | šéf = начальник | je = (есть — глагол «быть») | dnes = сегодня | na porade = на совещании
+a Obedujem = Я обедаю | s kolegami = с коллегами
+a Mám = У меня | veľa = много | úloh = задач
+a Kancelária = Офис | je = (есть — глагол «быть») | na prízemí = на первом этаже
+h Hovorím s ___. => s + творительный: kolega → koleg**om**.
+h Idem na ___. => «Куда?» — na + винительный: porada → porad**u**.
+h Pracujem s ___. => s + творительный, мужской род: počítač → počítač**om**.
+a Pracovný čas = Рабочий день | začína = начинается | o ôsmej = в восемь
+a Končím = Я заканчиваю | o štvrtej = в четыре
+a Mám = У меня | obedňajšiu prestávku = обеденный перерыв | od dvanástej = с двенадцати
+a V lete = Летом | idem = я иду | na dovolenku = в отпуск
+a Dnes = Сегодня | robím nadčas = я работаю сверхурочно
+h Zajtra mám ___. => После «mám» — винительный; «voľno» среднего рода и не меняется.
+h Idem na ___. => na + винительный: dovolenka → dovolenk**u**.
+h Pracujem na rannú ___. => na + винительный: zmena → zmen**u** (и прилагательное тоже: rann**ú**).
+
+# 9
+a Tlačiareň = Принтер | nefunguje = не работает
+a Kde = Где | je = (есть — глагол «быть») | zložka = папка | s dokumentmi = с документами
+a Potrebujem = Мне нужен | nové = новый | heslo = пароль
+a Máš = У тебя есть | pero = ручка
+a Papier = Бумага | je = (есть — глагол «быть») | v skrini = в шкафу
+h Potrebujem ___. => potrebovať + винительный: stolička → stoličk**u**.
+h Dokumenty sú na ___. => «Где?» — na + местный: stôl → na stol**e**.
+h Zabudol som ___. => heslo — средний род, в винительном не меняется.
+a Môžete = Можете | mi = мне | pomôcť = помочь
+a Musím = Я должен | to = это | poslať = отправить | dnes = сегодня
+a Viete = Вы знаете | kde = где | je = (есть — глагол «быть») | šéf = начальник
+a Mohli by ste = Не могли бы вы | to = это | vytlačiť = распечатать
+a Zavolám = Я позвоню | vám = вам | hneď = сразу
+h Ja ___ pracovať do šiestej. => musieť: ja musí**m**, ty musíš, oni musia.
+h Môžete mi ___? => После модального глагола — инфинитив: pomôc**ť**.
+h Ja ___ po slovensky. => vedieť (знать, уметь): ja **viem**, ty vieš, on vie, oni vedia.
+a Prepáčte = Извините | mám = у меня | otázku = вопрос
+a Samozrejme = Конечно | žiadny problém = без проблем
+a Žiaľ = К сожалению | dnes = сегодня | nemám = у меня нет | čas = времени
+a Je = (есть — глагол «быть») | všetko = Всё | v poriadku = в порядке
+a Počkám = Я подожду | na vašu odpoveď = вашего ответа
+h Mám jednu ___. => mať + винительный: otázka → otázk**u** (и jedn**u** тоже).
+h To nie je ___. => После «je» — именительный падеж: problém.
+h Čakám na ___ odpoveď. => odpoveď — женский род, винительный: vaš**u** odpoveď.
+
+# 10
+a Študujem = Я изучаю | informatiku = информатику
+a Prednáška = Лекция | začína = начинается | o desiatej = в десять
+a Zajtra = Завтра | mám = у меня | skúšku = экзамен | z matematiky = по математике
+a Kde = Где | je = (есть — глагол «быть») | rozvrh = расписание
+a Na fakulte = На факультете | študuje = учится | veľa = много | cudzincov = иностранцев
+h Mám dve ___. => 2–4 + именительный мн. ч.: skúšk**y**.
+h Študenti ___ na prednáške. => študenti = «oni» → **sú**.
+h Idem na ___. => na + винительный: prednáška → prednášk**u**.
+a Učím sa = Я учу | slovenčinu = словацкий язык
+a Opakujem = Я повторяю | nové = новые | slová = слова
+a Robím = Я делаю | veľa = много | chýb = ошибок
+a Gramatika = Грамматика | je = (есть — глагол «быть») | ťažká = трудная | ale = но | zaujímavá = интересная
+a Máme = У нас | domácu úlohu = домашнее задание
+h Nové ___ sú ťažké. => Средний род во мн. ч.: slovo → slov**á**.
+h Učím ___ po slovensky. => učiť **sa** — учить самому (učiť без «sa» — преподавать).
+h Máš tam dve ___. => 2–4 + именительный мн. ч.: chyb**y**.
+a Chcem = Я хочу | sa prihlásiť = записаться | na kurz = на курс
+a Som = Я | začiatočník = начинающий
+a Moja = Мой | úroveň = уровень | je = (есть — глагол «быть») | A1 = A1
+a Lektorka = Преподавательница | je = (есть — глагол «быть») | veľmi = очень | trpezlivá = терпеливая
+a Po kurze = После курса | dostanem = я получу | certifikát = сертификат
+h Prihlásil som ___ na kurz. => prihlásiť **sa** — записаться («записать себя»).
+h Kurz je pre ___. => pre + винительный; о людях во мн. ч. — **-ov**: začiatočník**ov**.
+h Mám certifikát zo ___. => z / zo + родительный: slovenčina → slovenčin**y**. Перед «s» пишут **zo**.

@@ -1,0 +1,259 @@
+# 31
+a Pokiaľ ide o = Что касается | cenu = цены | sme pripravení = мы готовы | rokovať = вести переговоры
+a Za predpokladu = При условии | že = что | zaplatíte = вы заплатите | vopred = заранее | dáme = мы дадим | vám = вам | zľavu = скидку
+a Takéto = Такие | zmluvné podmienky = условия договора | sú = (есть — глагол «быть») | pre nás = для нас | neprijateľné = неприемлемы
+a Pošleme = Мы пришлём | vám = вам | novú = новое | cenovú ponuku = ценовое предложение
+a Boli by ste ochotní = Были бы вы готовы | predĺžiť = продлить | termín = срок
+h Boli by ste ___ znížiť cenu? => К «vy» (вежливо) — форма мн. ч.: ochotn**í**.
+h ___ ide o termín, potrebujeme viac času. => «Что касается…» = **pokiaľ** ide o…
+h To je pre nás ___. => «to» — средний род → neprijateľn**é**.
+a Poďme = Давайте | nájsť = найдём | kompromis = компромисс
+a Sme pripravení = Мы готовы | urobiť určité ústupky = пойти на определённые уступки
+a Trváme na = Мы настаиваем на | pôvodnej cene = первоначальной цене
+a Váš = ваше | protinávrh = встречное предложение | zvážime = Мы обдумаем
+a Hľadáme = Мы ищем | obojstranne výhodné = взаимовыгодное | riešenie = решение
+h Trváme ___ termíne. => trvať **na** + местный — «настаивать на».
+h Váš návrh musíme ešte ___. => После «musíme» — инфинитив: zváži**ť**.
+h Rokovanie bolo ___ výhodné. => Перед прилагательным — наречие на **-e**: obojstrann**e**.
+a Zmluvu = Договор | podpíšeme = подпишем | budúci týždeň = на следующей неделе
+a Lehota splatnosti = Срок оплаты | faktúry = счёта | je = (есть — глагол «быть») | tridsať dní = тридцать дней
+a Pri omeškaní = При просрочке | hrozí = грозит | zmluvná pokuta = неустойка
+a Zmenu = Изменение | riešime = мы оформим | dodatkom = дополнением | k zmluve = к договору
+a Zmluva = Договор | je platná = действителен | od prvého januára = с первого января
+h Zmluva je ___ do konca roka. => zmluva — женский род → platn**á**.
+h Uzavreli sme ___ s dodávateľom. => uzavrieť + винительный: zmluva → zmluv**u**.
+h Faktúra je splatná do tridsiatich ___. => После числительного в родительном — родительный мн. ч.: deň → **dní**.
+
+# 32
+a Zmluva = Договор | bola podpísaná = был подписан | včera = вчера
+a Let = Рейс | bol zrušený = был отменён | pre zlé počasie = из-за плохой погоды
+a Vaša = Ваше | žiadosť = заявление | je už vybavená = уже оформлено
+a Výsledky = Результаты | budú zverejnené = будут опубликованы | v pondelok = в понедельник
+a Balík = Посылка | bol doručený = была доставлена | do kancelárie = в офис
+h Dokument bol ___ riaditeľom. => Причастие согласуется: dokument (м. р.) → schválen**ý**.
+h Obchod je v nedeľu ___. => obchod — мужской род → zatvoren**ý**.
+h Výsledky budú ___ zajtra. => výsledky — мн. ч. (неодушевлённые) → zverejnen**é**.
+a Hovorí sa = Говорят | že = что | firma = фирма | bude prepúšťať = будет сокращать сотрудников
+a Vyžaduje sa = Требуется | znalosť = знание | slovenčiny = словацкого языка
+a Tu = Здесь | sa nesmie = нельзя | fajčiť = курить
+a Ako = Как | sa to píše = это пишется
+a Očakáva sa = Ожидается | že = что | ceny = цены | stúpnu = вырастут
+h Byty sa ___ veľmi rýchlo. => byty — мн. ч. → глагол во мн. ч.: predáva**jú** sa (продаются).
+h Ako ___ to slovo vyslovuje? => Страдательное «-ся» = **sa**: vyslovuje sa (произносится).
+h ___ sa znalosť angličtiny. => znalosť — ед. ч. → vyžaduj**e** sa (требуется).
+a Nasledujúci týždeň = На следующей неделе | budem = я буду | na služobnej ceste = в командировке
+a Pracujúci = Работающие | študenti = студенты | majú nárok na = имеют право на | zľavu = скидку
+a Vyššie uvedené = Вышеуказанная | informácie = информация | sú = (есть — глагол «быть») | dôverné = конфиденциальна
+a Obráťte sa = Обратитесь | na príslušný úrad = в соответствующее учреждение
+a Všetky otázky = Все вопросы | týkajúce sa = касающиеся | zmluvy = договора | posielajte = присылайте | mne = мне
+h ___ deň sme pokračovali. => deň — мужской род, неодушевлённый: винительный = именительный: nasledujúc**i**.
+h Otázky ___ sa platu riešime osobne. => otázky — мн. ч. женского рода → týkajúc**e** sa.
+h Obráťte sa na ___ oddelenie. => oddelenie — средний род → príslušn**é**.
+
+# 33
+a Mám = У меня | pracovnú zmluvu = трудовой договор | na dobu neurčitú = бессрочный
+a Pracovná náplň = Должностные обязанности | je uvedená = указаны | v zmluve = в договоре
+a Pracovný pomer = Трудовые отношения | vznikol = возникли | dňom = в день | nástupu do práce = выхода на работу
+a Podľa = Согласно | Zákonníka práce = Трудовому кодексу | máte nárok na = вы имеете право на | prestávku = перерыв
+a Zmluva na dobu určitú = Срочный договор | končí = заканчивается | v decembri = в декабре
+h Mám zmluvu na ___ neurčitú. => na + винительный: doba → dob**u**.
+h Máte ___ na obedňajšiu prestávku. => «иметь право на» = mať **nárok** na.
+h Podľa ___ práce máte nárok na dovolenku. => podľa + родительный: Zákonník → Zákonník**a**.
+a Mám nárok na = У меня есть право на | päť týždňov = пять недель | dovolenky = отпуска
+a Za nadčasy = За сверхурочные | dostávam = я получаю | príplatok = доплату
+a Namiesto príplatku = Вместо доплаты | si zoberiem = я возьму | náhradné voľno = отгул
+a Dovolenku = Отпуск | musím = мне нужно | vyčerpať = использовать | do konca roka = до конца года
+a Počas sviatku = В праздник | je = (есть — глагол «быть») | príplatok = доплата | vyšší = выше
+h Mám nárok ___ dovolenku. => nárok **na** + винительный — «право на».
+h Za prácu cez ___ je príplatok. => cez + винительный; víkend не меняется.
+h Chcem ___ dovolenku v auguste. => После «chcem» — инфинитив: čerpa**ť**.
+a Dal som výpoveď = Я уволился | lebo = потому что | som našiel = нашёл | lepšiu prácu = работу лучше
+a Výpovedná lehota = Срок предупреждения | sú = (есть — глагол «быть») | dva mesiace = два месяца
+a Pracovný pomer = трудовой договор | sme skončili = Мы расторгли | dohodou = по соглашению сторон
+a Pri prepúšťaní = При сокращении | môžete = вы можете | mať nárok na = иметь право на | odstupné = выходное пособие
+a Na konci = В конце | mi = мне | vydajú = выдадут | zápočtový list = справку о стаже
+h Dal som ___. => dať + винительный; výpoveď не меняется.
+h Výpovedná ___ začína plynúť od prvého dňa mesiaca. => Подлежащее — в именительном: lehota.
+h Má nárok na ___. => na + винительный; odstupné (средний род) не меняется.
+
+# 34
+a Cieľom = Цель | práce = работы | je = (есть — глагол «быть») | analyzovať = проанализировать | trh práce = рынок труда
+a V prvej kapitole = В первой главе | opisujeme = мы описываем | metodológiu = методологию
+a Hypotéza = Гипотеза | sa potvrdila = подтвердилась
+a Hlavné zistenia = Основные выводы | sú zhrnuté = изложены | v závere = в заключении
+a Prehľad literatúry = Обзор литературы | ukazuje = показывает | viacero = несколько | prístupov = подходов
+h Cieľom ___ je porovnať dva systémy. => «Цель чего?» — родительный: práca → prác**e**.
+h V druhej ___ uvádzame výsledky. => v + местный: kapitola → kapitol**e**.
+h Hypotéza sa ___. => hypotéza — женский род → potvrdil**a**.
+a Na jednej strane = С одной стороны | je to = это | lacnejšie = дешевле | na druhej strane = с другой | menej kvalitné = менее качественно
+a Je potrebné = Необходимо | zdôrazniť = подчеркнуть | že = что | vzorka = выборка | bola = была | malá = небольшой
+a Vzhľadom na = Учитывая | výsledky = результаты | odporúčame = мы рекомендуем | zmenu = изменение
+a Tento argument = Этот аргумент | nemožno = нельзя | vyvrátiť = опровергнуть
+a Údaje = Данные | dokazujú = доказывают | že = что | trend = тенденция | pokračuje = продолжается
+h Vzhľadom ___ situáciu sme plán zmenili. => «учитывая» = vzhľadom **na** + винительный.
+h Na druhej ___ treba povedať, že ide o odhad. => «с другой стороны» = na druhej **strane** (местный падеж).
+h Je potrebné ___, že ide o odhad. => После «je potrebné» — инфинитив: zdôrazni**ť**.
+a Podľa autora = По мнению автора | ide o = речь идёт о | dlhodobý trend = долгосрочной тенденции
+a Výskum = Исследование | prebiehal = проводилось | dva roky = два года
+a Štúdia = Исследование | uvádza = указывает | že = что | sedemdesiat percent = семьдесят процентов | respondentov = респондентов | súhlasí = согласны
+a Údaje = Данные | pochádzajú = получены | zo Štatistického úradu = из Статистического управления
+a Vzorka = Выборка | zahŕňala = включала | päťsto = пятьсот | ľudí = человек
+h Údaje ___ z roku 2023. => údaje — мн. ч. → pochádza**jú**.
+h Do výskumu sa zapojilo tristo ___. => 5+ → родительный мн. ч.: respondent → respondent**ov**.
+h ___ autora je to chyba. => «по мнению / согласно» = **podľa** + родительный.
+
+# 35
+a Čítal som = Я читал | zaujímavý = интересную | článok = статью | o trhu práce = о рынке труда
+a Titulok = Заголовок | je zavádzajúci = вводит в заблуждение
+a Informácie = Информацию | si treba = нужно | overiť = проверять | z viacerých zdrojov = по нескольким источникам
+a Na sociálnych sieťach = В социальных сетях | je = (есть — глагол «быть») | veľa = много | dezinformácií = дезинформации
+a Novinár = Журналист | sa pýtal = спрашивал | ministra = министра | na rozpočet = о бюджете
+h Čítal som článok ___ ekonomike. => článok **o** + местный — «статья о».
+h Treba si to ___. => После «treba» — инфинитив: overi**ť**.
+h Na internete je veľa ___. => «много» + родительный мн. ч.: dezinformácia → dezinformáci**í**.
+a Pochybujem = Сомневаюсь | že = что | to = это | bude fungovať = будет работать
+a Som presvedčená = Я убеждена | že = что | vzdelanie = образование | je = (есть — глагол «быть») | kľúčové = ключевое
+a Závisí to od = Это зависит от | situácie = ситуации
+a Podľa prieskumu = Согласно опросу | väčšina = большинство | ľudí = людей | podporuje = поддерживает | zmenu = изменение
+a Chápem = Я понимаю | vaše argumenty = ваши аргументы | ale = но | mám = у меня | iný názor = другое мнение
+h Závisí to ___ ceny. => závisieť **od** + родительный — «зависеть от».
+h Ona je ___, že má pravdu. => Она → женская форма: presvedčen**á**.
+h Väčšina ľudí ___ tento návrh. => После «väčšina» глагол в ед. ч.: podporuj**e**.
+a Nezamestnanosť = Безработица | v regióne = в регионе | je = (есть — глагол «быть») | vysoká = высокая
+a Integrácia = Интеграция | cudzincov = иностранцев | je = (есть — глагол «быть») | dôležitá = важная | téma = тема
+a Musíme = Мы должны | chrániť = защищать | životné prostredie = окружающую среду
+a Zdravotníctvo = Здравоохранению | potrebuje = нужно | viac = больше | lekárov = врачей
+a Moji = Мои | rodičia = родители | sú = (есть — глагол «быть») | už = уже | na dôchodku = на пенсии
+h Rodičia sú na ___. => «на пенсии» — na + местный: dôchodok → dôchodk**u**.
+h Musíme chrániť životné ___. => chrániť + винительный; prostredie (средний род) не меняется.
+h ___ cudzincov trvá roky. => Подлежащее — в именительном: integrácia.
+
+# 36
+a Bez práce = Без труда | nie sú koláče = (дословно «нет пирогов»)
+a Kto = Кто | neskoro chodí = поздно приходит | sám sebe = сам себе | škodí = вредит
+a Nerob = Не делай | z komára = из мухи | somára = слона
+a Nehádž flintu do žita = Не опускай руки
+a Má maslo na hlave = У него рыльце в пушку
+h Bez práce nie sú ___. => Дословно «без работы нет пирогов» — koláč**e** (мн. ч.).
+h Nerob z komára ___. => «Делать кого?» — винительный одушевлённого: somár → somár**a**.
+h Kto neskoro chodí, sám sebe ___. => «Кто» — 3-е лицо ед. ч.: škod**í**.
+a V pohode = Всё нормально | nič sa nestalo = ничего не случилось
+a Fakt = Правда | To = этого | som nevedel = Я не знал
+a Celý týždeň = всю неделю | som makal = Я вкалывал
+a Ideme = Идём | na pivko = на пивко | s kamošmi = с приятелями
+a Nekecaj = Не болтай | a = и | poď = пошли
+h Ideme s ___ na pivko. => s + творительный мн. ч.: kamoši → kamoš**mi**.
+h Všetko je v ___. => v + местный: pohoda → v pohod**e**.
+h Celý deň som ___. => Прошедшее время с «som» — l-форма: maka**l**.
+a Mám plné ruky práce = Я по уши в работе
+a Tým = Этим | si trafil klinec po hlavičke = ты попал в точку
+a Zabili sme = Мы убили | dve muchy = двух зайцев | jednou ranou = одним выстрелом
+a Excel = Excel | má v malíčku = Он знает как свои пять пальцев
+a Neber si = Не принимай | to = это | k srdcu = близко к сердцу
+h Ten hluk mi ide na ___. => «Действовать на нервы» = ísť na **nervy** (винительный мн. ч.).
+h Zabili sme dve muchy jednou ___. => «Одним ударом» — творительный: rana → ran**ou**.
+h Keď dostal ponuku, bol v siedmom ___. => «На седьмом небе» = v siedmom **nebi** (местный падеж).
+
+# 37
+a Slovensko má = В Словакии | osem = восемь | krajov = краёв
+a Bratislava = Братислава | leží = расположена | na Dunaji = на Дунае
+a Na Slovensku = В Словакии | je = (есть — глагол «быть») | veľa = много | hradov = замков | a = и | jaskýň = пещер
+a Slovensko má = В Словакии | asi = около | päť a pol milióna = пяти с половиной миллионов | obyvateľov = жителей
+a Spišský hrad = Спишский град | je = (есть — глагол «быть») | jeden z najväčších hradov = один из крупнейших замков | v Európe = Европы
+h Bratislava leží na ___. => na + местный: Dunaj → na Dunaj**i**.
+h Na Slovensku je veľa ___. => «много» + родительный мн. ч.: hrad → hrad**ov**.
+h Býva na ___. => «в деревне» = na + местный: dedina → na dedin**e**.
+a Slovensko = Словакия | je nezávislé = независима | od roku 1993 = с 1993 года
+a Rozdelenie = Разделение | Československa = Чехословакии | bolo = было | pokojné = мирным
+a Slovenské národné povstanie = Словацкое национальное восстание | začalo = началось | v roku 1944 = в 1944 году
+a Do Európskej únie = В Европейский союз | vstúpilo = вступила | Slovensko = Словакия | v roku 2004 = в 2004 году
+a Euro = Евро | platí = действует | na Slovensku = в Словакии | od roku 2009 = с 2009 года
+h Slovensko je členom Európskej ___. => «член чего?» — родительный: únia → úni**e**.
+h Euro ___ na Slovensku od roku 2009. => euro — ед. ч., настоящее время: plat**í**.
+h Bola to dôležitá ___. => После «bola» — именительный: udalosť.
+a Na Štedrý večer = В Сочельник | jeme = мы едим | kapustnicu = капустницу | a = и | kapra = карпа
+a Bryndzové halušky = Брынзовые галушки | sú = (есть — глагол «быть») | národné jedlo = национальное блюдо
+a Na Veľkú noc = На Пасху | je zvyk = есть обычай | polievať = обливать | dievčatá = девушек | vodou = водой
+a Vianoce = Рождество | oslavujeme = мы празднуем | v kruhu rodiny = в кругу семьи
+a Každý región má = У каждого региона | svoje = свои | zvyky = обычаи
+h Na Štedrý večer jeme ___. => Одушевлённый мужской род в винительном: kapor → kapr**a**.
+h Na ___ noc je šibačka. => na + винительный: Veľká noc → na Veľk**ú** noc.
+h Vianoce ___ v kruhu rodiny. => «Мы» — окончание **-me**: oslavuje**me**.
+
+# 38
+a Poveril som = Я поручил | Petra = Петеру | vedením = руководство | projektu = проектом
+a Mohli by ste = Не могли бы вы | prevziať = взять на себя | túto úlohu = эту задачу
+a Dôverujem = Я доверяю | svojmu tímu = своей команде
+a Môžem = Могу я | sa na vás spoľahnúť = на вас положиться
+a Má právomoc = У него есть полномочия | rozhodovať = принимать решения | o rozpočte = о бюджете
+h Môžem sa na teba ___? => После «môžem» — инфинитив: spoľahnú**ť**.
+h Dôverujem ___ kolegom. => dôverovať + дательный мн. ч.: svoj**im** kolegom.
+h Poverili ma ___ projektu. => poveriť niekoho **čím** — творительный: vedenie → veden**ím**.
+a Oceňujem = Ценю | že = что | ste to stihli = вы успели | načas = вовремя
+a Chcel by som = Я хотел бы | vás = вас | pochváliť = похвалить | za prezentáciu = за презентацию
+a Konštruktívna kritika = Конструктивная критика | nám = нам | pomáha = помогает | rásť = расти
+a Na ročnom hodnotení = На годовой оценке | sme sa rozprávali = мы говорили | o rozvoji = о развитии
+a Váš výkon = Ваши результаты | sa výrazne zlepšil = значительно улучшились
+h Chcem vás pochváliť ___ výsledky. => pochváliť **za** + винительный — «похвалить за».
+h Oceňujem ___ prácu. => oceniť + винительный: vaša → vaš**u**.
+h Je tu priestor na ___. => na + винительный; zlepšenie не меняется.
+a V tíme = В команде | bolo cítiť = чувствовалось | napätie = напряжение
+a Išlo len o = Это было просто | nedorozumenie = недоразумение
+a Najprv = Сначала | si vypočujem = я выслушаю | obe strany = обе стороны
+a Uznanie = Признание | motivuje = мотивирует | ľudí = людей | viac ako = больше чем | peniaze = деньги
+a Záleží mi na = Мне важна | dobrej pracovnej atmosfére = хорошая рабочая атмосфера
+h Konflikt treba ___ hneď. => После «treba» — инфинитив: rieši**ť**.
+h Záleží mi ___ tíme. => záležať **na** + местный — «быть важным».
+h Išlo len o ___. => «речь шла о» — o + винительный; nedorozumenie не меняется.
+
+# 39
+a Chcel by som = Я хотел бы | reklamovať = подать претензию на | tento výrobok = этот товар
+a Výrobok = Товар | je chybný = бракованный | nefunguje = не работает | displej = дисплей
+a Záruka = Гарантия | je = (есть — глагол «быть») | dvadsaťštyri = двадцать четыре | mesiacov = месяца
+a Žiadam o vrátenie = Прошу вернуть | peňazí = деньги
+a Máte = У вас есть | doklad o kúpe = документ о покупке
+h Výrobok je ešte v ___. => «на гарантии» = v **záruke** (местный падеж).
+h Žiadam o ___ peňazí. => o + винительный существительного: **vrátenie** (возврат).
+h Chcem ___ tento telefón. => После «chcem» — инфинитив: reklamova**ť**.
+a Chcem = Я хочу | sa sťažovať na = пожаловаться на | kvalitu = качество | služieb = услуг
+a Nie som spokojný = Я недоволен | s prístupom = отношением | vášho zamestnanca = вашего сотрудника
+a Kontaktoval som = Я связывался | zákaznícky servis = со службой поддержки | už = уже | trikrát = трижды
+a Očakávam = Я ожидаю | nápravu = исправления | do piatich pracovných dní = в течение пяти рабочих дней
+a Požadujem = Я требую | primerané = соразмерной | odškodnenie = компенсации
+h Sťažujem sa ___ hluk. => sťažovať sa **na** + винительный — «жаловаться на».
+h Nie som ___ s výsledkom. => «Я недоволен» = nie som **spokojný** (прилагательное).
+h Napísal som ___ na vedenie. => napísať + винительный; sťažnosť не меняется.
+a Zisťujeme = Мы выясняем | príčinu = причину | problému = проблемы
+a Prijali sme = Мы приняли | opatrenia = меры | aby = чтобы | sa to neopakovalo = это не повторилось
+a Systém = Система | zlyhal = дала сбой | kvôli chybe = из-за ошибки | v softvéri = в программе
+a Prijmite = Примите | naše = наши | úprimné = искренние | ospravedlnenie = извинения
+a Zabezpečíme = Мы обеспечим | aby = чтобы | ste dostali = вы получили | tovar = товар | okamžite = немедленно
+h Musíme ___ podobným chybám. => После «musíme» — инфинитив: predís**ť** (+ дательный: chybám).
+h Aká je ___ problému? => Подлежащее — в именительном: príčina.
+h Systém zlyhal ___ chybe. => «из-за» = **kvôli** + дательный.
+
+# 40
+a Napriek problémom = Несмотря на проблемы | sme = мы | projekt = проект | dokončili = завершили
+a Počas leta = Летом | pracujem = я работаю | z domu = из дома
+a Vďaka = Благодаря | vašej pomoci = вашей помощи | sme to stihli = мы успели
+a Okrem = Кроме | slovenčiny = словацкого | hovorím = я говорю | aj = и | po anglicky = по-английски
+a V rámci = В рамках | projektu = проекта | spolupracujeme = мы сотрудничаем | s univerzitou = с университетом
+h Vďaka ___ pomoci sme to stihli. => vďaka + дательный: vaša pomoc → vaš**ej** pomoci.
+h Napriek ___ sme prišli. => napriek + дательный: dážď → dažď**u**.
+h Okrem ___ prišli všetci. => okrem + родительный: Peter → Petr**a**.
+a Konferencie = В конференции | sa zúčastnilo = приняли участие | dvesto = двести | ľudí = человек
+a Každý z nás = Каждый из нас | môže = может | prispieť k = внести вклад в | zmene = изменения
+a Stretnutie = Встреча | sa uskutoční = состоится | v Žiline = в Жилине
+a Podarilo sa mu = Ему удалось | presadiť = продвинуть | svoj návrh = своё предложение
+a Žiaľ = К сожалению | vašej žiadosti = ваше заявление | nemôžeme = мы не можем | vyhovieť = удовлетворить
+h Zúčastnil som sa ___. => zúčastniť sa + родительный (чего?): konferencia → konferenci**e**.
+h Stretnutie sa ___ zajtra. => stretnutie — ед. ч.; совершенный вид в настоящей форме = будущее: uskutoční (состоится).
+h Môže to ___ výsledok. => После «môže» — инфинитив: ovplyvni**ť**.
+a V súlade so zákonom = В соответствии с законом | vám = вам | oznamujeme = сообщаем | zmenu = об изменении
+a Z uvedeného vyplýva = Из вышесказанного следует | že = что | plán = план | je = (есть — глагол «быть») | reálny = реален
+a Predovšetkým = Прежде всего | musíme = мы должны | znížiť = снизить | náklady = расходы
+a Okrem toho = Кроме того | je potrebné = необходимо | školenie = обучение
+a Napokon = Наконец | by som chcel = я хотел бы | poďakovať = поблагодарить | všetkým = всех
+h Postupujeme v súlade ___ zmluvou. => Перед «z» пишут **so**: so zmluvou.
+h S ohľadom ___ situáciu sme termín posunuli. => «с учётом» = s ohľadom **na** + винительный.
+h Z ___ vyplýva, že plán je reálny. => z + родительный: uvedené → z uveden**ého**.

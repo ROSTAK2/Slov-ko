@@ -5,9 +5,18 @@ struct WordPair: Codable, Hashable {
     var ru: String
 }
 
+/// Слово предложения с подсказкой: t — как написано, h — перевод части, g — номер части (-1 — сама по себе).
+struct HintWord: Codable, Hashable {
+    var t: String
+    var h: String
+    var g: Int
+}
+
 struct SentencePair: Codable, Hashable {
     var sk: String
     var ru: String
+    var skw: [HintWord]? = nil
+    var ruw: [HintWord]? = nil
 }
 
 /// Предложение с пропуском: `text` содержит «___», `options` — только неверные варианты.
@@ -16,6 +25,8 @@ struct FillItem: Codable, Hashable {
     var answer: String
     var options: [String]
     var ru: String
+    var tip: String? = nil
+    var w: [HintWord]? = nil
 }
 
 struct Lesson: Codable, Identifiable, Hashable {
@@ -24,6 +35,9 @@ struct Lesson: Codable, Identifiable, Hashable {
     var words: [WordPair]
     var sentences: [SentencePair]
     var fills: [FillItem]
+    var review: Bool? = nil
+
+    var isReview: Bool { review == true }
 }
 
 struct CourseUnit: Codable, Identifiable {
@@ -37,6 +51,23 @@ struct CourseUnit: Codable, Identifiable {
 
 struct Course: Codable {
     var units: [CourseUnit]
+    var dictSk: [String: String]?
+    var dictRu: [String: String]?
+}
+
+/// Словарь форм — подсказки для предложений без готового разбора (уроки от ИИ).
+enum HintDictionary {
+    static var sk: [String: String] = [:]
+    static var ru: [String: String] = [:]
+
+    static func words(_ text: String, slovak: Bool) -> [HintWord] {
+        let dict = slovak ? sk : ru
+        return text.split(separator: " ").map { raw in
+            let word = String(raw)
+            let key = word.trimmingCharacters(in: ExerciseFactory.trimSet).lowercased()
+            return HintWord(t: word, h: key.contains("___") ? "" : (dict[key] ?? ""), g: -1)
+        }
+    }
 }
 
 final class CourseStore: ObservableObject {
@@ -49,11 +80,13 @@ final class CourseStore: ObservableObject {
            let data = try? Data(contentsOf: url),
            let course = try? JSONDecoder().decode(Course.self, from: data) {
             units = course.units
+            HintDictionary.sk = course.dictSk ?? [:]
+            HintDictionary.ru = course.dictRu ?? [:]
         } else {
             units = []
         }
         allLessons = units.flatMap { $0.lessons }
-        allWords = allLessons.flatMap { $0.words }
+        allWords = allLessons.filter { !$0.isReview }.flatMap { $0.words }
     }
 
     func unit(containing lessonID: String) -> CourseUnit? {

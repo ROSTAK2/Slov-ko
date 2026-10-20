@@ -174,12 +174,13 @@ enum TutorClient {
         let fill: [String: Any] = [
             "type": "object",
             "additionalProperties": false,
-            "required": ["text", "answer", "options", "ru"],
+            "required": ["text", "answer", "options", "ru", "tip"],
             "properties": [
                 "text": ["type": "string"],
                 "answer": ["type": "string"],
                 "options": ["type": "array", "items": ["type": "string"]],
-                "ru": ["type": "string"]
+                "ru": ["type": "string"],
+                "tip": ["type": "string"]
             ]
         ]
         let schema: [String: Any] = [
@@ -207,7 +208,7 @@ enum TutorClient {
         - sentences: 6 предложений по теме уровня \(level), 4–10 слов каждое, без кавычек и скобок;
         - fills: 4 предложения с пропуском: в text ровно один пропуск «___» на месте слова, \
         answer — пропущенное слово, options — 3 НЕВЕРНЫХ, но правдоподобных варианта \
-        (другие падежи, лица, виды глагола; не совпадают с answer), ru — перевод всего предложения.
+        (другие падежи, лица, виды глагола; не совпадают с answer), ru — перевод всего предложения, tip — одно короткое предложение по-русски: какое правило здесь работает (можно **жирный**).
         Используй лексику и грамматику, подходящие уровню \(level).
         """
         let result = try await send(model: model, system: system,

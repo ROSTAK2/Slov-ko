@@ -125,9 +125,10 @@ struct PathView: View {
         let unit = course.unit(containing: lesson.id)
         return ExerciseFactory.make(
             lesson: lesson,
-            unitWords: unit?.lessons.flatMap { $0.words } ?? [],
+            unitWords: unit?.lessons.filter { !$0.isReview }.flatMap { $0.words } ?? [],
             allWords: course.allWords,
-            unitSentences: unit?.lessons.flatMap { $0.sentences } ?? []
+            unitSentences: unit?.lessons.filter { !$0.isReview }.flatMap { $0.sentences } ?? [],
+            known: Set(store.state.cards.keys)
         )
     }
 
@@ -240,8 +241,8 @@ struct LessonNode: View {
     private var icon: String {
         switch status {
         case .done: return "checkmark"
-        case .current: return "star.fill"
-        case .open: return "play.fill"
+        case .current: return lesson.isReview ? "dumbbell.fill" : "star.fill"
+        case .open: return lesson.isReview ? "dumbbell.fill" : "play.fill"
         case .locked: return "lock.fill"
         }
     }
@@ -269,7 +270,7 @@ struct GuideView: View {
                     Text("Слова раздела")
                         .font(.title2.weight(.heavy))
                         .padding(.top, 10)
-                    ForEach(unit.lessons) { lesson in
+                    ForEach(unit.lessons.filter { !$0.isReview }) { lesson in
                         Text(lesson.title)
                             .font(.headline)
                             .foregroundColor(Theme.unitColor(unit.id))

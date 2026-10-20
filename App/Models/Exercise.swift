@@ -26,6 +26,14 @@ struct Exercise: Identifiable {
     var speakAfter: String? = nil
     var wordKey: String? = nil
     var note: String? = nil
+    /// Слова задания с подсказками по нажатию.
+    var hints: [HintWord]? = nil
+    /// Слова задания на словацком (тогда при нажатии слово проговаривается).
+    var hintsSlovak: Bool = false
+    /// Слово встречается впервые.
+    var isNew: Bool = false
+    /// Короткое правило — показывается при ошибке.
+    var tip: String? = nil
 }
 
 enum CheckResult: Equatable {
@@ -82,7 +90,7 @@ enum Checker {
 }
 
 enum ExerciseFactory {
-    private static let trimSet = CharacterSet(charactersIn: ".,!?;:„“\"”«»…()–—")
+    static let trimSet = CharacterSet(charactersIn: ".,!?;:„“\"”«»…()–—")
 
     static func tokens(_ s: String) -> [String] {
         s.split(separator: " ")
@@ -90,76 +98,93 @@ enum ExerciseFactory {
             .filter { !$0.isEmpty }
     }
 
-    /// Упражнения для урока курса или урока, созданного ИИ.
+    /// Урок курса, урок от ИИ или «Повторение» раздела.
+    /// `known` — слова, которые уже есть в словаре ученика (остальные помечаются как новые).
     static func make(lesson: Lesson, unitWords: [WordPair], allWords: [WordPair],
-                     unitSentences: [SentencePair]) -> [Exercise] {
+                     unitSentences: [SentencePair], known: Set<String>) -> [Exercise] {
         let pool = unitWords.shuffled() + allWords.shuffled()
+        let sentencePool = unitSentences + lesson.sentences
+        if lesson.isReview {
+            return review(lesson: lesson, pool: pool, sentencePool: sentencePool)
+        }
+
         let words = lesson.words.shuffled()
         var head: [Exercise] = []
         var body: [Exercise] = []
 
+        // Знакомство с новыми словами: слово с подсказкой → выбрать перевод.
         for w in words.prefix(3) {
-            head.append(choice(w, toSlovak: false, pool: pool))
+            head.append(choice(w, toSlovak: false, pool: pool, isNew: !known.contains(w.sk)))
         }
         let matchable = distinctPairs(lesson.words)
         if matchable.count >= 3 {
             head.append(match(Array(matchable.shuffled().prefix(5))))
         }
-        for w in words.dropFirst(3).prefix(3) {
+        for w in words.dropFirst(3).prefix(2) {
             body.append(choice(w, toSlovak: true, pool: pool))
         }
-        let typed = words.count > 6 ? Array(words.dropFirst(6)) : Array(words.suffix(1))
-        for w in typed {
+        if let w = (words.count > 5 ? Optional(words[5]) : words.last) {
             body.append(typeWord(w))
         }
-
-        let sentencePool = unitSentences + lesson.sentences
-        let skTiles = sentencePool.flatMap { tokens($0.sk) }
-        let ruTiles = sentencePool.flatMap { tokens($0.ru) }
-        for (i, s) in lesson.sentences.shuffled().enumerated() {
-            switch i % 4 {
-            case 0:
-                body.append(buildSlovak(s, tilePool: skTiles, listening: false))
-            case 1:
-                body.append(buildSlovak(s, tilePool: skTiles, listening: true))
-            case 2:
-                body.append(buildRussian(s, tilePool: ruTiles))
-            default:
-                if tokens(s.sk).count <= 8 {
-                    body.append(dictation(s))
-                } else {
-                    body.append(buildSlovak(s, tilePool: skTiles, listening: false))
-                }
-            }
-        }
-        for f in lesson.fills {
-            body.append(fill(f))
-        }
+        body += sentenceExercises(Array(lesson.sentences.shuffled().prefix(5)), pool: sentencePool)
+        body += lesson.fills.prefix(3).map(fill)
         return head + body.shuffled()
     }
 
-    /// Тренировка выученных слов (вкладка «Повтор»).
-    static func practice(words: [WordPair], pool: [WordPair]) -> [Exercise] {
-        let selected = Array(words.shuffled().prefix(10))
+    /// «Повторение» в конце раздела: всё вперемешку, больше письма и аудирования.
+    static func review(lesson: Lesson, pool: [WordPair], sentencePool: [SentencePair]) -> [Exercise] {
+        let words = lesson.words.shuffled()
+        var out: [Exercise] = []
+        for (i, w) in words.prefix(4).enumerated() {
+            out.append(i.isMultiple(of: 2) ? choice(w, toSlovak: true, pool: pool) : typeWord(w))
+        }
+        out += sentenceExercises(Array(lesson.sentences.shuffled().prefix(6)), pool: sentencePool)
+        out += lesson.fills.shuffled().prefix(3).map(fill)
+        let matchable = distinctPairs(Array(words.dropFirst(4)))
+        let first = matchable.count >= 3 ? [match(Array(matchable.prefix(5)))] : []
+        return first + out.shuffled()
+    }
+
+    /// Тренировка (вкладка «Повтор»): выученные слова + предложения из пройденных уроков.
+    static func practice(words: [WordPair], pool: [WordPair], sentences: [SentencePair]) -> [Exercise] {
+        let selected = Array(words.shuffled().prefix(8))
         var out: [Exercise] = []
         let matchable = distinctPairs(selected)
         if matchable.count >= 3 {
             out.append(match(Array(matchable.prefix(5))))
         }
         let shuffledPool = pool.shuffled()
+        var rest: [Exercise] = []
         for (i, w) in selected.enumerated() {
             switch i % 3 {
-            case 0: out.append(choice(w, toSlovak: false, pool: shuffledPool))
-            case 1: out.append(choice(w, toSlovak: true, pool: shuffledPool))
-            default: out.append(typeWord(w))
+            case 0: rest.append(choice(w, toSlovak: false, pool: shuffledPool))
+            case 1: rest.append(choice(w, toSlovak: true, pool: shuffledPool))
+            default: rest.append(typeWord(w))
             }
         }
-        return out
+        let picked = Array(sentences.shuffled().prefix(4))
+        rest += sentenceExercises(picked, pool: sentences)
+        return out + rest.shuffled()
+    }
+
+    /// Предложения по кругу: перевод на словацкий, аудирование, перевод на русский, диктант.
+    private static func sentenceExercises(_ sentences: [SentencePair], pool: [SentencePair]) -> [Exercise] {
+        let skTiles = pool.flatMap { tokens($0.sk) }
+        let ruTiles = pool.flatMap { tokens($0.ru) }
+        return sentences.enumerated().map { (i, s) -> Exercise in
+            switch i % 4 {
+            case 0: return buildSlovak(s, tilePool: skTiles, listening: false)
+            case 1: return buildSlovak(s, tilePool: skTiles, listening: true)
+            case 2: return buildRussian(s, tilePool: ruTiles)
+            default:
+                return tokens(s.sk).count <= 8 ? dictation(s) : buildSlovak(s, tilePool: skTiles, listening: false)
+            }
+        }
     }
 
     // MARK: - Отдельные типы
 
-    static func choice(_ w: WordPair, toSlovak: Bool, pool: [WordPair]) -> Exercise {
+    static func choice(_ w: WordPair, toSlovak: Bool, pool: [WordPair], isNew: Bool = false) -> Exercise {
         let correct = toSlovak ? w.sk : w.ru
         var options = [correct]
         var usedMeanings = meanings(w.ru)
@@ -182,6 +207,12 @@ enum ExerciseFactory {
         e.answerIsSlovak = toSlovak
         e.speakAfter = toSlovak ? w.sk : nil
         e.wordKey = w.sk
+        if isNew && !toSlovak {
+            // Новое слово: перевод можно подсмотреть, нажав на него.
+            e.isNew = true
+            e.hints = [HintWord(t: w.sk, h: w.ru, g: 0)]
+            e.hintsSlovak = true
+        }
         return e
     }
 
@@ -214,6 +245,9 @@ enum ExerciseFactory {
         e.answerIsSlovak = true
         e.speakAfter = listening ? nil : s.sk
         e.note = s.ru
+        if !listening {
+            e.hints = s.ruw ?? HintDictionary.words(s.ru, slovak: false)
+        }
         return e
     }
 
@@ -226,6 +260,8 @@ enum ExerciseFactory {
         e.options = (answerTokens + distractors(for: answerTokens, from: tilePool, count: 3)).shuffled()
         e.answer = answerTokens.joined(separator: " ")
         e.answerIsSlovak = false
+        e.hints = s.skw ?? HintDictionary.words(s.sk, slovak: true)
+        e.hintsSlovak = true
         return e
     }
 
@@ -253,6 +289,9 @@ enum ExerciseFactory {
         e.answer = f.answer
         e.answerIsSlovak = true
         e.speakAfter = f.text.replacingOccurrences(of: "___", with: f.answer)
+        e.hints = f.w ?? HintDictionary.words(f.text, slovak: true)
+        e.hintsSlovak = true
+        e.tip = f.tip
         return e
     }
 
