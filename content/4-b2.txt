@@ -1,4 +1,4 @@
-# 31 | B2 | Vyjednávanie | Переговоры: условия, компромисс, договор
+# 31 | B2 | Vyjednávanie | Переговоры: условия, компромисс, договор | ⚖️ 🤝
 > **В переговорах помогает «смягчение»** — условное наклонение и книжные обороты:
 > • **Boli by ste ochotní...?** — Были бы вы готовы...?
 > • **Za predpokladu, že...** — При условии, что...
@@ -62,7 +62,7 @@ f Zmluva je ___ do konca roka. | platná | platný, platné, platnosť | Дог�
 f Uzavreli sme ___ s dodávateľom. | zmluvu | zmluva, zmluvy, zmluve | Мы заключили договор с поставщиком.
 f Faktúra je splatná do tridsiatich ___. | dní | dni, dňa, dňoch | Счёт подлежит оплате в течение тридцати дней.
 
-# 32 | B2 | Trpný rod | Страдательный залог и причастия
+# 32 | B2 | Trpný rod | Страдательный залог и причастия | 📑 🏷️
 > **Страдательный залог — два способа:**
 > 1. **byť + причастие на -ný / -tý**: Zmluva **bola podpísaná**. Projekt **bude dokončený** v máji.
 > 2. **sa + глагол** (очень частый в словацком!): Tu **sa nesmie** fajčiť. Zmluva **sa podpíše** zajtra. Kde **sa predávajú** lístky?
@@ -126,7 +126,7 @@ f ___ deň sme pokračovali. | Nasledujúci | Nasledujúca, Nasledujúce, Nasled
 f Otázky ___ sa platu riešime osobne. | týkajúce | týkajúci, týkajúca, týkať | Вопросы, касающиеся зарплаты, мы решаем лично.
 f Obráťte sa na ___ oddelenie. | príslušné | príslušný, príslušná, príslušnom | Обратитесь в соответствующий отдел.
 
-# 33 | B2 | Pracovné právo | Трудовое право: договор, отпуск, увольнение
+# 33 | B2 | Pracovné právo | Трудовое право: договор, отпуск, увольнение | 📋 ⚖️
 > **Zákonník práce** — Трудовой кодекс. Основные понятия:
 > • **pracovná zmluva na dobu neurčitú / určitú** — бессрочный / срочный трудовой договор
 > • **pracovná náplň** — должностные обязанности, **miesto výkonu práce** — место работы
@@ -194,7 +194,7 @@ f Dal som ___. | výpoveď | výpovede, výpoveďou, výpovedný | Я подал
 f Výpovedná ___ začína plynúť od prvého dňa mesiaca. | lehota | lehoty, lehotu, lehote | Срок предупреждения начинает течь с первого числа месяца.
 f Má nárok na ___. | odstupné | odstupného, odstupným, odstupnom | Он имеет право на выходное пособие.
 
-# 34 | B2 | Akademické písanie | Академический стиль и аргументация
+# 34 | B2 | Akademické písanie | Академический стиль и аргументация | 🔬 📖
 > **Книжные связки:**
 > • **Cieľom práce je...** — Цель работы — ...
 > • **V prvej kapitole...** — В первой главе...
@@ -259,7 +259,7 @@ f Údaje ___ z roku 2023. | pochádzajú | pochádza, pochádzať, pochádzajúc
 f Do výskumu sa zapojilo tristo ___. | respondentov | respondenti, respondent, respondentom | В исследовании участвовали триста респондентов.
 f ___ autora je to chyba. | Podľa | Pre, Od, Za | По мнению автора, это ошибка.
 
-# 35 | B2 | Spoločnosť a médiá | Общество, СМИ, дискуссия
+# 35 | B2 | Spoločnosť a médiá | Общество, СМИ, дискуссия | 📰 📺
 > **Как спорить на B2:**
 > • **Podľa môjho názoru...** — По моему мнению...
 > • **Som presvedčený/á, že...** — Я убеждён(а), что...
@@ -325,7 +325,7 @@ f Rodičia sú na ___. | dôchodku | dôchodok, dôchodkom, dôchodky | Роди
 f Musíme chrániť životné ___. | prostredie | prostredia, prostrediu, prostredím | Мы должны защищать окружающую среду.
 f ___ cudzincov trvá roky. | Integrácia | Integráciu, Integrácie, Integrovať | Интеграция иностранцев занимает годы.
 
-# 36 | B2 | Frazeológia | Пословицы, идиомы, разговорная речь
+# 36 | B2 | Frazeológia | Пословицы, идиомы, разговорная речь | 🦟 🥧
 > **Словаки любят пословицы:**
 > • **Bez práce nie sú koláče.** — Без труда не выловишь и рыбку из пруда.
 > • **Kto neskoro chodí, sám sebe škodí.** — Кто поздно приходит, сам себе вредит.
@@ -388,7 +388,7 @@ f Ten hluk mi ide na ___. | nervy | nerv, nervoch, nervami | Этот шум д�
 f Zabili sme dve muchy jednou ___. | ranou | rana, ranu, rane | Мы убили двух зайцев одним выстрелом.
 f Keď dostal ponuku, bol v siedmom ___. | nebi | nebo, neba, nebom | Когда он получил предложение, он был на седьмом небе.
 
-# 37 | B2 | Slovensko | Реалии: регионы, история, традиции
+# 37 | B2 | Slovensko | Реалии: регионы, история, традиции | 🏰 ⛰️
 > **Немного фактов:**
 > • Словакия независима с **1 января 1993** года — после мирного разделения Чехословакии.
 > • В **ЕС** — с **2004** года, **евро** — с **2009**, в Шенгене — с 2007.
@@ -453,7 +453,7 @@ f Na Štedrý večer jeme ___. | kapra | kapor, kaprovi, kaprom | В Сочел�
 f Na ___ noc je šibačka. | Veľkú | Veľká, Veľkej, Veľkou | На Пасху бывает шибачка.
 f Vianoce ___ v kruhu rodiny. | oslavujeme | oslavuje, oslavovať, oslávený | Рождество мы празднуем в кругу семьи.
 
-# 38 | B2 | Vedenie tímu | Руководство командой
+# 38 | B2 | Vedenie tímu | Руководство командой | 🧭 🏆
 > **Руководитель говорит иначе:**
 > • Делегирование: **Mohli by ste prevziať...?** (взять на себя), **Poveril som vás...** (я поручил вам) — poveriť **niekoho niečím** (творительный!): poveril som Petra vedení**m** projektu.
 > • Обратная связь: **Oceňujem, že...** (ценю, что), **Bolo by dobré zlepšiť...**, **Čo by sme mohli urobiť inak?**
@@ -515,7 +515,7 @@ f Konflikt treba ___ hneď. | riešiť | riešim, riešil, riešenie | Конф�
 f Záleží mi ___ tíme. | na | o, v, pri | Мне важна команда.
 f Išlo len o ___. | nedorozumenie | nedorozumenia, nedorozumením, nedorozumení | Это было просто недоразумение.
 
-# 39 | B2 | Reklamácie a sťažnosti | Претензии, жалобы, решение проблем
+# 39 | B2 | Reklamácie a sťažnosti | Претензии, жалобы, решение проблем | 🧾 🛠️
 > **reklamácia** — претензия по товару (ремонт, замена, возврат по гарантии), **sťažnosť** — жалоба (на услугу, сотрудника, шум...).
 > Гарантия (**záruka**) на товары для потребителей в Словакии — обычно **24 месяца**. Сохраняйте **doklad o kúpe** (чек).
 >
@@ -580,7 +580,7 @@ f Musíme ___ podobným chybám. | predísť | predídeme, predišiel, predchád
 f Aká je ___ problému? | príčina | príčinu, príčiny, príčinou | Какова причина проблемы?
 f Systém zlyhal ___ chybe. | kvôli | pre, cez, za | Система дала сбой из-за ошибки.
 
-# 40 | B2 | Záverečné opakovanie | Итоговое повторение B2
+# 40 | B2 | Záverečné opakovanie | Итоговое повторение B2 | 🏁 🎖️
 > **Поздравляем — вы на финишной прямой!** Чек-лист уровня B2:
 > • все падежи в единственном и множественном числе, включая числа 2–4 и 5+;
 > • вид глагола и будущее время (**napíšem**, а не «budem napísať»);

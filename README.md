@@ -63,6 +63,6 @@ python tools/build_course.py
 
 - `App/` — исходный код на SwiftUI (iOS 16+)
 - `content/` — тексты курса
-- `tools/` — скрипты сборки курса и иконки
+- `tools/` — скрипты: сборка курса (`build_course.py`), иконка (`make_icon.py`, `make_icon.py preview` — все варианты), звуки (`make_sounds.py`)
 - `project.yml` — описание проекта для XcodeGen
 - `.github/workflows/build-ipa.yml` — сборка `.ipa` на GitHub

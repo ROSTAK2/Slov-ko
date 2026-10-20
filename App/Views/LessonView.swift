@@ -20,6 +20,8 @@ final class LessonSession: ObservableObject {
     @Published var finished = false
     @Published var outOfHearts = false
     @Published var completedCount = 0
+    @Published var combo = 0
+    var bestCombo = 0
     var mistakes = 0
     var lastAnswer = ""
     var rewarded = false
@@ -54,24 +56,40 @@ final class LessonSession: ObservableObject {
         result = outcome
         if outcome == .wrong {
             mistakes += 1
+            combo = 0
             Haptics.error()
+            SoundFX.shared.play(.wrong)
             if usesHearts { store.loseHeart() }
             if let key = exercise.wordKey { store.markWeak(key) }
             queue.append(exercise)  // ошибку повторим в конце урока
         } else {
-            completedCount += 1
-            Haptics.success()
+            registerCorrect()
         }
         if let say = exercise.speakAfter {
-            Speech.shared.speak(say)
+            // Сначала звук ответа, потом произношение.
+            DispatchQueue.main.asyncAfter(deadline: .now() + (SoundFX.shared.enabled ? 0.45 : 0)) {
+                Speech.shared.speak(say)
+            }
         }
     }
 
     func matchCompleted() {
         guard result == nil else { return }
         result = .correct
+        registerCorrect()
+    }
+
+    private func registerCorrect() {
         completedCount += 1
+        combo += 1
+        bestCombo = max(bestCombo, combo)
         Haptics.success()
+        SoundFX.shared.play(isComboMilestone ? .combo : .correct)
+    }
+
+    /// 3, 5, 10, 15… правильных ответов подряд.
+    var isComboMilestone: Bool {
+        combo == 3 || combo == 5 || (combo >= 10 && combo % 5 == 0)
     }
 
     func next(store: ProgressStore) {
@@ -95,6 +113,8 @@ struct LessonView: View {
     @StateObject private var session: LessonSession
     @State private var confirmExit = false
     @State private var showExplain = false
+    @State private var heartHit = false
+    @State private var lastHearts = Int.max
 
     init(lesson: Lesson, exercises: [Exercise], kind: LessonKind) {
         _session = StateObject(wrappedValue: LessonSession(lesson: lesson, exercises: exercises, kind: kind))
@@ -109,10 +129,15 @@ struct LessonView: View {
             } else if let exercise = session.current {
                 header
                 ScrollView {
-                    exerciseView(exercise)
-                        .id(session.step)
-                        .padding(20)
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                    ZStack(alignment: .topLeading) {
+                        exerciseView(exercise)
+                            .padding(20)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .id(session.step)
+                            .transition(.asymmetric(
+                                insertion: .move(edge: .trailing).combined(with: .opacity),
+                                removal: .move(edge: .leading).combined(with: .opacity)))
+                    }
                 }
                 .scrollDismissesKeyboard(.interactively)
                 footer(exercise)
@@ -147,18 +172,62 @@ struct LessonView: View {
                 ZStack(alignment: .leading) {
                     Capsule().fill(Color(.systemGray5))
                     Capsule()
-                        .fill(Theme.green)
+                        .fill(session.combo >= 3 ? Theme.orange : Theme.green)
+                        .overlay(alignment: .top) {
+                            // Блик на полосе прогресса.
+                            Capsule()
+                                .fill(Color.white.opacity(0.35))
+                                .frame(height: 4)
+                                .padding(.horizontal, 8)
+                                .padding(.top, 3)
+                        }
                         .frame(width: max(16, geo.size.width * session.progress))
-                        .animation(.spring(response: 0.4), value: session.progress)
+                        .animation(.spring(response: 0.45, dampingFraction: 0.7), value: session.progress)
                 }
             }
             .frame(height: 16)
+            .overlay(alignment: .trailing) {
+                if session.combo >= 3 {
+                    Text(verbatim: "🔥\(session.combo)")
+                        .font(.caption.weight(.heavy))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 7)
+                        .padding(.vertical, 2)
+                        .background(Capsule().fill(Theme.orange))
+                        .offset(y: -16)
+                        .transition(.scale.combined(with: .opacity))
+                        .id(session.combo)
+                }
+            }
+            .animation(.spring(response: 0.3, dampingFraction: 0.5), value: session.combo)
             if session.usesHearts {
                 HStack(spacing: 4) {
-                    Image(systemName: "heart.fill").foregroundColor(Theme.red)
+                    Image(systemName: "heart.fill")
+                        .foregroundColor(Theme.red)
+                        .scaleEffect(heartHit ? 1.5 : 1)
+                        .rotationEffect(.degrees(heartHit ? -15 : 0))
                     Text(store.state.unlimitedHearts ? "∞" : "\(store.state.hearts)")
                         .font(.headline.weight(.heavy))
                         .foregroundColor(Theme.red)
+                }
+                .overlay(alignment: .top) {
+                    if heartHit {
+                        Text(verbatim: "−1")
+                            .font(.caption.weight(.heavy))
+                            .foregroundColor(Theme.red)
+                            .offset(y: -18)
+                            .transition(.move(edge: .bottom).combined(with: .opacity))
+                    }
+                }
+                .onAppear { lastHearts = store.state.hearts }
+                .onChange(of: store.state.hearts) { hearts in
+                    if hearts < lastHearts {
+                        withAnimation(.spring(response: 0.25, dampingFraction: 0.35)) { heartHit = true }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                            withAnimation(.easeOut(duration: 0.25)) { heartHit = false }
+                        }
+                    }
+                    lastHearts = hearts
                 }
             }
         }
@@ -174,7 +243,9 @@ struct LessonView: View {
         case .choice:
             ChoiceExerciseView(exercise: exercise, selection: $session.pending, locked: locked)
         case .match:
-            MatchExerciseView(exercise: exercise) { session.matchCompleted() }
+            MatchExerciseView(exercise: exercise) {
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.85)) { session.matchCompleted() }
+            }
         case .build:
             BuildExerciseView(exercise: exercise, answer: $session.pending, locked: locked)
         case .typing:
@@ -190,7 +261,9 @@ struct LessonView: View {
             feedback(result, exercise: exercise)
         } else if exercise.kind != .match {
             Button("ПРОВЕРИТЬ") {
-                session.check(store: store)
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.85)) {
+                    session.check(store: store)
+                }
             }
             .buttonStyle(ChunkyButtonStyle(color: Theme.green))
             .disabled(session.pending == nil)
@@ -206,6 +279,15 @@ struct LessonView: View {
             HStack {
                 Image(systemName: isWrong ? "xmark.circle.fill" : "checkmark.circle.fill")
                 Text(title(for: result)).font(.title3.weight(.heavy))
+                if !isWrong && session.combo >= 3 {
+                    Text(verbatim: "🔥 \(session.combo) подряд")
+                        .font(.subheadline.weight(.heavy))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(Capsule().fill(Theme.orange))
+                        .scaleEffect(session.isComboMilestone ? 1.1 : 1)
+                }
                 Spacer()
                 if isWrong && TutorClient.hasKey {
                     Button {
@@ -241,7 +323,9 @@ struct LessonView: View {
                 Text(note).font(.subheadline).foregroundColor(color.opacity(0.85))
             }
             Button("ДАЛЕЕ") {
-                session.next(store: store)
+                withAnimation(.easeInOut(duration: 0.3)) {
+                    session.next(store: store)
+                }
             }
             .buttonStyle(ChunkyButtonStyle(color: color))
             .padding(.top, 4)
@@ -291,32 +375,68 @@ struct LessonCompleteView: View {
     @EnvironmentObject var store: ProgressStore
     @ObservedObject var session: LessonSession
     let onDone: () -> Void
+    @State private var shown = false
 
     var body: some View {
-        VStack(spacing: 24) {
-            Spacer()
-            Text(session.mistakes == 0 ? "🏆" : "🎉").font(.system(size: 90))
-            Text(session.kind == .practice ? "Тренировка завершена!" : "Урок пройден!")
-                .font(.largeTitle.weight(.heavy))
-                .multilineTextAlignment(.center)
-            if session.kind == .practice {
-                Text("+1 ❤️").font(.title3.weight(.bold)).foregroundColor(Theme.red)
+        ZStack {
+            VStack(spacing: 22) {
+                Spacer()
+                Text(session.mistakes == 0 ? "🏆" : "🎉")
+                    .font(.system(size: 96))
+                    .scaleEffect(shown ? 1 : 0.2)
+                    .rotationEffect(.degrees(shown ? 0 : -30))
+                    .animation(.spring(response: 0.5, dampingFraction: 0.5), value: shown)
+                Text(headline)
+                    .font(.largeTitle.weight(.heavy))
+                    .multilineTextAlignment(.center)
+                    .opacity(shown ? 1 : 0)
+                    .animation(.easeOut(duration: 0.4).delay(0.15), value: shown)
+                if session.kind == .practice {
+                    Text("+1 ❤️").font(.title3.weight(.bold)).foregroundColor(Theme.red)
+                }
+                HStack(spacing: 12) {
+                    statTile(title: "ОПЫТ", color: Theme.gold, index: 0) {
+                        CountingText(value: shown ? Double(session.xpEarned) : 0, prefix: "+")
+                            .animation(.easeOut(duration: 1.0).delay(0.4), value: shown)
+                    }
+                    statTile(title: "ТОЧНОСТЬ", color: Theme.green, index: 1) {
+                        CountingText(value: shown ? Double(session.accuracy) : 0, suffix: "%")
+                            .animation(.easeOut(duration: 1.0).delay(0.55), value: shown)
+                    }
+                    statTile(title: "ВРЕМЯ", color: Theme.blue, index: 2) {
+                        Text(verbatim: elapsed)
+                    }
+                }
+                .padding(.horizontal, 20)
+                VStack(spacing: 6) {
+                    Text(verbatim: "🔥 Серия: \(store.currentStreak) дн.")
+                        .font(.headline)
+                        .foregroundColor(Theme.orange)
+                    if session.bestCombo >= 3 {
+                        Text(verbatim: "Лучшая серия ответов: \(session.bestCombo) подряд")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                }
+                .opacity(shown ? 1 : 0)
+                .animation(.easeOut(duration: 0.4).delay(0.9), value: shown)
+                Spacer()
+                Button("ПРОДОЛЖИТЬ") { onDone() }
+                    .buttonStyle(ChunkyButtonStyle(color: Theme.green))
+                    .padding(20)
             }
-            HStack(spacing: 12) {
-                stat(title: "ОПЫТ", value: "+\(session.xpEarned)", color: Theme.gold)
-                stat(title: "ТОЧНОСТЬ", value: "\(session.accuracy)%", color: Theme.green)
-                stat(title: "ВРЕМЯ", value: elapsed, color: Theme.blue)
-            }
-            .padding(.horizontal, 20)
-            Text("🔥 Серия: \(store.currentStreak) дн.")
-                .font(.headline)
-                .foregroundColor(Theme.orange)
-            Spacer()
-            Button("ПРОДОЛЖИТЬ") { onDone() }
-                .buttonStyle(ChunkyButtonStyle(color: Theme.green))
-                .padding(20)
+            ConfettiView()
+                .ignoresSafeArea()
         }
-        .onAppear(perform: reward)
+        .onAppear {
+            reward()
+            shown = true
+        }
+    }
+
+    private var headline: String {
+        if session.kind == .practice { return "Тренировка завершена!" }
+        return session.mistakes == 0 ? "Без единой ошибки!" : "Урок пройден!"
     }
 
     private var elapsed: String {
@@ -328,6 +448,7 @@ struct LessonCompleteView: View {
         guard !session.rewarded else { return }
         session.rewarded = true
         Haptics.success()
+        SoundFX.shared.play(.complete)
         switch session.kind {
         case .course:
             store.completeLesson(session.lesson, xp: session.xpEarned, markCompleted: true)
@@ -339,13 +460,14 @@ struct LessonCompleteView: View {
         }
     }
 
-    private func stat(title: String, value: String, color: Color) -> some View {
+    private func statTile<Value: View>(title: String, color: Color, index: Int,
+                                       @ViewBuilder value: () -> Value) -> some View {
         VStack(spacing: 0) {
             Text(title)
                 .font(.caption.weight(.heavy))
                 .foregroundColor(.white)
                 .padding(.vertical, 6)
-            Text(value)
+            value()
                 .font(.title3.weight(.heavy))
                 .foregroundColor(color)
                 .frame(maxWidth: .infinity)
@@ -355,6 +477,9 @@ struct LessonCompleteView: View {
         }
         .frame(maxWidth: .infinity)
         .background(RoundedRectangle(cornerRadius: 14).fill(color))
+        .scaleEffect(shown ? 1 : 0.6)
+        .opacity(shown ? 1 : 0)
+        .animation(.spring(response: 0.45, dampingFraction: 0.6).delay(0.3 + Double(index) * 0.12), value: shown)
     }
 }
 

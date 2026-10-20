@@ -45,6 +45,7 @@ struct RootView: View {
         .tint(Theme.blue)
         .onAppear {
             Speech.shared.rate = Float(store.state.speechRate)
+            SoundFX.shared.enabled = store.state.soundsOn
             showOnboarding = !store.state.onboarded
         }
         .fullScreenCover(isPresented: $showOnboarding) {

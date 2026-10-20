@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-UNIT_RE = re.compile(r"^# (\d+) \| (\S+) \| (.+?) \| (.+)$")
+UNIT_RE = re.compile(r"^# (\d+) \| (\S+) \| (.+?) \| (.+?)(?: \| (\S+) (\S+))?$")
 TRIM = ".,!?;:„“\"”«»…()–—"   # то же, что ExerciseFactory.trimSet в приложении
 
 
@@ -29,6 +29,8 @@ def parse_course(path, units, errors):
         m = UNIT_RE.match(line)
         if m:
             unit = {"id": int(m[1]), "level": m[2], "title": m[3], "subtitle": m[4], "tip": "", "lessons": []}
+            if m[5]:
+                unit["icon"], unit["art"] = m[5], m[6]
             units.append(unit)
             tip = []
             lesson = None

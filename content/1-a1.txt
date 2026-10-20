@@ -1,7 +1,7 @@
 # Формат: «# номер | уровень | название | описание», «> теория», «## урок»,
 # «w слово | перевод», «s предложение | перевод», «f текст с ___ | ответ | неверные, варианты | перевод».
 
-# 1 | A1 | Prvé kroky | Алфавит, приветствия, глагол byť
+# 1 | A1 | Prvé kroky | Алфавит, приветствия, глагол byť | 👋 🇸🇰
 > **Словацкий читается почти так, как пишется.** Ударение всегда на первый слог: **Bra**-ti-sla-va.
 >
 > Особые буквы:
@@ -68,7 +68,7 @@ f Prepáčte, ako sa ___? | voláte | volám, volá, volajú | Извините,
 f Ja sa ___ Peter. | volám | voláš, volá, voláte | Меня зовут Петер.
 f Odkiaľ ___ ty? | si | som, sú, sme | Откуда ты?
 
-# 2 | A1 | Ľudia a jazyky | Языки, национальности, спряжение глаголов
+# 2 | A1 | Ľudia a jazyky | Языки, национальности, спряжение глаголов | 🗣️ 🌍
 > **Настоящее время.** Окончания у всех глаголов похожи: **-m, -š, —, -me, -te**, а в 3-м лице мн. числа — разные:
 > • **volať** (звать): volá**m**, volá**š**, volá, volá**me**, volá**te**, volajú
 > • **hovoriť** (говорить): hovorí**m**, hovorí**š**, hovorí, hovorí**me**, hovorí**te**, hovoria
@@ -131,7 +131,7 @@ f Kde ___ ty? | bývaš | bývam, býva, bývajú | Где ты живёшь?
 f Ja ___ v kancelárii. | pracujem | pracuješ, pracuje, pracujú | Я работаю в офисе.
 f Oni ___ na univerzite. | študujú | študuje, študujem, študujeme | Они учатся в университете.
 
-# 3 | A1 | Čísla a čas | Числа, время, дни недели
+# 3 | A1 | Čísla a čas | Числа, время, дни недели | 🕐 📅
 > **Числа 0–20:** nula, jeden, dva, tri, štyri, päť, šesť, sedem, osem, deväť, desať, jedenásť, dvanásť, trinásť, štrnásť, pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť, dvadsať.
 > **Десятки:** tridsať, štyridsať, päťdesiat, šesťdesiat, sedemdesiat, osemdesiat, deväťdesiat, **sto** (100), **tisíc** (1000). Составные — слитно: **dvadsaťpäť** (25).
 >
@@ -194,7 +194,7 @@ f Prídem v ___. | sobotu | sobota, soboty, sobote | Я приду в суббо
 f ___ štvrtok mám voľno. | Vo | V, Na, O | В четверг у меня выходной.
 f V ___ pracujem z domu. | stredu | streda, strede, stredy | В среду я работаю из дома.
 
-# 4 | A1 | Rodina | Семья, глагол mať, мой и твой
+# 4 | A1 | Rodina | Семья, глагол mať, мой и твой | 👨‍👩‍👧 🏡
 > **mať** (иметь) заменяет русское «у меня есть»: **mám, máš, má, máme, máte, majú**. Отрицание — **nemám** (у меня нет).
 >
 > После **mať** — винительный падеж, как в русском: **Mám sestru** (sestra → sestr**u**), **Mám brata** (brat → brat**a**), **Mám psa**.
@@ -257,7 +257,7 @@ f Moja mama je ___. | milá | milý, milé, milí | Моя мама милая.
 f To je ___ mesto. | veľké | veľký, veľká, veľkí | Это большой город.
 f Môj brat je ___. | vysoký | vysoká, vysoké, vysokí | Мой брат высокий.
 
-# 5 | A1 | V meste | Город: где? куда? предлоги
+# 5 | A1 | V meste | Город: где? куда? предлоги | 🏙️ 🗺️
 > **Где?** — **kde?** → **v / na** + местный падеж: v Bratislav**e**, v bank**e**, v mest**e**, na pošt**e**, na stanic**i**.
 > **Куда?** — **kam?** → **do** + родительный: do Bratislav**y**, do bank**y**, do mest**a**; или **na** + винительный: na pošt**u**, na stanic**u**.
 >
@@ -320,7 +320,7 @@ f Hľadám ___. | poštu | pošta, pošte, pošty | Я ищу почту.
 f Lekáreň je vedľa ___. | banky | banka, banke, banku | Аптека рядом с банком.
 f Čakám pred ___. | školou | škola, škole, školu | Жду перед школой.
 
-# 6 | A1 | Jedlo a nákupy | Еда, магазин, винительный падеж, chcieť
+# 6 | A1 | Jedlo a nákupy | Еда, магазин, винительный падеж, chcieť | 🥐 🛒
 > **chcieť** (хотеть): **chcem, chceš, chce, chceme, chcete, chcú**.
 > Вежливо: **chcel by som** (м.) / **chcela by som** (ж.) — я бы хотел(а). В кафе говорят **Dám si...** (я возьму...) и **Prosím si...** (мне, пожалуйста...).
 >
@@ -382,7 +382,7 @@ f Dám si ___. | polievku | polievka, polievky, polievke | Я возьму су�
 f Chcela ___ som kávu. | by | bi, aby, sa | Я бы хотела кофе.
 f Môžem ___ účet? | dostať | dostanem, dostane, dostaň | Можно получить счёт?
 
-# 7 | A1 | Môj deň | Распорядок дня, возвратные глаголы
+# 7 | A1 | Môj deň | Распорядок дня, возвратные глаголы | ☀️ ⏰
 > **sa / si** — отдельные слова, а не окончание «-ся»:
 > • **sa** ≈ «-ся»: umývať **sa** (умываться), ponáhľať **sa** (спешить), učiť **sa** (учиться)
 > • **si** ≈ «себе»: kúpiť **si** (купить себе), dať **si** (взять себе), oddýchnuť **si** (отдохнуть)
@@ -444,7 +444,7 @@ f Nikdy ___ mäso. | nejem | jem, ješ, jedia | Я никогда не ем мя
 f Ja večer ___ doma. | odpočívam | odpočívaš, odpočíva, odpočívajú | Вечером я отдыхаю дома.
 f My často ___ do kina. | chodíme | chodím, chodia, chodí | Мы часто ходим в кино.
 
-# 8 | A1 | Práca a povolania | Профессии, творительный падеж
+# 8 | A1 | Práca a povolania | Профессии, творительный падеж | 💼 👩‍💻
 > **Профессии** имеют мужскую и женскую форму: učiteľ — učiteľ**ka**, lekár — lekár**ka**, programátor — programátor**ka**, predavač — predavač**ka**.
 >
 > **Som programátor.** — именительный, как в русском. Но удобнее русского: **Pracujem ako programátor** — после **ako** тоже именительный (по-русски «работаю программист**ом**»).
@@ -507,7 +507,7 @@ f Zajtra mám ___. | voľno | voľna, voľnu, voľnom | Завтра у меня
 f Idem na ___. | dovolenku | dovolenka, dovolenky, dovolenke | Я ухожу в отпуск.
 f Pracujem na rannú ___. | zmenu | zmena, zmene, zmeny | Я работаю в утреннюю смену.
 
-# 9 | A1 | V kancelárii | Офис, модальные глаголы, вежливые просьбы
+# 9 | A1 | V kancelárii | Офис, модальные глаголы, вежливые просьбы | 🖨️ 📎
 > **Модальные глаголы** + инфинитив:
 > • **môcť** (мочь): môžem, môžeš, môže, môžeme, môžete, môžu
 > • **musieť** (быть должным): musím, musíš, musí, musíme, musíte, musia
@@ -571,7 +571,7 @@ f Mám jednu ___. | otázku | otázka, otázky, otázke | У меня один �
 f To nie je ___. | problém | problému, problémom, probléme | Это не проблема.
 f Čakám na ___ odpoveď. | vašu | váš, vaša, vaše | Жду вашего ответа.
 
-# 10 | A1 | Škola a štúdium | Учёба, множественное число
+# 10 | A1 | Škola a štúdium | Учёба, множественное число | 🎓 📚
 > **Множественное число** (именительный падеж):
 > • женский род: kniha → knih**y**, škola → škol**y**, ulica → ulic**e**
 > • мужской неодушевлённый: dom → dom**y**, počítač → počítač**e**

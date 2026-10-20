@@ -47,6 +47,9 @@ struct CourseUnit: Codable, Identifiable {
     var subtitle: String
     var tip: String
     var lessons: [Lesson]
+    /// Значок раздела и картинка-украшение для карты (эмодзи).
+    var icon: String? = nil
+    var art: String? = nil
 }
 
 struct Course: Codable {

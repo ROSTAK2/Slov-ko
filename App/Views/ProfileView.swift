@@ -59,6 +59,11 @@ struct ProfileView: View {
                             Speech.shared.rate = Float(value)
                         }
                     }
+                    Toggle("Звуки ответов", isOn: $store.state.soundsOn)
+                        .onChange(of: store.state.soundsOn) { on in
+                            SoundFX.shared.enabled = on
+                            if on { SoundFX.shared.play(.correct) }
+                        }
                     Button("Проверить голос") {
                         Speech.shared.speak("Dobrý deň! Volám sa Slovíčko a budem vás učiť po slovensky.")
                     }

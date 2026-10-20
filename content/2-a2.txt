@@ -1,4 +1,4 @@
-# 11 | A2 | Minulý čas | Прошедшее время
+# 11 | A2 | Minulý čas | Прошедшее время | 🕰️ 📜
 > **Прошедшее время = l-форма + som/si** (вспомогательный глагол «быть»):
 > • ja **som** robil(a), ty **si** robil(a), on robil, ona robil**a**, ono robil**o**
 > • my **sme** robili, vy **ste** robili, oni robili
@@ -63,7 +63,7 @@ f Už ___ to videla? | si | sa, je, sme | Ты уже это видела?
 f Nikdy predtým som ___ v Tatrách. | nebol | neboli, nebolo, nie je | Я никогда раньше не был в Татрах.
 f Projekt ___ tri mesiace. | trval | trvala, trvali, trvalo | Проект длился три месяца.
 
-# 12 | A2 | Cestovanie a doprava | Транспорт, билеты, ísť и chodiť
+# 12 | A2 | Cestovanie a doprava | Транспорт, билеты, ísť и chodiť | 🚋 🚆
 > **ísť** — идти/ехать сейчас, один раз: **Idem** do práce.
 > **chodiť** — ходить/ездить регулярно: **Chodím** do práce pešo.
 >
@@ -127,7 +127,7 @@ f Mám slovenský vodičský ___. | preukaz | preukazu, preukazom, preukaze | У
 f Stáli sme v ___. | zápche | zápcha, zápchu, zápchy | Мы стояли в пробке.
 f Idem do práce ___. | autom | auto, auta, aute | Я еду на работу на машине.
 
-# 13 | A2 | Bývanie | Жильё и аренда
+# 13 | A2 | Bývanie | Жильё и аренда | 🏠 🛋️
 > **Аренда — ключевые слова:**
 > • **prenájom** — аренда, **nájomné** — арендная плата
 > • **zábezpeka / kaucia** — залог, **energie** — коммунальные (электричество, газ, вода, отопление)
@@ -189,7 +189,7 @@ f Chladnička sa ___. | pokazila | pokazil, pokazilo, pokazili | Холодил�
 f Treba opraviť ___. | kúrenie | kúrenia, kúreniu, kúrením | Нужно починить отопление.
 f Môj ___ je hlučný. | sused | suseda, susedia, susedovi | Мой сосед шумный.
 
-# 14 | A2 | Zdravie | Здоровье, у врача, дательный падеж
+# 14 | A2 | Zdravie | Здоровье, у врача, дательный падеж | 🩺 💊
 > **«У меня болит»** = **Bolí ma** + именительный: **Bolí ma hlava.** Во мн. числе — **Bolia ma zuby.**
 >
 > **Ощущения — с дательным падежом:** **Je mi zle** (мне плохо), **je mi zima** (мне холодно), **je mi teplo**.
@@ -253,7 +253,7 @@ f Mám alergiu ___ orechy. | na | s, v, od | У меня аллергия на �
 f Leží v ___. | nemocnici | nemocnica, nemocnicu, nemocnice | Он лежит в больнице.
 f Musíte ísť na ___. | pohotovosť | pohotovosti, pohotovosťou, pohotovostí | Вам нужно в неотложку.
 
-# 15 | A2 | Úrady | Учреждения, документы, вид на жительство
+# 15 | A2 | Úrady | Учреждения, документы, вид на жительство | 🛂 📄
 > **Главные учреждения для иностранца:**
 > • **cudzinecká polícia** — иностранная полиция: **prechodný pobyt** (временное проживание, ВНЖ), **trvalý pobyt** (постоянное)
 > • **úrad práce** — биржа труда, **daňový úrad** — налоговая
@@ -317,7 +317,7 @@ f Daň z ___ je devätnásť percent. | príjmu | príjem, príjmom, príjme | �
 f Treba sa ___ v poisťovni. | zaregistrovať | zaregistrujem, zaregistroval, zaregistrujte | Нужно зарегистрироваться в страховой.
 f Stál som v dlhom ___. | rade | rad, radu, radom | Я стоял в длинной очереди.
 
-# 16 | A2 | Hľadám prácu | Поиск работы, вакансии, резюме
+# 16 | A2 | Hľadám prácu | Поиск работы, вакансии, резюме | 🔎 📝
 > **Читаем вакансию:**
 > • **pracovná ponuka** — вакансия, **inzerát** — объявление
 > • **požiadavky** — требования, **ponúkame** — мы предлагаем
@@ -381,7 +381,7 @@ f Pozvali ma na ___. | pohovor | pohovoru, pohovorom, pohovore | Меня при
 f Môžem nastúpiť od ___. | pondelka | pondelok, pondelku, pondelkom | Могу приступить с понедельника.
 f Ten termín mi ___. | vyhovuje | vyhovujú, vyhovujem, vyhovovať | Эта дата мне подходит.
 
-# 17 | A2 | Budúcnosť | Будущее время, погода, обещания
+# 17 | A2 | Budúcnosť | Будущее время, погода, обещания | 🔮 🌦️
 > **Будущее время — как в русском:**
 > 1. Несовершенный вид: **budem + инфинитив** — budem pracovať (буду работать).
 > budem, budeš, bude, budeme, budete, budú.
@@ -446,7 +446,7 @@ f Zajtra ti ___. | zavolám | zavolať, zavoláš, zavolajú | Завтра я �
 f Ja ten e-mail ___ hneď. | napíšem | napíše, napíšu, napísať | Я напишу это письмо сразу.
 f Sľúbil som, ___ pomôžem. | že | aby, keď, ak | Я пообещал, что помогу.
 
-# 18 | A2 | Vid slovies | Совершенный и несовершенный вид
+# 18 | A2 | Vid slovies | Совершенный и несовершенный вид | 🔁 ✅
 > **Вид работает почти как в русском!**
 > • **Несовершенный** — процесс, повторение: **Každý deň píšem** e-maily.
 > • **Совершенный** — результат, один раз: **Napísal som** e-mail.
@@ -511,7 +511,7 @@ f Zavolám, hneď ___ skončím. | ako | keď, že, aby | Позвоню, как
 f Počkaj, ___ sa vrátim. | kým | čo, ako, že | Подожди, пока я вернусь.
 f ___ som prišiel domov. | Práve | Pravý, Pravda, Právo | Я только что пришёл домой.
 
-# 19 | A2 | Telefón a e-mail | Звонки, письма, вежливость
+# 19 | A2 | Telefón a e-mail | Звонки, письма, вежливость | 📞 ✉️
 > **По телефону:**
 > • **Prosím? / Haló?** — ответ на звонок
 > • **Tu je Ivan Petrov.** — Говорит Иван Петров.
@@ -579,7 +579,7 @@ f Prepáčte, že vás ___. | ruším | rušíš, ruší, rušíme | Извин�
 f Chcem sa vám ___ za pomoc. | poďakovať | poďakujem, poďakoval, ďakujem | Хочу поблагодарить вас за помощь.
 f Dovoľte ___ predstaviť sa. | mi | ma, ja, môj | Позвольте представиться.
 
-# 20 | A2 | Voľný čas | Досуг с коллегами, сравнения
+# 20 | A2 | Voľný čas | Досуг с коллегами, сравнения | ⚽ 🎉
 > **Сравнительная степень:** **-ší / -ejší**: nový → nov**ší**, lacný → lacn**ejší**, zaujímavý → zaujímav**ejší**.
 > **Превосходная:** **naj-**: **naj**novší, **naj**lacnejší.
 > **Неправильные:** dobrý → **lepší** → najlepší; zlý → **horší**; veľký → **väčší**; malý → **menší**.

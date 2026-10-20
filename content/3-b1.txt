@@ -1,4 +1,4 @@
-# 21 | B1 | Pracovný pohovor | Собеседование: о себе и опыте
+# 21 | B1 | Pracovný pohovor | Собеседование: о себе и опыте | 🤝 👔
 > **Типичные вопросы на собеседовании:**
 > • **Povedzte nám niečo o sebe.** — Расскажите о себе.
 > • **Prečo ste sa rozhodli pre našu firmu?** — Почему вы выбрали нашу фирму?
@@ -65,7 +65,7 @@ f Firma poskytuje stravné ___. | lístky | lístok, lístka, lístkoch | Фир
 f Kedy dostanem ___ väzbu? | spätnú | spätná, spätnej, spätnou | Когда я получу обратную связь?
 f Aké sú možnosti kariérneho ___? | rastu | rast, rastom, raste | Какие есть возможности карьерного роста?
 
-# 22 | B1 | Porady | Совещания: мнение, согласие, предложения
+# 22 | B1 | Porady | Совещания: мнение, согласие, предложения | 📊 🗳️
 > **Высказать мнение:**
 > • **Podľa mňa...** — По-моему...
 > • **Myslím si, že...** — Я думаю, что...
@@ -130,7 +130,7 @@ f Pokračujme ďalším ___. | bodom | bod, bodu, bode | Перейдём к с�
 f Na programe sú tri ___. | body | bodov, bod, bodu | В повестке три пункта.
 f Na porade boli ___ všetci kolegovia. | prítomní | prítomný, prítomná, prítomné | На совещании присутствовали все коллеги.
 
-# 23 | B1 | Pracovná korešpondencia | Деловая переписка
+# 23 | B1 | Pracovná korešpondencia | Деловая переписка | 📨 🖋️
 > **Структура делового письма:**
 > 1. **Vážený pán / Vážená pani** + фамилия, или нейтрально **Dobrý deň,**
 > 2. Повод: **Obraciam sa na Vás vo veci...** (Обращаюсь к Вам по вопросу...), **Na základe nášho rozhovoru...** (По итогам нашего разговора...)
@@ -195,7 +195,7 @@ f V ___ problémov mi zavolajte. | prípade | prípad, prípadu, prípadom | В 
 f Teším sa ___ spoluprácu. | na | o, za, s | С нетерпением жду сотрудничества.
 f Neváhajte ma ___. | kontaktovať | kontaktujem, kontaktoval, kontakt | Не стесняйтесь со мной связаться.
 
-# 24 | B1 | Kondicionál | Условное наклонение: by, keby, aby
+# 24 | B1 | Kondicionál | Условное наклонение: by, keby, aby | 💭 🎲
 > **Условное наклонение = l-форма + by** (как русское «бы») + **som/si** в 1-м и 2-м лице:
 > robil **by som**, robil **by si**, robil **by**, robili **by sme**, robili **by ste**, robili **by**.
 >
@@ -261,7 +261,7 @@ f Čo by sa ___, keby sme to nestihli? | stalo | stal, stala, stane | Что б�
 f Keby sme to ___ skôr, bolo by to lacnejšie. | objednali | objednáme, objednať, objednajú | Если бы мы заказали это раньше, было бы дешевле.
 f Podľa ___ by to bolo drahé. | odhadu | odhad, odhadom, odhade | По оценке, это было бы дорого.
 
-# 25 | B1 | Univerzita | Высшее образование в Словакии
+# 25 | B1 | Univerzita | Высшее образование в Словакии | 🏛️ 🎓
 > **Ступени:** **bakalárske štúdium** (обычно 3 года) → **magisterské / inžinierske** (2 года) → **doktorandské (PhD.)**.
 >
 > **Поступление:** **prijímacie konanie** — приёмная кампания, **prihláška** — заявление на поступление, **prijímacia skúška** — вступительный экзамен, **uchádzač** — абитуриент, **zápis** — зачисление.
@@ -324,7 +324,7 @@ f Píšem diplomovú ___. | prácu | práca, práce, práci | Я пишу дип
 f Témou ___ práce je ekonómia. | mojej | moja, môj, moju | Тема моей работы — экономика.
 f Používam veľa ___. | zdrojov | zdroje, zdroj, zdrojmi | Я использую много источников.
 
-# 26 | B1 | Projekty a termíny | Проекты, задачи, сроки
+# 26 | B1 | Projekty a termíny | Проекты, задачи, сроки | 📅 🚀
 > **Рабочий словарь:** **termín / uzávierka** — срок / дедлайн, **úloha** — задача, **priorita**, **zodpovednosť** — ответственность, **stihnúť** — успеть, **zadať úlohu** — поставить задачу, **odovzdať** — сдать, **posunúť termín** — перенести срок.
 >
 > **Родительный падеж мн. числа** (после «много», «мало», чисел от 5):
@@ -384,7 +384,7 @@ f Termín sme posunuli ___ týždeň. | o | za, po, pri | Мы сдвинули 
 f Problém sme už ___. | vyriešili | vyriešil, vyriešime, vyriešiť | Проблему мы уже решили.
 f Máme ___ ľudí. | nedostatok | nedostatku, nedostatkom, nedostatky | У нас нехватка людей.
 
-# 27 | B1 | Pády v pluráli | Падежи во множественном числе
+# 27 | B1 | Pády v pluráli | Падежи во множественном числе | 👥 🏔️
 > **Окончания множественного числа:**
 > • **Родительный:** bez koleg**ov**, bez **žien**, bez **miest**
 > • **Дательный:** koleg**om**, žen**ám**, mest**ám**
@@ -448,7 +448,7 @@ f Idem do ___. | Tatier | Tatry, Tatrách, Tatrám | Я еду в Татры.
 f Bývam v ___. | Košiciach | Košice, Košíc, Košiciam | Я живу в Кошице.
 f Prechádzali sme sa po ___. | horách | hory, hôr, horami | Мы гуляли по горам.
 
-# 28 | B1 | Súvetia | Сложные предложения: že, pretože, ktorý
+# 28 | B1 | Súvetia | Сложные предложения: že, pretože, ktorý | 🔗 🧩
 > **Союзы:**
 > • **že** — что; **či** — ли («не знаю, **приду ли**» = Neviem, **či** prídem)
 > • **pretože / lebo** — потому что; **preto** — поэтому
@@ -515,7 +515,7 @@ f Opýtala sa, ___ prídem. | či | že, ak, aby | Она спросила, пр
 f Povedal, ___ je chorý. | že | či, aby, keď | Он сказал, что болен.
 f Zaujíma ma, ___ to stojí. | koľko | aký, ktorý, čí | Мне интересно, сколько это стоит.
 
-# 29 | B1 | Financie | Банк, зарплата, расходы
+# 29 | B1 | Financie | Банк, зарплата, расходы | 💶 🏦
 > **Зарплата:**
 > • **mzda** — зарплата по трудовому договору, **plat** — то же (в разговоре взаимозаменяемы)
 > • **v hrubom** — брутто, **v čistom** — на руки
@@ -578,7 +578,7 @@ f Minulý mesiac som ___ veľa peňazí. | minul | minúť, minie, minuli | В �
 f Platím mesačnú ___. | splátku | splátka, splátky, splátke | Я плачу ежемесячный взнос.
 f Máte ___ pre študentov? | zľavu | zľava, zľavy, zľave | У вас есть скидка для студентов?
 
-# 30 | B1 | Prezentácie | Презентации, графики, выводы
+# 30 | B1 | Prezentácie | Презентации, графики, выводы | 📈 🎤
 > **Структура презентации:**
 > • **Dovoľte mi predstaviť...** — Позвольте представить...
 > • **Prezentácia má tri časti.** — Презентация состоит из трёх частей.

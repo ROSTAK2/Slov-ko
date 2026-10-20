@@ -56,17 +56,62 @@ struct Mascot: View {
 
     var body: some View {
         ZStack {
-            Circle().fill(Theme.blue)
-            Circle().stroke(Color.white, lineWidth: size * 0.06).padding(size * 0.08)
-            Text("Sk")
-                .font(.system(size: size * 0.38, weight: .black, design: .rounded))
-                .foregroundColor(.white)
             Circle()
-                .fill(Theme.red)
-                .frame(width: size * 0.22, height: size * 0.22)
-                .offset(x: size * 0.34, y: -size * 0.34)
+                .fill(LinearGradient(colors: [Color(hex: 0x1856C4), Color(hex: 0x003399)],
+                                     startPoint: .top, endPoint: .bottom))
+            ForEach(0..<12, id: \.self) { i in
+                Image(systemName: "star.fill")
+                    .font(.system(size: size * 0.085))
+                    .foregroundColor(Color(hex: 0xFFCC00))
+                    .offset(y: -size * 0.39)
+                    .frame(width: size, height: size)   // поворот вокруг центра круга
+                    .rotationEffect(.degrees(Double(i) * 30))
+            }
+            CoatOfArms()
+                .frame(width: size * 0.44, height: size * 0.52)
+                .offset(y: size * 0.02)
         }
         .frame(width: size, height: size)
+    }
+}
+
+/// Стилизованный герб: красный щит, белый двойной крест на синих холмах.
+struct CoatOfArms: View {
+    private let red = Color(hex: 0xEE1C25)
+    private let blue = Color(hex: 0x0B4EA2)
+
+    var body: some View {
+        GeometryReader { geo in
+            let w = geo.size.width
+            let h = geo.size.height
+            ZStack {
+                ShieldShape().fill(red)
+                Circle().fill(blue).frame(width: w * 0.46, height: w * 0.46).position(x: w * 0.5, y: h * 0.86)
+                Circle().fill(blue).frame(width: w * 0.42, height: w * 0.42).position(x: w * 0.14, y: h * 0.94)
+                Circle().fill(blue).frame(width: w * 0.42, height: w * 0.42).position(x: w * 0.86, y: h * 0.94)
+                Rectangle().fill(Color.white).frame(width: w * 0.12, height: h * 0.6).position(x: w * 0.5, y: h * 0.43)
+                Rectangle().fill(Color.white).frame(width: w * 0.44, height: w * 0.11).position(x: w * 0.5, y: h * 0.28)
+                Rectangle().fill(Color.white).frame(width: w * 0.66, height: w * 0.12).position(x: w * 0.5, y: h * 0.45)
+            }
+            .clipShape(ShieldShape())
+            .overlay(ShieldShape().stroke(Color.white, lineWidth: max(1, w * 0.05)))
+        }
+    }
+}
+
+struct ShieldShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        let straight = rect.minY + rect.height * 0.45
+        path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: straight))
+        path.addQuadCurve(to: CGPoint(x: rect.midX, y: rect.maxY),
+                          control: CGPoint(x: rect.maxX, y: rect.maxY - rect.height * 0.1))
+        path.addQuadCurve(to: CGPoint(x: rect.minX, y: straight),
+                          control: CGPoint(x: rect.minX, y: rect.maxY - rect.height * 0.1))
+        path.closeSubpath()
+        return path
     }
 }
 
@@ -112,7 +157,7 @@ struct ChoiceExerciseView: View {
                             }
                         }
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressScale())
                 }
             }
         }
@@ -164,7 +209,7 @@ struct BuildExerciseView: View {
                     } label: {
                         WordTile(text: exercise.options[index])
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressScale())
                 }
             }
             .frame(maxWidth: .infinity, minHeight: 112, alignment: .topLeading)
@@ -189,7 +234,7 @@ struct BuildExerciseView: View {
                     } label: {
                         WordTile(text: exercise.options[index], ghost: used)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressScale())
                 }
             }
             .frame(maxWidth: .infinity)
@@ -290,7 +335,7 @@ struct FillExerciseView: View {
                                     .stroke(selection == option ? Theme.blue : Color(.systemGray4), lineWidth: 2)
                             )
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PressScale())
                 }
             }
             .frame(maxWidth: .infinity)
@@ -377,7 +422,7 @@ struct MatchExerciseView: View {
                         .stroke(done ? Color(.systemGray5) : tint, lineWidth: 2)
                 )
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressScale())
         .disabled(done)
     }
 
@@ -387,6 +432,7 @@ struct MatchExerciseView: View {
             withAnimation(.easeOut(duration: 0.2)) {
                 _ = matched.insert(l)
             }
+            if matched.count < exercise.pairs.count { SoundFX.shared.play(.pop) }
             selectedLeft = nil
             selectedRight = nil
             if matched.count == exercise.pairs.count {
@@ -394,6 +440,7 @@ struct MatchExerciseView: View {
             }
         } else {
             Haptics.error()
+            SoundFX.shared.play(.wrong)
             wrongLeft = l
             wrongRight = r
             selectedLeft = nil

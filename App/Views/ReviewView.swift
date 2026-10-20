@@ -207,6 +207,7 @@ struct FlashcardSessionView: View {
         let card = queue.removeFirst()
         store.review(card.sk, grade: grade)
         reviewed += 1
+        SoundFX.shared.play(grade == 0 ? .wrong : .pop)
         if grade == 0 {
             queue.append(card)
         }
@@ -214,6 +215,7 @@ struct FlashcardSessionView: View {
         if queue.isEmpty {
             store.addXP(min(20, max(5, reviewed)))
             Haptics.success()
+            SoundFX.shared.play(.complete)
         } else {
             prepareCard()
         }

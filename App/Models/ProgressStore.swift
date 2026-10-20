@@ -33,6 +33,7 @@ struct AppState: Codable {
     var onboarded: Bool = false
     var speechRate: Double = 0.45
     var tutorModel: String = "claude-opus-5-5"
+    var soundsOn: Bool = true
 
     init() {}
 
@@ -58,6 +59,7 @@ struct AppState: Codable {
         onboarded = try c.decodeIfPresent(Bool.self, forKey: .onboarded) ?? d.onboarded
         speechRate = try c.decodeIfPresent(Double.self, forKey: .speechRate) ?? d.speechRate
         tutorModel = try c.decodeIfPresent(String.self, forKey: .tutorModel) ?? d.tutorModel
+        soundsOn = try c.decodeIfPresent(Bool.self, forKey: .soundsOn) ?? d.soundsOn
     }
 }
 
@@ -255,6 +257,7 @@ final class ProgressStore: ObservableObject {
         fresh.reminderMinute = state.reminderMinute
         fresh.tutorModel = state.tutorModel
         fresh.speechRate = state.speechRate
+        fresh.soundsOn = state.soundsOn
         state = fresh
         NotificationManager.shared.reschedule(for: self)
     }
