@@ -1,0 +1,644 @@
+# 11 | A2 | Minulý čas | Прошедшее время
+> **Прошедшее время = l-форма + som/si** (вспомогательный глагол «быть»):
+> • ja **som** robil(a), ty **si** robil(a), on robil, ona robil**a**, ono robil**o**
+> • my **sme** robili, vy **ste** robili, oni robili
+>
+> В 3-м лице **som/si нет**: On pracoval. Ona bola doma.
+>
+> **Как образовать:** убрать -ť и добавить -l: robi**ť** → robi**l**, písa**ť** → písa**l**, by**ť** → bo**l**.
+> Неправильные: **ísť → išiel, išla, išli**; jesť → jedol; môcť → mohol; prísť → prišiel; vziať → vzal.
+>
+> **som/si — на втором месте:** **Včera som** pracoval. **Kde si** bol? Отрицание — у l-формы: **Nebol som** doma.
+>
+> Возвратные: **sa + som** → «Narodil **som sa**», а в 2-м лице **si + sa** → «Narodil **si sa**».
+## Včera
+w včera | вчера
+w minulý týždeň | на прошлой неделе
+w pred rokom | год назад
+w bol | был
+w robil | делал
+w išiel | шёл, ездил
+w videl | видел
+w stretnúť | встретить
+s Včera som bol v práci do siedmej. | Вчера я был на работе до семи.
+s Minulý týždeň sme boli vo Viedni. | На прошлой неделе мы были в Вене.
+s Čo si robil cez víkend? | Что ты делал на выходных?
+s Pred rokom som začal študovať. | Год назад я начал учиться.
+s Stretol som kolegu v meste. | Я встретил коллегу в городе.
+f Včera ___ bol doma. | som | si, sme, sú | Вчера я был дома.
+f Ona ___ v Prahe. | bola | bol, boli, bolo | Она была в Праге.
+f My sme ___ do kina. | išli | išiel, išla, ideme | Мы ходили в кино.
+## Môj príbeh
+w narodiť sa | родиться
+w vyrásť | вырасти
+w presťahovať sa | переехать
+w skončiť | закончить
+w začať | начать
+w zažiť | пережить, испытать
+w najprv | сначала
+w potom | потом
+s Narodil som sa v Minsku. | Я родился в Минске.
+s Vyrastala som na dedine. | Я выросла в деревне.
+s Najprv som študoval, potom som pracoval. | Сначала я учился, потом работал.
+s Skončila som univerzitu v roku 2020. | Я закончила университет в 2020 году.
+s Minulý rok sme sa presťahovali. | В прошлом году мы переехали.
+f Ja som sa ___ v Kyjeve. | narodil | narodiť, narodím, narodí | Я родился в Киеве.
+f Oni sa ___ do Bratislavy. | presťahovali | presťahoval, presťahovala, presťahujem | Они переехали в Братиславу.
+f Najprv som ___ študovať. | začal | začať, začnem, začni | Сначала я начал учиться.
+## Skúsenosti
+w skúsenosť | опыт
+w zamestnanie | место работы
+w bývalý | бывший
+w predtým | раньше
+w už | уже
+w ešte nie | ещё нет
+w nikdy predtým | никогда раньше
+w trvať | длиться
+s Predtým som pracoval ako účtovník. | Раньше я работал бухгалтером.
+s Môj bývalý šéf bol veľmi prísny. | Мой бывший начальник был очень строгим.
+s Už si bol na Slovensku? | Ты уже был в Словакии?
+s Ešte nie, ale chcem ísť. | Ещё нет, но хочу поехать.
+s Projekt trval dva roky. | Проект длился два года.
+f Už ___ to videla? | si | sa, je, sme | Ты уже это видела?
+f Nikdy predtým som ___ v Tatrách. | nebol | neboli, nebolo, nie je | Я никогда раньше не был в Татрах.
+f Projekt ___ tri mesiace. | trval | trvala, trvali, trvalo | Проект длился три месяца.
+
+# 12 | A2 | Cestovanie a doprava | Транспорт, билеты, ísť и chodiť
+> **ísť** — идти/ехать сейчас, один раз: **Idem** do práce.
+> **chodiť** — ходить/ездить регулярно: **Chodím** do práce pešo.
+>
+> **На чём** — творительный падеж без предлога: autobus**om**, vlak**om**, aut**om**, električk**ou**. Пешком — **pešo**.
+>
+> В транспорте:
+> • **nastúpiť** — сесть, **vystúpiť** — выйти, **prestúpiť** — пересесть
+> • **lístok** — билет, **označiť lístok** — прокомпостировать; **električenka** — проездной (в Братиславе)
+> • **MHD** — городской транспорт (mestská hromadná doprava)
+>
+> На автомагистралях Словакии нужна электронная **diaľničná známka** (виньетка).
+## MHD
+w autobus | автобус
+w električka | трамвай
+w trolejbus | троллейбус
+w zastávka | остановка
+w lístok | билет
+w prestúpiť | пересесть
+w vystúpiť | выйти (из транспорта)
+w nastúpiť | сесть (в транспорт)
+s Kde je najbližšia zastávka? | Где ближайшая остановка?
+s Do práce chodím električkou. | На работу я езжу на трамвае.
+s Lístok si treba označiť. | Билет нужно прокомпостировать.
+s Na námestí prestúpte na autobus. | На площади пересядьте на автобус.
+s Vystupujem na ďalšej zastávke. | Я выхожу на следующей остановке.
+f Idem do mesta ___. | autobusom | autobus, autobusu, autobuse | Я еду в город на автобусе.
+f Kúpil som si ___. | lístok | lístka, lístku, lístkom | Я купил себе билет.
+f Čakám na ___. | zastávke | zastávka, zastávku, zastávky | Я жду на остановке.
+## Na stanici
+w vlak | поезд
+w nástupište | платформа
+w odchod | отправление
+w príchod | прибытие
+w meškať | опаздывать
+w spiatočný | туда и обратно
+w miestenka | плацкарта (место)
+w cestovať | путешествовать, ездить
+s Vlak do Košíc mešká desať minút. | Поезд в Кошице опаздывает на десять минут.
+s Z ktorého nástupišťa ide vlak? | С какой платформы отправляется поезд?
+s Jeden spiatočný lístok do Žiliny, prosím. | Один билет туда и обратно до Жилины, пожалуйста.
+s Rád cestujem vlakom. | Я люблю ездить на поезде.
+s Príchod je o pol tretej. | Прибытие в половине третьего.
+f Vlak ___ dvadsať minút. | mešká | meškám, meškajú, meškáš | Поезд опаздывает на двадцать минут.
+f Cestujem do ___. | Žiliny | Žilina, Žiline, Žilinu | Я еду в Жилину.
+f Rád cestujem ___. | vlakom | vlak, vlaku, vlaky | Я люблю ездить на поезде.
+## Auto a cesta
+w auto | машина
+w vodičský preukaz | водительские права
+w diaľnica | автомагистраль
+w diaľničná známka | виньетка
+w parkovať | парковаться
+w tankovať | заправлять(ся)
+w zápcha | пробка
+w cesta | дорога, поездка
+s Na diaľnici potrebujete diaľničnú známku. | На автомагистрали нужна виньетка.
+s Kde môžem parkovať? | Где можно припарковаться?
+s Ráno bola veľká zápcha. | Утром была большая пробка.
+s Musím natankovať. | Мне нужно заправиться.
+s Cesta trvá dve hodiny. | Дорога занимает два часа.
+f Mám slovenský vodičský ___. | preukaz | preukazu, preukazom, preukaze | У меня словацкие водительские права.
+f Stáli sme v ___. | zápche | zápcha, zápchu, zápchy | Мы стояли в пробке.
+f Idem do práce ___. | autom | auto, auta, aute | Я еду на работу на машине.
+
+# 13 | A2 | Bývanie | Жильё и аренда
+> **Аренда — ключевые слова:**
+> • **prenájom** — аренда, **nájomné** — арендная плата
+> • **zábezpeka / kaucia** — залог, **energie** — коммунальные (электричество, газ, вода, отопление)
+> • **nájomná zmluva** — договор аренды, **prenajímateľ** — арендодатель, **nájomník** — арендатор
+> • **obhliadka** — осмотр квартиры, **zariadený** — меблированный
+>
+> **Размер квартиры:** **garsónka** — студия, **dvojizbový byt** — двухкомнатная (гостиная считается комнатой), **trojizbový** — трёхкомнатная.
+>
+> Спросите обязательно: **Sú energie v cene?** (Коммуналка включена в цену?) и **Môžem sa prihlásiť na trvalý/prechodný pobyt?** (Можно ли прописаться?) — для ВНЖ это важно.
+## Byt
+w izba | комната
+w kuchyňa | кухня
+w kúpeľňa | ванная
+w obývačka | гостиная
+w spálňa | спальня
+w balkón | балкон
+w garsónka | студия (квартира)
+w poschodie | этаж
+s Hľadám dvojizbový byt v Bratislave. | Ищу двухкомнатную квартиру в Братиславе.
+s Byt má veľkú kuchyňu a balkón. | В квартире большая кухня и балкон.
+s Garsónka je malá, ale lacná. | Студия маленькая, но дешёвая.
+s V kúpeľni je aj práčka. | В ванной есть и стиральная машина.
+s Spálňa je tichá. | Спальня тихая.
+f Byt má dve ___. | izby | izba, izieb, izbu | В квартире две комнаты.
+f Varím v ___. | kuchyni | kuchyňa, kuchyňu, kuchyne | Я готовлю на кухне.
+f Hľadám ___ byt. | dvojizbový | dvojizbová, dvojizbové, dvojizbovú | Ищу двухкомнатную квартиру.
+## Prenájom
+w prenájom | аренда
+w nájomné | арендная плата
+w zábezpeka | залог
+w energie | коммунальные услуги
+w zmluva | договор
+w prenajímateľ | арендодатель
+w obhliadka | осмотр (квартиры)
+w zariadený | меблированный
+s Koľko je nájomné? | Сколько арендная плата?
+s Energie nie sú v cene. | Коммунальные услуги не включены в цену.
+s Zábezpeka je jeden mesačný nájom. | Залог — арендная плата за один месяц.
+s Môžem prísť na obhliadku zajtra? | Можно прийти на осмотр завтра?
+s Byt je kompletne zariadený. | Квартира полностью меблирована.
+f Podpíšeme nájomnú ___. | zmluvu | zmluva, zmluvy, zmluve | Мы подпишем договор аренды.
+f Nájomné platím ___. | prenajímateľovi | prenajímateľ, prenajímateľa, prenajímateľom | Арендную плату я плачу арендодателю.
+f Je byt ___? | zariadený | zariadená, zariadené, zariadení | Квартира меблирована?
+## Domácnosť
+w nábytok | мебель
+w chladnička | холодильник
+w práčka | стиральная машина
+w kúrenie | отопление
+w opraviť | отремонтировать
+w pokaziť sa | сломаться
+w upratovať | убирать
+w sused | сосед
+s Pokazila sa práčka. | Сломалась стиральная машина.
+s Kúrenie nefunguje. | Отопление не работает.
+s Môžete to opraviť tento týždeň? | Можете это починить на этой неделе?
+s Sused je veľmi hlučný. | Сосед очень шумный.
+s V sobotu upratujeme byt. | В субботу мы убираем квартиру.
+f Chladnička sa ___. | pokazila | pokazil, pokazilo, pokazili | Холодильник сломался.
+f Treba opraviť ___. | kúrenie | kúrenia, kúreniu, kúrením | Нужно починить отопление.
+f Môj ___ je hlučný. | sused | suseda, susedia, susedovi | Мой сосед шумный.
+
+# 14 | A2 | Zdravie | Здоровье, у врача, дательный падеж
+> **«У меня болит»** = **Bolí ma** + именительный: **Bolí ma hlava.** Во мн. числе — **Bolia ma zuby.**
+>
+> **Ощущения — с дательным падежом:** **Je mi zle** (мне плохо), **je mi zima** (мне холодно), **je mi teplo**.
+>
+> **Дательный падеж:** lekár → lekár**ovi**, kolega → koleg**ovi**, sestra → sestr**e**, mama → mam**e**. «К врачу» — **k lekárovi**.
+>
+> **Система здравоохранения:**
+> • **všeobecný lekár** — терапевт (к нему нужно прикрепиться), **zubár** — стоматолог
+> • **pohotovosť** — неотложная помощь, **sanitka** — скорая
+> • **PN** (práceneschopnosť) — больничный: «Som na PN-ke».
+> • Экстренный номер — **112**, скорая — **155**.
+## Telo
+w hlava | голова
+w ruka | рука
+w noha | нога
+w chrbát | спина
+w zub | зуб
+w brucho | живот
+w hrdlo | горло
+w oko | глаз
+s Bolí ma hlava. | У меня болит голова.
+s Bolí ma hrdlo a mám horúčku. | У меня болит горло и температура.
+s Bolia ma zuby. | У меня болят зубы.
+s Zlomil som si ruku. | Я сломал руку.
+s Mám problémy s chrbtom. | У меня проблемы со спиной.
+f Bolí ma ___. | brucho | brucha, bruchu, bruchom | У меня болит живот.
+f ___ ma nohy. | Bolia | Bolí, Bolím, Bolieť | У меня болят ноги.
+f Mám problém so ___. | zubom | zub, zuba, zube | У меня проблема с зубом.
+## U lekára
+w lekár | врач
+w objednať sa | записаться (на приём)
+w recept | рецепт
+w liek | лекарство
+w horúčka | температура, жар
+w kašeľ | кашель
+w nádcha | насморк
+w poisťovňa | страховая компания
+s Chcem sa objednať k lekárovi. | Я хочу записаться к врачу.
+s Mám horúčku a kašeľ. | У меня температура и кашель.
+s Lekár mi predpísal liek. | Врач выписал мне лекарство.
+s Ste poistený? | Вы застрахованы?
+s Užívajte to trikrát denne. | Принимайте это три раза в день.
+f Idem k ___. | lekárovi | lekár, lekára, lekárom | Я иду к врачу.
+f Potrebujem ___ na liek. | recept | receptu, receptom, recepte | Мне нужен рецепт на лекарство.
+f ___ mi zle. | Je | Som, Sú, Mám | Мне плохо.
+## Pohotovosť
+w pohotovosť | неотложка
+w sanitka | скорая (машина)
+w nemocnica | больница
+w úraz | травма
+w alergia | аллергия
+w práceneschopnosť | больничный
+w vyšetrenie | обследование
+w zdravotná sestra | медсестра
+s Zavolajte sanitku! | Вызовите скорую!
+s Mal som úraz v práci. | У меня была травма на работе.
+s Mám alergiu na penicilín. | У меня аллергия на пенициллин.
+s Som tri dni na PN. | Я три дня на больничном.
+s Zajtra mám vyšetrenie v nemocnici. | Завтра у меня обследование в больнице.
+f Mám alergiu ___ orechy. | na | s, v, od | У меня аллергия на орехи.
+f Leží v ___. | nemocnici | nemocnica, nemocnicu, nemocnice | Он лежит в больнице.
+f Musíte ísť na ___. | pohotovosť | pohotovosti, pohotovosťou, pohotovostí | Вам нужно в неотложку.
+
+# 15 | A2 | Úrady | Учреждения, документы, вид на жительство
+> **Главные учреждения для иностранца:**
+> • **cudzinecká polícia** — иностранная полиция: **prechodný pobyt** (временное проживание, ВНЖ), **trvalý pobyt** (постоянное)
+> • **úrad práce** — биржа труда, **daňový úrad** — налоговая
+> • **Sociálna poisťovňa** — социальное страхование, **zdravotná poisťovňa** — медицинская страховая
+>
+> **Документы:** **pas** — паспорт, **žiadosť** — заявление, **potvrdenie** — справка, **výpis z registra trestov** — справка о несудимости, **overená kópia** — заверенная копия, **apostila** — апостиль.
+>
+> **Подать заявление на что-то** — **požiadať o** + винительный: požiadať **o** prechodný pobyt.
+> Полезная фраза: **Kde sa podáva žiadosť?** — Где подаётся заявление?
+>
+> Сроки и требования меняются — всегда сверяйтесь с официальным сайтом полиции (**minv.sk**).
+## Doklady
+w pas | паспорт
+w doklad | документ
+w žiadosť | заявление
+w potvrdenie | справка, подтверждение
+w formulár | бланк
+w podpis | подпись
+w kópia | копия
+w fotografia | фотография
+s Vyplňte tento formulár. | Заполните этот бланк.
+s Potrebujem potvrdenie o ubytovaní. | Мне нужна справка о жилье.
+s Tu je môj pas. | Вот мой паспорт.
+s Chýba váš podpis. | Не хватает вашей подписи.
+s Prineste dve fotografie. | Принесите две фотографии.
+f Podávam ___. | žiadosť | žiadosti, žiadosťou, žiadostí | Я подаю заявление.
+f Potrebujem ___ pasu. | kópiu | kópia, kópie, kópii | Мне нужна копия паспорта.
+f Kde mám dať ___? | podpis | podpisu, podpisom, podpise | Где мне поставить подпись?
+## Na polícii
+w pobyt | пребывание, проживание
+w prechodný pobyt | временное проживание
+w trvalý pobyt | постоянное проживание
+w povolenie | разрешение
+w cudzinec | иностранец
+w termín | срок, дата приёма
+w predĺžiť | продлить
+w schváliť | одобрить
+s Chcem požiadať o prechodný pobyt. | Я хочу подать заявление на временное проживание.
+s Mám termín na cudzineckej polícii. | У меня запись в иностранную полицию.
+s Moje povolenie platí do mája. | Моё разрешение действует до мая.
+s Musím predĺžiť pobyt. | Мне нужно продлить проживание.
+s Vaša žiadosť bola schválená. | Ваше заявление одобрено.
+f Žiadam ___ prechodný pobyt. | o | na, za, pre | Я ходатайствую о временном проживании.
+f Povolenie platí do ___. | mája | máj, máji, májom | Разрешение действует до мая.
+f Žiadosť ___ schválená. | bola | bol, boli, bolo | Заявление было одобрено.
+## Poistenie a dane
+w zdravotné poistenie | медицинская страховка
+w sociálne poistenie | социальное страхование
+w daň | налог
+w daňové priznanie | налоговая декларация
+w odvody | взносы, отчисления
+w preukaz poistenca | карточка застрахованного
+w zaregistrovať sa | зарегистрироваться
+w úrad | учреждение, ведомство
+s Musím sa zaregistrovať v zdravotnej poisťovni. | Мне нужно зарегистрироваться в медицинской страховой.
+s Zamestnávateľ platí odvody za mňa. | Работодатель платит за меня взносы.
+s Dostal som preukaz poistenca. | Я получил карточку застрахованного.
+s Daňové priznanie treba podať do konca marca. | Налоговую декларацию нужно подать до конца марта.
+s Na úrade bol dlhý rad. | В учреждении была длинная очередь.
+f Daň z ___ je devätnásť percent. | príjmu | príjem, príjmom, príjme | Подоходный налог — девятнадцать процентов.
+f Treba sa ___ v poisťovni. | zaregistrovať | zaregistrujem, zaregistroval, zaregistrujte | Нужно зарегистрироваться в страховой.
+f Stál som v dlhom ___. | rade | rad, radu, radom | Я стоял в длинной очереди.
+
+# 16 | A2 | Hľadám prácu | Поиск работы, вакансии, резюме
+> **Читаем вакансию:**
+> • **pracovná ponuka** — вакансия, **inzerát** — объявление
+> • **požiadavky** — требования, **ponúkame** — мы предлагаем
+> • **plný úväzok** — полная ставка, **čiastočný úväzok** — неполная, **brigáda** — подработка
+> • **živnosť** — ИП (работа «на живность»), **živnostník** — индивидуальный предприниматель
+> • **mzda / plat** — зарплата; **v hrubom** — брутто, **v čistom** — на руки
+>
+> **Документы:** **životopis** — резюме (CV), **motivačný list** — сопроводительное письмо.
+>
+> **Отклик:** **Reagujem na Váš inzerát...** (Откликаюсь на ваше объявление...)
+> «Владею языком» — **ovládam** + винительный: ovládam angličtin**u**.
+## Inzerát
+w pracovná ponuka | вакансия
+w inzerát | объявление
+w požiadavka | требование
+w plat | зарплата
+w plný úväzok | полная ставка
+w brigáda | подработка
+w zamestnávateľ | работодатель
+w zamestnanec | сотрудник
+s Hľadám prácu na plný úväzok. | Ищу работу на полную ставку.
+s Plat je dvetisíc eur v hrubom. | Зарплата — две тысячи евро брутто.
+s Firma ponúka flexibilný pracovný čas. | Фирма предлагает гибкий рабочий график.
+s Videl som váš inzerát na internete. | Я видел ваше объявление в интернете.
+s Cez leto som mal brigádu. | Летом у меня была подработка.
+f Reagujem na váš ___. | inzerát | inzerátu, inzerátom, inzeráte | Я откликаюсь на ваше объявление.
+f Zamestnávateľ ponúka dobrý ___. | plat | platu, platom, plate | Работодатель предлагает хорошую зарплату.
+f Hľadám prácu na čiastočný ___. | úväzok | úväzku, úväzkom, úväzky | Ищу работу на неполную ставку.
+## Životopis
+w životopis | резюме
+w motivačný list | сопроводительное письмо
+w vzdelanie | образование
+w prax | практический опыт
+w zručnosti | навыки
+w jazykové znalosti | знание языков
+w referencia | рекомендация
+w ovládať | владеть (языком, программой)
+s Posielam vám svoj životopis. | Отправляю вам своё резюме.
+s Mám vysokoškolské vzdelanie. | У меня высшее образование.
+s Mám päť rokov praxe v IT. | У меня пять лет опыта в IT.
+s Ovládam angličtinu a ruštinu. | Я владею английским и русским.
+s V prílohe nájdete motivačný list. | Во вложении вы найдёте сопроводительное письмо.
+f Mám tri roky ___. | praxe | prax, praxou, praxi | У меня три года опыта.
+f Posielam vám ___ životopis. | svoj | svoja, svoje, svojho | Отправляю вам своё резюме.
+f ___ angličtinu na úrovni B2. | Ovládam | Ovládať, Ovláda, Ovládajú | Я владею английским на уровне B2.
+## Prvý kontakt
+w pozvať | пригласить
+w pohovor | собеседование
+w dohodnúť sa | договориться
+w vyhovovať | подходить, устраивать
+w nástup | выход на работу
+w skúšobná doba | испытательный срок
+w ponuka | предложение
+w prijať | принять
+s Chceli by sme vás pozvať na pohovor. | Мы хотели бы пригласить вас на собеседование.
+s Vyhovuje vám utorok o desiatej? | Вам подходит вторник в десять?
+s Kedy môžete nastúpiť? | Когда вы можете приступить к работе?
+s Skúšobná doba je tri mesiace. | Испытательный срок — три месяца.
+s S radosťou prijímam vašu ponuku. | С радостью принимаю ваше предложение.
+f Pozvali ma na ___. | pohovor | pohovoru, pohovorom, pohovore | Меня пригласили на собеседование.
+f Môžem nastúpiť od ___. | pondelka | pondelok, pondelku, pondelkom | Могу приступить с понедельника.
+f Ten termín mi ___. | vyhovuje | vyhovujú, vyhovujem, vyhovovať | Эта дата мне подходит.
+
+# 17 | A2 | Budúcnosť | Будущее время, погода, обещания
+> **Будущее время — как в русском:**
+> 1. Несовершенный вид: **budem + инфинитив** — budem pracovať (буду работать).
+> budem, budeš, bude, budeme, budete, budú.
+> 2. Совершенный вид: форма **настоящего времени** уже означает будущее — **urobím** (сделаю), **napíšem** (напишу), **zavolám** (позвоню).
+>
+> ⚠️ «**Budem urobiť**» — ошибка! Совершенный вид с budem не сочетается.
+>
+> **Движение:** **pôjdem** (пойду/поеду), **prídem** (приду), **odídem** (уйду).
+>
+> **Планы:** plánujem, **chystám sa** (собираюсь), **o týždeň** (через неделю), **budúci rok** (в следующем году), **čoskoro** (скоро).
+>
+> **Погода:** prší (идёт дождь), sneží (идёт снег), je teplo/zima, svieti slnko.
+## Plány
+w budúci rok | в следующем году
+w o týždeň | через неделю
+w plánovať | планировать
+w chystať sa | собираться
+w plán | план
+w cieľ | цель
+w neskôr | позже
+w čoskoro | скоро
+s Budúci rok sa presťahujem na Slovensko. | В следующем году я перееду в Словакию.
+s O týždeň začnem novú prácu. | Через неделю я начну новую работу.
+s Budem sa učiť každý deň. | Я буду заниматься каждый день.
+s Chystám sa na kurz slovenčiny. | Я собираюсь на курс словацкого.
+s Mojím cieľom je úroveň B2. | Моя цель — уровень B2.
+f Zajtra ___ pracovať z domu. | budem | budeš, bude, budú | Завтра я буду работать из дома.
+f Oni ___ bývať v Košiciach. | budú | bude, budeme, budem | Они будут жить в Кошице.
+f Ja ___ do Viedne budúci týždeň. | pôjdem | pôjde, pôjdu, pôjdeme | Я поеду в Вену на следующей неделе.
+## Počasie
+w počasie | погода
+w slnko | солнце
+w dážď | дождь
+w sneh | снег
+w teplo | тепло
+w zima | холод, зима
+w pršať | идти (о дожде)
+w predpoveď | прогноз
+s Zajtra bude pršať. | Завтра будет дождь.
+s Podľa predpovede bude slnečno. | По прогнозу будет солнечно.
+s V zime je tu veľa snehu. | Зимой здесь много снега.
+s Dnes je teplo, dvadsaťpäť stupňov. | Сегодня тепло, двадцать пять градусов.
+s Zober si dáždnik. | Возьми зонт.
+f Zajtra ___ snežiť. | bude | budú, budem, je | Завтра будет идти снег.
+f Je mi ___. | zima | zimy, zimu, zimou | Мне холодно.
+f V lete ___ teplo. | bude | budú, budem, budeš | Летом будет тепло.
+## Sľuby
+w urobiť | сделать
+w napísať | написать
+w zavolať | позвонить
+w prísť | прийти
+w odovzdať | сдать, передать
+w sľúbiť | пообещать
+w určite | обязательно
+w najneskôr | не позднее
+s Urobím to do piatku. | Я сделаю это до пятницы.
+s Zavolám vám zajtra ráno. | Я позвоню вам завтра утром.
+s Prídem určite. | Я обязательно приду.
+s Správu odovzdám najneskôr v pondelok. | Отчёт я сдам не позднее понедельника.
+s Sľúbil som, že pomôžem. | Я пообещал, что помогу.
+f Zajtra ti ___. | zavolám | zavolať, zavoláš, zavolajú | Завтра я тебе позвоню.
+f Ja ten e-mail ___ hneď. | napíšem | napíše, napíšu, napísať | Я напишу это письмо сразу.
+f Sľúbil som, ___ pomôžem. | že | aby, keď, ak | Я пообещал, что помогу.
+
+# 18 | A2 | Vid slovies | Совершенный и несовершенный вид
+> **Вид работает почти как в русском!**
+> • **Несовершенный** — процесс, повторение: **Každý deň píšem** e-maily.
+> • **Совершенный** — результат, один раз: **Napísal som** e-mail.
+>
+> **Пары:** robiť / urobiť, písať / napísať, čítať / prečítať, kupovať / kúpiť, posielať / poslať, dávať / dať, učiť sa / naučiť sa, jesť / zjesť.
+>
+> ⚠️ **Ловушки — пары от разных корней:**
+> • **brať / vziať (zobrať)** — брать / взять
+> • **hovoriť / povedať** — говорить / сказать
+> • **klásť / položiť** — класть / положить
+>
+> Будущее у совершенного вида — без budem: **napíšem** (напишу). «Budem napísať» — ошибка.
+## Robiť a urobiť
+w urobiť | сделать
+w prečítať | прочитать
+w napísať | написать
+w nakúpiť | закупиться, сходить за покупками
+w dokončiť | доделать
+w zjesť | съесть
+w vypiť | выпить
+w naučiť sa | выучить
+s Už som urobil všetky úlohy. | Я уже сделал все задачи.
+s Prečítal som celú knihu. | Я прочитал всю книгу.
+s Každý deň čítam správy. | Каждый день я читаю новости.
+s Musím dokončiť prezentáciu. | Мне нужно доделать презентацию.
+s Naučil som sa sto nových slov. | Я выучил сто новых слов.
+f Už som to ___. Tu je výsledok. | urobil | robil, robím, urobiť | Я уже это сделал. Вот результат.
+f Každý deň ___ správy. | čítam | prečítal, prečítať, čítal by | Каждый день я читаю новости.
+f Zajtra ___ ten e-mail. | napíšem | budem napísať, napísal, napísať | Завтра я напишу это письмо.
+## Povedať a vziať
+w povedať | сказать
+w rozprávať | рассказывать, разговаривать
+w vziať | взять
+w brať | брать
+w dať | дать
+w dávať | давать
+w zabudnúť | забыть
+w zapamätať si | запомнить
+s Povedz mi pravdu. | Скажи мне правду.
+s Vzal som si deň voľna. | Я взял выходной.
+s Zabudol som heslo. | Я забыл пароль.
+s Rozprávali sme sa celý večer. | Мы разговаривали весь вечер.
+s Daj mi vedieť. | Дай мне знать.
+f Môžeš mi ___, kde je stanica? | povedať | povedal, povieš, hovoríš | Можешь мне сказать, где вокзал?
+f Zabudol som si ___. | dáždnik | dáždnika, dáždniku, dáždnikom | Я забыл зонт.
+f Musím si to ___. | zapamätať | zapamätám, zapamätal, zapamätaj | Мне нужно это запомнить.
+## Kedy presne?
+w zatiaľ | пока (что)
+w práve | как раз, только что
+w hneď ako | как только
+w kým | пока (не)
+w zatiaľ čo | в то время как
+w ešte | ещё
+w už nie | уже не
+w medzitým | тем временем
+s Práve som prišiel. | Я только что пришёл.
+s Zavolám ti, hneď ako skončím. | Я позвоню тебе, как только закончу.
+s Počkaj, kým sa vrátim. | Подожди, пока я вернусь.
+s Zatiaľ čo ja varím, ty upraceš. | Пока я готовлю, ты уберёшься.
+s Už tu nebývam. | Я здесь больше не живу.
+f Zavolám, hneď ___ skončím. | ako | keď, že, aby | Позвоню, как только закончу.
+f Počkaj, ___ sa vrátim. | kým | čo, ako, že | Подожди, пока я вернусь.
+f ___ som prišiel domov. | Práve | Pravý, Pravda, Právo | Я только что пришёл домой.
+
+# 19 | A2 | Telefón a e-mail | Звонки, письма, вежливость
+> **По телефону:**
+> • **Prosím? / Haló?** — ответ на звонок
+> • **Tu je Ivan Petrov.** — Говорит Иван Петров.
+> • **Môžem hovoriť s pani Novákovou?** — Можно поговорить с госпожой Новаковой?
+> • **Moment, prepojím vás.** — Минутку, соединю. **Zavolám späť.** — Перезвоню.
+>
+> **В письме:**
+> • **Vážený pán Novák, / Vážená pani Nováková,** — Уважаемый(ая)...
+> • **Dobrý deň,** — нейтральное начало
+> • **S pozdravom** — С уважением (в конце)
+> • В деловых письмах **Vy, Vám, Váš** пишут с большой буквы.
+>
+> Неформально: **Ahoj,** ... **Maj sa!** (Пока!)
+>
+> Женские фамилии с **-ová**: Novák → pani Nov**áková**; «с госпожой Новаковой» — s pani Novák**ovou**.
+## Telefonát
+w zavolať späť | перезвонить
+w prepojiť | соединить
+w zdvihnúť | взять трубку
+w číslo | номер
+w odkaz | сообщение (для передачи)
+w obsadené | занято
+w nedostupný | недоступен
+w moment | минутку
+s Tu je Ivan Petrov, dobrý deň. | Иван Петров, добрый день.
+s Môžem hovoriť s pani Novákovou? | Могу я поговорить с госпожой Новаковой?
+s Moment, prepojím vás. | Минутку, я вас соединю.
+s Môžem jej nechať odkaz? | Могу я оставить ей сообщение?
+s Zavolám vám späť o hodinu. | Я перезвоню вам через час.
+f Môžem hovoriť s pánom ___? | Novákom | Novák, Nováka, Novákovi | Могу я поговорить с господином Новаком?
+f Pani Nováková teraz nie je ___. | dostupná | dostupný, dostupné, dostupní | Госпожа Новакова сейчас недоступна.
+f Nechám ___ odkaz. | vám | vás, vy, váš | Я оставлю вам сообщение.
+## E-mail
+w e-mail | электронное письмо
+w príloha | вложение
+w predmet správy | тема письма
+w odpovedať | ответить
+w vážený | уважаемый
+w s pozdravom | с уважением
+w ďakujem za | спасибо за
+w v prílohe | во вложении
+s Vážená pani Nováková, | Уважаемая госпожа Новакова,
+s Ďakujem za Vašu odpoveď. | Спасибо за Ваш ответ.
+s V prílohe Vám posielam zmluvu. | Во вложении отправляю Вам договор.
+s Ospravedlňujem sa za neskorú odpoveď. | Прошу прощения за поздний ответ.
+s Teším sa na spoluprácu. | С нетерпением жду сотрудничества.
+f ___ pán Horváth, | Vážený | Vážená, Vážené, Váženej | Уважаемый господин Хорват,
+f Ďakujem ___ Vašu správu. | za | na, o, pre | Спасибо за Ваше сообщение.
+f V ___ posielam faktúru. | prílohe | príloha, prílohu, prílohy | Во вложении отправляю счёт.
+## Zdvorilosť
+w ospravedlniť sa | извиниться
+w poďakovať | поблагодарить
+w poprosiť | попросить
+w dovoliť | позволить
+w rušiť | мешать, беспокоить
+w ochotne | охотно
+w ľutovať | сожалеть
+w láskavo | любезно
+s Dovoľte mi predstaviť sa. | Позвольте представиться.
+s Prepáčte, že vás ruším. | Извините, что вас беспокою.
+s Chcel by som sa poďakovať. | Я хотел бы поблагодарить.
+s Ľutujem, ale nemôžem prísť. | Сожалею, но не могу прийти.
+s Ochotne vám pomôžem. | Охотно вам помогу.
+f Prepáčte, že vás ___. | ruším | rušíš, ruší, rušíme | Извините, что вас беспокою.
+f Chcem sa vám ___ za pomoc. | poďakovať | poďakujem, poďakoval, ďakujem | Хочу поблагодарить вас за помощь.
+f Dovoľte ___ predstaviť sa. | mi | ma, ja, môj | Позвольте представиться.
+
+# 20 | A2 | Voľný čas | Досуг с коллегами, сравнения
+> **Сравнительная степень:** **-ší / -ejší**: nový → nov**ší**, lacný → lacn**ejší**, zaujímavý → zaujímav**ejší**.
+> **Превосходная:** **naj-**: **naj**novší, **naj**lacnejší.
+> **Неправильные:** dobrý → **lepší** → najlepší; zlý → **horší**; veľký → **väčší**; malý → **menší**.
+> «Чем» — **ako**: Bratislava je väčšia **ako** Košice.
+>
+> **Нравится:**
+> • **páčiť sa** — Páči sa mi to mesto. (Мне нравится этот город.)
+> • **rád / rada / radi + глагол** — люблю делать: **Rád** plávam. Jana **rada** pláva. My **radi** hráme tenis.
+> • **mať rád** — любить что-то: Mám rád hudbu.
+>
+> На празднике: **Na zdravie!** (За здоровье!), **Všetko najlepšie!** (Всего наилучшего!)
+## Záľuby
+w záľuba | хобби
+w šport | спорт
+w hudba | музыка
+w futbal | футбол
+w turistika | туризм, походы
+w plávať | плавать
+w hrať | играть
+w páčiť sa | нравиться
+s Rád hrám futbal. | Я люблю играть в футбол.
+s Cez víkend chodíme na turistiku do Tatier. | На выходных мы ходим в походы в Татры.
+s Páči sa mi slovenská hudba. | Мне нравится словацкая музыка.
+s Aké máš záľuby? | Какие у тебя хобби?
+s Moja kolegyňa rada pláva. | Моя коллега любит плавать.
+f Jana ___ pláva. | rada | rád, radi, rado | Яна любит плавать.
+f Páči ___ to mesto. | sa mi | mi sa, si mi, ma sa | Мне нравится этот город.
+f My ___ hráme tenis. | radi | rád, rada, rade | Мы любим играть в теннис.
+## Porovnávanie
+w lepší | лучше, лучший
+w horší | хуже, худший
+w väčší | больше, больший
+w menší | меньше, меньший
+w lacnejší | дешевле
+w drahší | дороже
+w najlepší | самый лучший
+w ako | чем, как
+s Bratislava je väčšia ako Košice. | Братислава больше, чем Кошице.
+s Tento byt je lacnejší. | Эта квартира дешевле.
+s To je najlepšia reštaurácia v meste. | Это лучший ресторан в городе.
+s Nová práca je lepšia ako stará. | Новая работа лучше старой.
+s Dnes je horšie počasie ako včera. | Сегодня погода хуже, чем вчера.
+f Vlak je rýchlejší ___ autobus. | ako | čo, aký, kde | Поезд быстрее автобуса.
+f Tento počítač je ___ ako ten starý. | lepší | dobrý, najlepší, lepšie | Этот компьютер лучше старого.
+f To je ___ kaviareň v meste. | najlepšia | najlepší, najlepšie, lepší | Это лучшее кафе в городе.
+## Oslavy
+w oslava | праздник, вечеринка
+w narodeniny | день рождения
+w pozvánka | приглашение
+w teambuilding | тимбилдинг
+w večierok | вечеринка
+w pripiť si | выпить за (тост)
+w na zdravie | за здоровье
+w zablahoželať | поздравить
+s Pozývam ťa na oslavu narodenín. | Приглашаю тебя на празднование дня рождения.
+s Všetko najlepšie k narodeninám! | С днём рождения!
+s V piatok máme firemný večierok. | В пятницу у нас корпоратив.
+s Na zdravie! | За здоровье!
+s Ďakujem za pozvanie, rád prídem. | Спасибо за приглашение, с радостью приду.
+f Všetko najlepšie k ___! | narodeninám | narodeniny, narodenín, narodeninách | С днём рождения!
+f Pozývam vás na ___. | oslavu | oslava, oslavy, oslave | Приглашаю вас на праздник.
+f Chcem ti ___ k sviatku. | zablahoželať | zablahoželám, zablahoželal, blahoželáš | Хочу поздравить тебя с праздником.

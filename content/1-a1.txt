@@ -1,0 +1,637 @@
+# Формат: «# номер | уровень | название | описание», «> теория», «## урок»,
+# «w слово | перевод», «s предложение | перевод», «f текст с ___ | ответ | неверные, варианты | перевод».
+
+# 1 | A1 | Prvé kroky | Алфавит, приветствия, глагол byť
+> **Словацкий читается почти так, как пишется.** Ударение всегда на первый слог: **Bra**-ti-sla-va.
+>
+> Особые буквы:
+> • **č** = ч, **š** = ш, **ž** = ж, **c** = ц, **ch** = х, **j** = й, **h** — мягкое украинское «г»
+> • **ď, ť, ň, ľ** — мягкие «дь», «ть», «нь», «ль»
+> • **y/ý** читается как русское «и», но **di, ti, ni, li, de, te, ne, le** — мягко: «ди, ти, ни, ли»
+> • **ä** — почти «э», **ô** — «уо», **ia, ie, iu** — «я, е, ю»
+> • Чёрточка (**dĺžeň**: á, é, í, ó, ú, ý) — это **долгота**, а не ударение: **máme** = «маамэ».
+>
+> **Глагол byť (быть)** в словацком обязателен — нельзя сказать «я Иван», только «я есть Иван»:
+> ja **som**, ty **si**, on/ona/ono **je**, my **sme**, vy **ste**, oni **sú**.
+>
+> **Vy** — вежливое «вы»: с незнакомыми, на работе, в учреждениях. С друзьями и коллегами-ровесниками быстро переходят на **ty**.
+## Pozdravy
+w ahoj | привет / пока
+w dobrý deň | добрый день
+w dobré ráno | доброе утро
+w dobrý večer | добрый вечер
+w dovidenia | до свидания
+w ďakujem | спасибо
+w prosím | пожалуйста
+w áno | да
+w nie | нет
+s Dobrý deň, pán Novák! | Добрый день, господин Новак!
+s Ahoj, ako sa máš? | Привет, как дела?
+s Ďakujem, dobre. | Спасибо, хорошо.
+s Dovidenia a pekný deň! | До свидания и хорошего дня!
+s Áno, prosím. | Да, пожалуйста.
+f ___ ráno, Peter! | Dobré | Dobrý, Dobrá, Dobrí | Доброе утро, Петер!
+f Ahoj, Jana, ako sa ___? | máš | mám, máme, majú | Привет, Яна, как дела?
+f Dobrý deň, pán Novák, ako sa ___? | máte | máš, mám, majú | Добрый день, господин Новак, как ваши дела?
+## Kto som?
+w ja | я
+w ty | ты
+w on | он
+w ona | она
+w my | мы
+w vy | вы
+w oni | они
+w študent | студент
+s Ja som Ivan. | Я Иван.
+s Ty si študent? | Ты студент?
+s Ona je Jana. | Она Яна.
+s Vy ste pán Horváth? | Вы господин Хорват?
+s Oni sú tu. | Они здесь.
+f Ja ___ Ivan. | som | si, je, sú | Я Иван.
+f Ty ___ študentka? | si | som, sme, sú | Ты студентка?
+f Oni ___ z Kyjeva. | sú | je, som, si | Они из Киева.
+## Zoznámenie
+w meno | имя
+w volám sa | меня зовут
+w teší ma | очень приятно
+w pán | господин
+w pani | госпожа
+w odkiaľ | откуда
+w kto | кто
+w a | и
+s Ako sa voláte? | Как вас зовут?
+s Volám sa Anna. | Меня зовут Анна.
+s Teší ma, ja som Marek. | Очень приятно, я Марек.
+s Odkiaľ ste? | Откуда вы?
+s Som z Ukrajiny. | Я из Украины.
+f Prepáčte, ako sa ___? | voláte | volám, volá, volajú | Извините, как вас зовут?
+f Ja sa ___ Peter. | volám | voláš, volá, voláte | Меня зовут Петер.
+f Odkiaľ ___ ty? | si | som, sú, sme | Откуда ты?
+
+# 2 | A1 | Ľudia a jazyky | Языки, национальности, спряжение глаголов
+> **Настоящее время.** Окончания у всех глаголов похожи: **-m, -š, —, -me, -te**, а в 3-м лице мн. числа — разные:
+> • **volať** (звать): volá**m**, volá**š**, volá, volá**me**, volá**te**, volajú
+> • **hovoriť** (говорить): hovorí**m**, hovorí**š**, hovorí, hovorí**me**, hovorí**te**, hovoria
+> • **rozumieť** (понимать): rozumie**m**, rozumie**š**, rozumie, rozumie**me**, rozumie**te**, rozumejú
+> • **pracovať** (работать): pracuje**m**, pracuje**š**, pracuje, pracuje**me**, pracuje**te**, pracujú — все глаголы на **-ovať** так: študovať → študujem.
+>
+> **Отрицание** пишется слитно: **nehovorím**, **nerozumiem**. Исключение — **nie som** (я не...).
+>
+> «По-словацки» — **po slovensky**, «по-русски» — **po rusky**, «по-английски» — **po anglicky**.
+> Национальности: Slovák — Slovenka, Čech — Češka, Rus — Ruska, Ukrajinec — Ukrajinka.
+## Jazyky
+w hovoriť | говорить
+w rozumieť | понимать
+w po slovensky | по-словацки
+w po rusky | по-русски
+w po anglicky | по-английски
+w trochu | немного
+w dobre | хорошо
+w pomaly | медленно
+s Hovoríte po anglicky? | Вы говорите по-английски?
+s Hovorím trochu po slovensky. | Я немного говорю по-словацки.
+s Prepáčte, nerozumiem. | Извините, я не понимаю.
+s Hovorte, prosím, pomaly. | Говорите, пожалуйста, медленно.
+s Rozumieš po rusky? | Ты понимаешь по-русски?
+f Ja ___ po slovensky. | hovorím | hovoríš, hovorí, hovoria | Я говорю по-словацки.
+f Oni ___ po anglicky. | hovoria | hovorím, hovoríme, hovorí | Они говорят по-английски.
+f My ___ dobre. | rozumieme | rozumiem, rozumejú, rozumieš | Мы хорошо понимаем.
+## Národnosti
+w Slovensko | Словакия
+w Slovák | словак
+w Slovenka | словачка
+w Rusko | Россия
+w Ukrajina | Украина
+w Česko | Чехия
+w krajina | страна
+w mesto | город
+s Ona je Slovenka. | Она словачка.
+s Bratislava je hlavné mesto Slovenska. | Братислава — столица Словакии.
+s Som Ukrajinec a bývam v Košiciach. | Я украинец и живу в Кошице.
+s Peter nie je Čech, je Slovák. | Петер не чех, он словак.
+s Slovensko je malá krajina. | Словакия — маленькая страна.
+f Jana nie ___ Češka. | je | sú, si, som | Яна не чешка.
+f Ja nie ___ Slovák, som Rus. | som | si, je, sú | Я не словак, я русский.
+f Bratislava je hlavné ___ Slovenska. | mesto | mesta, mestu, meste | Братислава — столица Словакии.
+## Čo robíš?
+w robiť | делать
+w pracovať | работать
+w študovať | учиться (в вузе)
+w bývať | жить, проживать
+w kde | где
+w teraz | сейчас
+w tu | здесь
+w tam | там
+s Kde bývaš? | Где ты живёшь?
+s Bývam v Bratislave. | Я живу в Братиславе.
+s Čo robíte? | Чем вы занимаетесь?
+s Pracujem v banke. | Я работаю в банке.
+s Teraz študujem na univerzite. | Сейчас я учусь в университете.
+f Kde ___ ty? | bývaš | bývam, býva, bývajú | Где ты живёшь?
+f Ja ___ v kancelárii. | pracujem | pracuješ, pracuje, pracujú | Я работаю в офисе.
+f Oni ___ na univerzite. | študujú | študuje, študujem, študujeme | Они учатся в университете.
+
+# 3 | A1 | Čísla a čas | Числа, время, дни недели
+> **Числа 0–20:** nula, jeden, dva, tri, štyri, päť, šesť, sedem, osem, deväť, desať, jedenásť, dvanásť, trinásť, štrnásť, pätnásť, šestnásť, sedemnásť, osemnásť, devätnásť, dvadsať.
+> **Десятки:** tridsať, štyridsať, päťdesiat, šesťdesiat, sedemdesiat, osemdesiat, deväťdesiat, **sto** (100), **tisíc** (1000). Составные — слитно: **dvadsaťpäť** (25).
+>
+> **Возраст:** Mám dvadsať **rokov** (мне 20 лет). Как в русском: 1 **rok**, 2–4 **roky**, 5+ **rokov**.
+>
+> **Время:** Koľko je hodín? — Je jedna **hodina**. Sú dve/tri/štyri **hodiny**. Je päť **hodín**.
+> «В восемь» — **o ôsmej**, «в девять» — **o deviatej**. «Половина девятого» — **pol deviatej**, точно как по-русски!
+>
+> **Дни недели:** pondelok, utorok, streda, štvrtok, piatok, sobota, nedeľa.
+> «В какой день» — **v** + винительный: v pondelok, v stredu, v sobotu, v nedeľu, **vo** štvrtok.
+## Čísla
+w jeden | один
+w dva | два
+w tri | три
+w štyri | четыре
+w päť | пять
+w desať | десять
+w dvadsať | двадцать
+w sto | сто
+s Mám dvadsaťpäť rokov. | Мне двадцать пять лет.
+s Koľko to stojí? | Сколько это стоит?
+s Stojí to desať eur. | Это стоит десять евро.
+s V kancelárii pracuje sto ľudí. | В офисе работает сто человек.
+s Moje číslo je nula deväť nula päť. | Мой номер — ноль девять ноль пять.
+f Mám tridsať ___. | rokov | roky, rok, roku | Мне тридцать лет.
+f Syn má tri ___. | roky | rokov, rok, roku | Сыну три года.
+f Koľko to ___? | stojí | stojím, stoja, stojíš | Сколько это стоит?
+## Koľko je hodín?
+w hodina | час
+w minúta | минута
+w ráno | утро, утром
+w večer | вечер, вечером
+w dnes | сегодня
+w zajtra | завтра
+w včera | вчера
+w pol | половина
+s Koľko je hodín? | Который час?
+s Je osem hodín. | Восемь часов.
+s Prídem o deviatej. | Я приду в девять.
+s Porada je o pol desiatej. | Совещание в половине десятого.
+s Dnes pracujem do piatej. | Сегодня я работаю до пяти.
+f Sú tri ___. | hodiny | hodín, hodina, hodinu | Три часа.
+f Je šesť ___. | hodín | hodiny, hodina, hodine | Шесть часов.
+f Je jedna ___. | hodina | hodiny, hodín, hodinu | Час (один час).
+## Dni v týždni
+w pondelok | понедельник
+w utorok | вторник
+w streda | среда
+w štvrtok | четверг
+w piatok | пятница
+w sobota | суббота
+w nedeľa | воскресенье
+w víkend | выходные
+s V pondelok mám poradu. | В понедельник у меня совещание.
+s V stredu ideme do kina. | В среду мы идём в кино.
+s Cez víkend nepracujem. | На выходных я не работаю.
+s Vo štvrtok je skúška. | В четверг экзамен.
+s V nedeľu odpočívam. | В воскресенье я отдыхаю.
+f Prídem v ___. | sobotu | sobota, soboty, sobote | Я приду в субботу.
+f ___ štvrtok mám voľno. | Vo | V, Na, O | В четверг у меня выходной.
+f V ___ pracujem z domu. | stredu | streda, strede, stredy | В среду я работаю из дома.
+
+# 4 | A1 | Rodina | Семья, глагол mať, мой и твой
+> **mať** (иметь) заменяет русское «у меня есть»: **mám, máš, má, máme, máte, majú**. Отрицание — **nemám** (у меня нет).
+>
+> После **mať** — винительный падеж, как в русском: **Mám sestru** (sestra → sestr**u**), **Mám brata** (brat → brat**a**), **Mám psa**.
+>
+> **Род** почти всегда совпадает с русским: **ten** muž, **tá** žena, **to** dieťa.
+>
+> **Притяжательные:** môj / moja / moje (мой, моя, моё), tvoj / tvoja / tvoje, **jeho** (его), **jej** (её), náš / naša / naše, váš / vaša / vaše, **ich** (их).
+>
+> **Прилагательные** согласуются по роду: nov**ý** byt, nov**á** práca, nov**é** auto; во мн. числе о людях — nov**í** kolegovia.
+## Moja rodina
+w rodina | семья
+w otec | отец
+w mama | мама
+w brat | брат
+w sestra | сестра
+w syn | сын
+w dcéra | дочь
+w manžel | муж
+w manželka | жена
+s Toto je moja rodina. | Это моя семья.
+s Môj otec je inžinier. | Мой отец — инженер.
+s Mám brata a sestru. | У меня есть брат и сестра.
+s Moja manželka pracuje v nemocnici. | Моя жена работает в больнице.
+s Máte deti? | У вас есть дети?
+f ___ brat býva v Prahe. | Môj | Moja, Moje, Mojej | Мой брат живёт в Праге.
+f To je ___ sestra. | moja | môj, moje, mojich | Это моя сестра.
+f Mám ___. | sestru | sestra, sestry, sestre | У меня есть сестра.
+## Mať
+w mať | иметь
+w dieťa | ребёнок
+w deti | дети
+w priateľ | друг
+w priateľka | подруга, девушка
+w pes | собака
+w mačka | кошка
+w byt | квартира
+s Nemám čas. | У меня нет времени.
+s Majú dve deti. | У них двое детей.
+s Máš psa alebo mačku? | У тебя собака или кошка?
+s Môj priateľ má nový byt. | У моего друга новая квартира.
+s Máme veľkú rodinu. | У нас большая семья.
+f My ___ psa. | máme | mám, majú, máte | У нас есть собака.
+f Oni ___ byt v centre. | majú | má, máme, máš | У них квартира в центре.
+f Ja ___ čas. | nemám | nemáš, nemá, nemajú | У меня нет времени.
+## Aký je?
+w mladý | молодой
+w starý | старый
+w vysoký | высокий
+w milý | милый
+w veľký | большой
+w malý | маленький
+w nový | новый
+w pekný | красивый
+s Môj šéf je mladý a milý. | Мой начальник молодой и милый.
+s Moja sestra je vysoká. | Моя сестра высокая.
+s To je nové auto. | Это новая машина.
+s Bývame v malom byte. | Мы живём в маленькой квартире.
+s Máš pekný dom. | У тебя красивый дом.
+f Moja mama je ___. | milá | milý, milé, milí | Моя мама милая.
+f To je ___ mesto. | veľké | veľký, veľká, veľkí | Это большой город.
+f Môj brat je ___. | vysoký | vysoká, vysoké, vysokí | Мой брат высокий.
+
+# 5 | A1 | V meste | Город: где? куда? предлоги
+> **Где?** — **kde?** → **v / na** + местный падеж: v Bratislav**e**, v bank**e**, v mest**e**, na pošt**e**, na stanic**i**.
+> **Куда?** — **kam?** → **do** + родительный: do Bratislav**y**, do bank**y**, do mest**a**; или **na** + винительный: na pošt**u**, na stanic**u**.
+>
+> Почти как в русском: «в банк» = **do banky** (род. п.!), «в банке» = **v banke**.
+>
+> **ísť** (идти/ехать): **idem, ideš, ide, ideme, idete, idú**. Словаки говорят «idem» и пешком, и на транспорте.
+> Повелительное: **Choďte rovno** (идите прямо), **doľava** (налево), **doprava** (направо).
+>
+> Предлоги с творительным: **pred** (перед), **za** (за), **nad** (над), **pod** (под): pred škol**ou**, za dom**om**.
+> С родительным: **vedľa** (рядом с), **blízko** (около), **od / do**: vedľa bank**y**.
+## Miesta v meste
+w banka | банк
+w pošta | почта
+w obchod | магазин
+w lekáreň | аптека
+w stanica | вокзал, станция
+w námestie | площадь
+w ulica | улица
+w centrum | центр
+s Kde je pošta? | Где почта?
+s Banka je na námestí. | Банк на площади.
+s Lekáreň je vedľa obchodu. | Аптека рядом с магазином.
+s Bývam na Hlavnej ulici. | Я живу на Главной улице.
+s Je tu niekde bankomat? | Здесь где-нибудь есть банкомат?
+f Pracujem v ___. | banke | banka, banku, banky | Я работаю в банке.
+f Čakám na ___. | stanici | stanica, stanicu, stanice | Я жду на вокзале.
+f Sme v ___. | centre | centrum, centra, centru | Мы в центре.
+## Kam ideš?
+w ísť | идти, ехать
+w kam | куда
+w do práce | на работу
+w domov | домой
+w späť | обратно
+w rovno | прямо
+w doľava | налево
+w doprava | направо
+s Kam ideš? | Куда идёшь?
+s Idem do práce. | Я иду на работу.
+s Choďte rovno a potom doľava. | Идите прямо, а потом налево.
+s Večer idem domov. | Вечером я иду домой.
+s Ideme do obchodu. | Мы идём в магазин.
+f Ja ___ do školy. | idem | ideš, ide, idú | Я иду в школу.
+f Oni ___ na poštu. | idú | ide, ideme, idem | Они идут на почту.
+f Idem do ___. | banky | banka, banke, banku | Я иду в банк.
+## Orientácia
+w blízko | близко
+w ďaleko | далеко
+w vedľa | рядом с
+w oproti | напротив
+w pred | перед
+w za | за
+w mapa | карта
+w hľadať | искать
+s Hľadám stanicu. | Я ищу вокзал.
+s Je to ďaleko? | Это далеко?
+s Nie, je to blízko. | Нет, это близко.
+s Obchod je oproti banke. | Магазин напротив банка.
+s Počkám ťa pred školou. | Я подожду тебя перед школой.
+f Hľadám ___. | poštu | pošta, pošte, pošty | Я ищу почту.
+f Lekáreň je vedľa ___. | banky | banka, banke, banku | Аптека рядом с банком.
+f Čakám pred ___. | školou | škola, škole, školu | Жду перед школой.
+
+# 6 | A1 | Jedlo a nákupy | Еда, магазин, винительный падеж, chcieť
+> **chcieť** (хотеть): **chcem, chceš, chce, chceme, chcete, chcú**.
+> Вежливо: **chcel by som** (м.) / **chcela by som** (ж.) — я бы хотел(а). В кафе говорят **Dám si...** (я возьму...) и **Prosím si...** (мне, пожалуйста...).
+>
+> **Винительный падеж** — как в русском:
+> • женский род **-a → -u**: káva → káv**u**, voda → vod**u**, polievka → polievk**u**
+> • мужской неодушевлённый и средний — без изменений: chlieb, čaj, mlieko
+> • мужской одушевлённый **-a**: brat → brat**a**, kapor → kapr**a**
+>
+> **Оплата:** platiť **kartou** (картой) / **v hotovosti** (наличными). «Сколько стоит?» — **Koľko to stojí?**
+## Jedlo
+w chlieb | хлеб
+w mlieko | молоко
+w káva | кофе
+w čaj | чай
+w voda | вода
+w syr | сыр
+w mäso | мясо
+w zelenina | овощи
+s Chcem kávu s mliekom. | Я хочу кофе с молоком.
+s Dáte si čaj? | Будете чай?
+s Kúpim chlieb a syr. | Я куплю хлеб и сыр.
+s Nejem mäso. | Я не ем мясо.
+s Pohár vody, prosím. | Стакан воды, пожалуйста.
+f Chcem ___. | vodu | voda, vody, vode | Я хочу воды.
+f Prosím si ___. | kávu | káva, kávy, káve | Мне кофе, пожалуйста.
+f On ___ čaj. | chce | chcem, chcú, chceš | Он хочет чай.
+## V obchode
+w kúpiť | купить
+w platiť | платить
+w cena | цена
+w lacný | дешёвый
+w drahý | дорогой
+w karta | карта
+w v hotovosti | наличными
+w taška | пакет, сумка
+s Môžem platiť kartou? | Можно оплатить картой?
+s Platím v hotovosti. | Я плачу наличными.
+s To je príliš drahé. | Это слишком дорого.
+s Potrebujete tašku? | Вам нужен пакет?
+s Koľko stojí tento syr? | Сколько стоит этот сыр?
+f Môžem platiť ___? | kartou | karta, kartu, karte | Можно оплатить картой?
+f Ten syr je ___. | drahý | drahá, drahé, drahí | Этот сыр дорогой.
+f Chcem ___ chlieb. | kúpiť | kúpim, kupuje, kúpte | Я хочу купить хлеб.
+## V reštaurácii
+w reštaurácia | ресторан
+w jedálny lístok | меню
+w polievka | суп
+w obed | обед
+w raňajky | завтрак
+w večera | ужин
+w účet | счёт
+w čašník | официант
+s Jedálny lístok, prosím. | Меню, пожалуйста.
+s Dám si polievku a šalát. | Я возьму суп и салат.
+s Zaplatím, prosím. | Счёт, пожалуйста.
+s Chcel by som stôl pre dvoch. | Я бы хотел столик на двоих.
+s Obed je o dvanástej. | Обед в двенадцать.
+f Dám si ___. | polievku | polievka, polievky, polievke | Я возьму суп.
+f Chcela ___ som kávu. | by | bi, aby, sa | Я бы хотела кофе.
+f Môžem ___ účet? | dostať | dostanem, dostane, dostaň | Можно получить счёт?
+
+# 7 | A1 | Môj deň | Распорядок дня, возвратные глаголы
+> **sa / si** — отдельные слова, а не окончание «-ся»:
+> • **sa** ≈ «-ся»: umývať **sa** (умываться), ponáhľať **sa** (спешить), učiť **sa** (учиться)
+> • **si** ≈ «себе»: kúpiť **si** (купить себе), dať **si** (взять себе), oddýchnuť **si** (отдохнуть)
+>
+> **sa/si стоят на втором месте** в предложении: **Ráno sa** umývam. **Volám sa** Ivan. **Učím sa** po slovensky.
+>
+> Типы спряжения: čítať → **čítam**; písať → **píšem**; piť → **pijem**; spať → **spím**; jesť → **jem, ješ, je, jeme, jete, jedia**.
+>
+> **Как часто:** vždy (всегда), často (часто), niekedy (иногда), **nikdy** (никогда) — с **двойным отрицанием**, как в русском: **Nikdy nejem** mäso.
+## Ráno
+w vstávať | вставать
+w umývať sa | умываться
+w obliekať sa | одеваться
+w raňajkovať | завтракать
+w ponáhľať sa | спешить
+w budík | будильник
+w skoro | рано
+w neskoro | поздно
+s Vstávam o šiestej. | Я встаю в шесть.
+s Ráno sa ponáhľam do práce. | Утром я спешу на работу.
+s Raňajkujem doma. | Я завтракаю дома.
+s Budík zvoní o siedmej. | Будильник звонит в семь.
+s Dnes som vstal neskoro. | Сегодня я встал поздно.
+f Ráno sa ___. | umývam | umývaš, umýva, umývajú | Утром я умываюсь.
+f Ja ___ o siedmej. | vstávam | vstávaš, vstáva, vstávajú | Я встаю в семь.
+f Oni ___ ponáhľajú. | sa | si, ich, je | Они спешат.
+## Cez deň
+w čítať | читать
+w písať | писать
+w piť | пить
+w jesť | есть
+w učiť sa | учиться, учить
+w počúvať | слушать
+w pozerať | смотреть
+w spať | спать
+s Večer čítam knihu. | Вечером я читаю книгу.
+s Píšem e-mail kolegovi. | Я пишу письмо коллеге.
+s Pijem veľa vody. | Я пью много воды.
+s Učím sa po slovensky každý deň. | Я учу словацкий каждый день.
+s Deti už spia. | Дети уже спят.
+f Ja ___ e-mail. | píšem | píše, píšu, píšeš | Я пишу письмо.
+f My ___ kávu. | pijeme | pijem, pijú, piješ | Мы пьём кофе.
+f Ty ___ správy? | čítaš | čítam, číta, čítajú | Ты читаешь новости?
+## Večer a voľno
+w vždy | всегда
+w často | часто
+w niekedy | иногда
+w nikdy | никогда
+w každý deň | каждый день
+w doma | дома
+w odpočívať | отдыхать
+w variť | готовить (еду)
+s Večer varím večeru. | Вечером я готовлю ужин.
+s Niekedy pozerám film. | Иногда я смотрю фильм.
+s Nikdy nepijem kávu večer. | Я никогда не пью кофе вечером.
+s Cez víkend odpočívam doma. | На выходных я отдыхаю дома.
+s Každý deň chodím na prechádzku. | Каждый день я хожу на прогулку.
+f Nikdy ___ mäso. | nejem | jem, ješ, jedia | Я никогда не ем мясо.
+f Ja večer ___ doma. | odpočívam | odpočívaš, odpočíva, odpočívajú | Вечером я отдыхаю дома.
+f My často ___ do kina. | chodíme | chodím, chodia, chodí | Мы часто ходим в кино.
+
+# 8 | A1 | Práca a povolania | Профессии, творительный падеж
+> **Профессии** имеют мужскую и женскую форму: učiteľ — učiteľ**ka**, lekár — lekár**ka**, programátor — programátor**ka**, predavač — predavač**ka**.
+>
+> **Som programátor.** — именительный, как в русском. Но удобнее русского: **Pracujem ako programátor** — после **ako** тоже именительный (по-русски «работаю программист**ом**»).
+>
+> **Творительный падеж** (inštrumentál):
+> • м. и ср. род: **-om** — s kolegom, autobusom, mestom
+> • ж. род: **-ou** — s kolegyňou, kartou, školou
+> • после **s/so** (с): s kolegom, **so** sestrou (перед с/з/ш/ж пишут **so**)
+>
+> **Этажи:** **prízemie** — первый этаж, **prvé poschodie** — по-нашему второй!
+## Povolania
+w povolanie | профессия
+w učiteľ | учитель
+w lekár | врач
+w programátor | программист
+w inžinier | инженер
+w predavačka | продавщица
+w účtovníčka | бухгалтер (жен.)
+w vodič | водитель
+s Aké je vaše povolanie? | Какая у вас профессия?
+s Som programátor. | Я программист.
+s Pracujem ako účtovníčka. | Я работаю бухгалтером.
+s Moja sestra je lekárka. | Моя сестра — врач.
+s Môj otec je vodič autobusu. | Мой отец — водитель автобуса.
+f Jana je ___. | učiteľka | učiteľ, učiteľa, učiteľom | Яна — учительница.
+f Pracujem ___ inžinier. | ako | ak, ktorý, než | Я работаю инженером.
+f Peter je ___. | lekár | lekárka, lekára, lekárom | Петер — врач.
+## Na pracovisku
+w firma | фирма
+w kancelária | офис
+w kolega | коллега (м.)
+w kolegyňa | коллега (ж.)
+w šéf | начальник
+w porada | совещание
+w úloha | задача
+w počítač | компьютер
+s Pracujem vo veľkej firme. | Я работаю в большой фирме.
+s Môj šéf je dnes na porade. | Мой начальник сегодня на совещании.
+s Obedujem s kolegami. | Я обедаю с коллегами.
+s Mám veľa úloh. | У меня много задач.
+s Kancelária je na prízemí. | Офис на первом этаже.
+f Hovorím s ___. | kolegom | kolega, kolegu, kolegovi | Я разговариваю с коллегой.
+f Idem na ___. | poradu | porada, porade, porady | Я иду на совещание.
+f Pracujem s ___. | počítačom | počítač, počítača, počítači | Я работаю с компьютером.
+## Pracovný čas
+w pracovný čas | рабочее время
+w zmena | смена
+w nadčas | сверхурочная работа
+w voľno | выходной, свободное время
+w dovolenka | отпуск
+w začínať | начинать(ся)
+w končiť | заканчивать(ся)
+w obedňajšia prestávka | обеденный перерыв
+s Pracovný čas začína o ôsmej. | Рабочий день начинается в восемь.
+s Končím o štvrtej. | Я заканчиваю в четыре.
+s Mám obedňajšiu prestávku od dvanástej. | У меня обеденный перерыв с двенадцати.
+s V lete idem na dovolenku. | Летом я иду в отпуск.
+s Dnes robím nadčas. | Сегодня я работаю сверхурочно.
+f Zajtra mám ___. | voľno | voľna, voľnu, voľnom | Завтра у меня выходной.
+f Idem na ___. | dovolenku | dovolenka, dovolenky, dovolenke | Я ухожу в отпуск.
+f Pracujem na rannú ___. | zmenu | zmena, zmene, zmeny | Я работаю в утреннюю смену.
+
+# 9 | A1 | V kancelárii | Офис, модальные глаголы, вежливые просьбы
+> **Модальные глаголы** + инфинитив:
+> • **môcť** (мочь): môžem, môžeš, môže, môžeme, môžete, môžu
+> • **musieť** (быть должным): musím, musíš, musí, musíme, musíte, musia
+> • **vedieť** (знать, уметь): viem, vieš, vie, vieme, viete, vedia
+> • **smieť** (сметь, разрешено): smiem... — **Smiem?** = Можно?
+>
+> **Musím** pracovať. **Môžete** mi pomôcť? **Viem** po slovensky.
+>
+> **Вежливая просьба** — с условным наклонением: **Mohli by ste...?** (Не могли бы вы...?). Обратите внимание: к одному человеку на «вы» — форма множественного числа: **mohli**, а не «mohol».
+>
+> Полезное: **prepáčte** (извините), **samozrejme** (конечно), **žiaľ** (к сожалению), **v poriadku** (в порядке).
+## Kancelárske veci
+w stôl | стол
+w stolička | стул
+w tlačiareň | принтер
+w papier | бумага
+w pero | ручка
+w dokument | документ
+w zložka | папка
+w heslo | пароль
+s Tlačiareň nefunguje. | Принтер не работает.
+s Kde je zložka s dokumentmi? | Где папка с документами?
+s Potrebujem nové heslo. | Мне нужен новый пароль.
+s Máš pero? | У тебя есть ручка?
+s Papier je v skrini. | Бумага в шкафу.
+f Potrebujem ___. | stoličku | stolička, stoličky, stoličke | Мне нужен стул.
+f Dokumenty sú na ___. | stole | stôl, stola, stolom | Документы на столе.
+f Zabudol som ___. | heslo | hesla, heslu, heslom | Я забыл пароль.
+## Musím a môžem
+w môcť | мочь
+w musieť | быть должным
+w vedieť | уметь, знать
+w pomôcť | помочь
+w poslať | отправить
+w vytlačiť | распечатать
+w zavolať | позвонить
+w hneď | сразу
+s Môžete mi pomôcť? | Можете мне помочь?
+s Musím to poslať dnes. | Я должен отправить это сегодня.
+s Viete, kde je šéf? | Вы знаете, где начальник?
+s Mohli by ste to vytlačiť? | Не могли бы вы это распечатать?
+s Zavolám vám hneď. | Я вам сразу позвоню.
+f Ja ___ pracovať do šiestej. | musím | musíš, musí, musia | Я должен работать до шести.
+f Môžete mi ___? | pomôcť | pomôžem, pomáha, pomôžte | Можете мне помочь?
+f Ja ___ po slovensky. | viem | vie, vedia, vieš | Я знаю словацкий.
+## Prosby a otázky
+w prepáčte | извините
+w samozrejme | конечно
+w žiaľ | к сожалению
+w možno | возможно
+w otázka | вопрос
+w odpoveď | ответ
+w problém | проблема
+w v poriadku | в порядке
+s Prepáčte, mám otázku. | Извините, у меня вопрос.
+s Samozrejme, žiadny problém. | Конечно, без проблем.
+s Žiaľ, dnes nemám čas. | К сожалению, сегодня у меня нет времени.
+s Je všetko v poriadku? | Всё в порядке?
+s Počkám na vašu odpoveď. | Я подожду вашего ответа.
+f Mám jednu ___. | otázku | otázka, otázky, otázke | У меня один вопрос.
+f To nie je ___. | problém | problému, problémom, probléme | Это не проблема.
+f Čakám na ___ odpoveď. | vašu | váš, vaša, vaše | Жду вашего ответа.
+
+# 10 | A1 | Škola a štúdium | Учёба, множественное число
+> **Множественное число** (именительный падеж):
+> • женский род: kniha → knih**y**, škola → škol**y**, ulica → ulic**e**
+> • мужской неодушевлённый: dom → dom**y**, počítač → počítač**e**
+> • **люди** (мужской одушевлённый): študent → študent**i**, učiteľ → učitel**ia**, kolega → koleg**ovia**
+> • средний род: mesto → mest**á**, slovo → slov**á**
+>
+> **Учиться — три глагола:**
+> • **študovať** — учиться в вузе: Študujem medicínu.
+> • **učiť sa** — учить, заниматься: **Učím sa** slovenčinu / po slovensky.
+> • **učiť** — преподавать: Učím matematiku.
+>
+> Экзамен «по чему» — **z** + родительный: skúška **z** matematiky.
+## Na univerzite
+w univerzita | университет
+w fakulta | факультет
+w študent | студент
+w prednáška | лекция
+w seminár | семинар
+w skúška | экзамен
+w predmet | предмет
+w rozvrh | расписание
+s Študujem informatiku. | Я изучаю информатику.
+s Prednáška začína o desiatej. | Лекция начинается в десять.
+s Zajtra mám skúšku z matematiky. | Завтра у меня экзамен по математике.
+s Kde je rozvrh? | Где расписание?
+s Na fakulte študuje veľa cudzincov. | На факультете учится много иностранцев.
+f Mám dve ___. | skúšky | skúška, skúšok, skúšku | У меня два экзамена.
+f Študenti ___ na prednáške. | sú | je, som, si | Студенты на лекции.
+f Idem na ___. | prednášku | prednáška, prednášky, prednáške | Я иду на лекцию.
+## Učím sa
+w učiť sa | учиться, учить
+w opakovať | повторять
+w slovo | слово
+w veta | предложение
+w jazyk | язык
+w gramatika | грамматика
+w domáca úloha | домашнее задание
+w chyba | ошибка
+s Učím sa slovenčinu. | Я учу словацкий язык.
+s Opakujem nové slová. | Я повторяю новые слова.
+s Robím veľa chýb. | Я делаю много ошибок.
+s Gramatika je ťažká, ale zaujímavá. | Грамматика трудная, но интересная.
+s Máme domácu úlohu. | У нас домашнее задание.
+f Nové ___ sú ťažké. | slová | slovo, slov, slovu | Новые слова трудные.
+f Učím ___ po slovensky. | sa | si, ma, mi | Я учу словацкий.
+f Máš tam dve ___. | chyby | chyba, chýb, chybu | У тебя там две ошибки.
+## Kurz
+w kurz | курс
+w lektor | преподаватель (курсов)
+w trieda | класс, аудитория
+w začiatočník | начинающий
+w pokročilý | продвинутый
+w úroveň | уровень
+w certifikát | сертификат
+w prihlásiť sa | записаться
+s Chcem sa prihlásiť na kurz. | Я хочу записаться на курс.
+s Som začiatočník. | Я начинающий.
+s Moja úroveň je A1. | Мой уровень — A1.
+s Lektorka je veľmi trpezlivá. | Преподавательница очень терпеливая.
+s Po kurze dostanem certifikát. | После курса я получу сертификат.
+f Prihlásil som ___ na kurz. | sa | si, ma, mi | Я записался на курс.
+f Kurz je pre ___. | začiatočníkov | začiatočníci, začiatočník, začiatočníkom | Курс для начинающих.
+f Mám certifikát zo ___. | slovenčiny | slovenčina, slovenčinu, slovenčine | У меня сертификат по словацкому.

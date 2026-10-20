@@ -1,0 +1,646 @@
+# 31 | B2 | Vyjednávanie | Переговоры: условия, компромисс, договор
+> **В переговорах помогает «смягчение»** — условное наклонение и книжные обороты:
+> • **Boli by ste ochotní...?** — Были бы вы готовы...?
+> • **Za predpokladu, že...** — При условии, что...
+> • **Pokiaľ ide o** + вин.: **Pokiaľ ide o cenu, ...** — Что касается цены, ...
+> • **Vieme vám ponúknuť...** — Мы можем вам предложить...
+> • **To je pre nás neprijateľné.** — Для нас это неприемлемо.
+> • **Poďme nájsť kompromis.** — Давайте найдём компромисс.
+>
+> **Управление:** trvať **na** + местн. (настаивать на), urobiť ústupok (пойти на уступку), zvážiť návrh (обдумать предложение).
+>
+> **Договор:** **uzavrieť zmluvu** — заключить договор, **dodatok** — дополнение, **lehota splatnosti** — срок оплаты, **zmluvná pokuta** — неустойка.
+## Ponuka a podmienky
+w zmluvné podmienky | условия договора
+w ponúknuť | предложить
+w pripravený | готовый, подготовленный
+w neprijateľný | неприемлемый
+w za predpokladu | при условии
+w pokiaľ ide o | что касается
+w cenová ponuka | ценовое предложение
+w rokovať | вести переговоры
+s Pokiaľ ide o cenu, sme pripravení rokovať. | Что касается цены, мы готовы вести переговоры.
+s Za predpokladu, že zaplatíte vopred, dáme vám zľavu. | При условии, что вы заплатите заранее, мы дадим вам скидку.
+s Takéto zmluvné podmienky sú pre nás neprijateľné. | Такие условия договора для нас неприемлемы.
+s Pošleme vám novú cenovú ponuku. | Мы пришлём вам новое ценовое предложение.
+s Boli by ste ochotní predĺžiť termín? | Были бы вы готовы продлить срок?
+f Boli by ste ___ znížiť cenu? | ochotní | ochotný, ochotná, ochotné | Были бы вы готовы снизить цену?
+f ___ ide o termín, potrebujeme viac času. | Pokiaľ | Pokým, Pretože, Hoci | Что касается срока, нам нужно больше времени.
+f To je pre nás ___. | neprijateľné | neprijateľný, neprijateľná, neprijateľní | Для нас это неприемлемо.
+## Kompromis
+w kompromis | компромисс
+w ústupok | уступка
+w protinávrh | встречное предложение
+w trvať na | настаивать на
+w zvážiť | обдумать, взвесить
+w obojstranne výhodný | взаимовыгодный
+w rokovanie | переговоры
+w dohoda | соглашение
+s Poďme nájsť kompromis. | Давайте найдём компромисс.
+s Sme pripravení urobiť určité ústupky. | Мы готовы пойти на определённые уступки.
+s Trváme na pôvodnej cene. | Мы настаиваем на первоначальной цене.
+s Váš protinávrh zvážime. | Мы обдумаем ваше встречное предложение.
+s Hľadáme obojstranne výhodné riešenie. | Мы ищем взаимовыгодное решение.
+f Trváme ___ termíne. | na | o, za, pri | Мы настаиваем на сроке.
+f Váš návrh musíme ešte ___. | zvážiť | zvážime, zvážil, zváženie | Ваше предложение нам нужно ещё обдумать.
+f Rokovanie bolo ___ výhodné. | obojstranne | obojstranný, obojstranná, obojstrannú | Переговоры были взаимовыгодными.
+## Uzavretie obchodu
+w uzavrieť zmluvu | заключить договор
+w podpísať | подписать
+w zmluvná pokuta | неустойка
+w lehota | срок (период)
+w splatnosť | срок оплаты
+w dodatok | дополнение (к договору)
+w platný | действительный
+w ukončiť | прекратить, завершить
+s Zmluvu podpíšeme budúci týždeň. | Договор подпишем на следующей неделе.
+s Lehota splatnosti faktúry je tridsať dní. | Срок оплаты счёта — тридцать дней.
+s Pri omeškaní hrozí zmluvná pokuta. | При просрочке грозит неустойка.
+s Zmenu riešime dodatkom k zmluve. | Изменение мы оформим дополнением к договору.
+s Zmluva je platná od prvého januára. | Договор действителен с первого января.
+f Zmluva je ___ do konca roka. | platná | platný, platné, platnosť | Договор действителен до конца года.
+f Uzavreli sme ___ s dodávateľom. | zmluvu | zmluva, zmluvy, zmluve | Мы заключили договор с поставщиком.
+f Faktúra je splatná do tridsiatich ___. | dní | dni, dňa, dňoch | Счёт подлежит оплате в течение тридцати дней.
+
+# 32 | B2 | Trpný rod | Страдательный залог и причастия
+> **Страдательный залог — два способа:**
+> 1. **byť + причастие на -ný / -tý**: Zmluva **bola podpísaná**. Projekt **bude dokončený** v máji.
+> 2. **sa + глагол** (очень частый в словацком!): Tu **sa nesmie** fajčiť. Zmluva **sa podpíše** zajtra. Kde **sa predávajú** lístky?
+>
+> **Причастие согласуется** с подлежащим: zákon bol schválen**ý**, zmluva bola schválen**á**, rozhodnutie bolo schválen**é**.
+>
+> **Действительные причастия (-úci / -iaci)** — «работающий, следующий»: **pracujúci**, **nasledujúci**, **týkajúci sa** (касающийся).
+>
+> **Канцелярские обороты:** **vyššie uvedený** (вышеуказанный), **príslušný** (соответствующий), **vyplývajúci z** (вытекающий из).
+>
+> Безличное «говорят, ожидается»: **Hovorí sa**, že... **Očakáva sa**, že...
+## Bolo urobené
+w podpísaný | подписанный
+w schválený | одобренный
+w zverejnený | опубликованный
+w zatvorený | закрытый
+w zrušený | отменённый
+w doručený | доставленный
+w spracovaný | обработанный
+w vybavený | улаженный, оформленный
+s Zmluva bola podpísaná včera. | Договор был подписан вчера.
+s Let bol zrušený pre zlé počasie. | Рейс был отменён из-за плохой погоды.
+s Vaša žiadosť je už vybavená. | Ваше заявление уже оформлено.
+s Výsledky budú zverejnené v pondelok. | Результаты будут опубликованы в понедельник.
+s Balík bol doručený do kancelárie. | Посылка была доставлена в офис.
+f Dokument bol ___ riaditeľom. | schválený | schválená, schválené, schválili | Документ был одобрен директором.
+f Obchod je v nedeľu ___. | zatvorený | zatvorená, zatvorené, zatvorení | Магазин в воскресенье закрыт.
+f Výsledky budú ___ zajtra. | zverejnené | zverejnený, zverejnená, zverejnenú | Результаты будут опубликованы завтра.
+## Pasívum so sa
+w hovorí sa | говорят
+w predáva sa | продаётся
+w očakáva sa | ожидается
+w vyžaduje sa | требуется
+w nesmie sa | нельзя
+w píše sa | пишется
+w používa sa | используется
+w zistilo sa | выяснилось
+s Hovorí sa, že firma bude prepúšťať. | Говорят, что фирма будет сокращать сотрудников.
+s Vyžaduje sa znalosť slovenčiny. | Требуется знание словацкого языка.
+s Tu sa nesmie fajčiť. | Здесь нельзя курить.
+s Ako sa to píše? | Как это пишется?
+s Očakáva sa, že ceny stúpnu. | Ожидается, что цены вырастут.
+f Byty sa ___ veľmi rýchlo. | predávajú | predáva, predávam, predávané | Квартиры продаются очень быстро.
+f Ako ___ to slovo vyslovuje? | sa | si, je, ho | Как произносится это слово?
+f ___ sa znalosť angličtiny. | Vyžaduje | Vyžadujú, Vyžadovať, Vyžadovaný | Требуется знание английского.
+## Príčastia v texte
+w pracujúci | работающий
+w nasledujúci | следующий
+w súčasný | нынешний, современный
+w vyššie uvedený | вышеуказанный
+w príslušný | соответствующий
+w zúčastnený | участвующий
+w týkajúci sa | касающийся
+w vyplývajúci z | вытекающий из
+s Nasledujúci týždeň budem na služobnej ceste. | На следующей неделе я буду в командировке.
+s Pracujúci študenti majú nárok na zľavu. | Работающие студенты имеют право на скидку.
+s Vyššie uvedené informácie sú dôverné. | Вышеуказанная информация конфиденциальна.
+s Obráťte sa na príslušný úrad. | Обратитесь в соответствующее учреждение.
+s Všetky otázky týkajúce sa zmluvy posielajte mne. | Все вопросы, касающиеся договора, присылайте мне.
+f ___ deň sme pokračovali. | Nasledujúci | Nasledujúca, Nasledujúce, Nasledujúcom | На следующий день мы продолжили.
+f Otázky ___ sa platu riešime osobne. | týkajúce | týkajúci, týkajúca, týkať | Вопросы, касающиеся зарплаты, мы решаем лично.
+f Obráťte sa na ___ oddelenie. | príslušné | príslušný, príslušná, príslušnom | Обратитесь в соответствующий отдел.
+
+# 33 | B2 | Pracovné právo | Трудовое право: договор, отпуск, увольнение
+> **Zákonník práce** — Трудовой кодекс. Основные понятия:
+> • **pracovná zmluva na dobu neurčitú / určitú** — бессрочный / срочный трудовой договор
+> • **pracovná náplň** — должностные обязанности, **miesto výkonu práce** — место работы
+> • **skúšobná doba** — испытательный срок
+> • **dovolenka** — по закону минимум **4 недели** в год; **5 недель** — для тех, кому в этом году исполняется 33, и для тех, кто постоянно растит ребёнка
+> • **nadčasy** — сверхурочные, **príplatok** — доплата, **náhradné voľno** — отгул
+>
+> **Окончание работы:**
+> • **výpoveď** — расторжение по инициативе одной стороны (**dať výpoveď** — уволиться или уволить)
+> • **výpovedná lehota** — срок предупреждения (обычно 1–3 месяца, зависит от стажа)
+> • **dohoda o skončení pracovného pomeru** — расторжение по соглашению сторон
+> • **odstupné** — выходное пособие
+>
+> «Иметь право на...» — **mať nárok na** + вин.: mám nárok **na** dovolenku.
+> Законы меняются — актуальные условия смотрите на **slov-lex.sk** или у юриста.
+## Pracovná zmluva
+w pracovná zmluva | трудовой договор
+w na dobu neurčitú | бессрочно
+w na dobu určitú | на определённый срок
+w pracovná náplň | должностные обязанности
+w miesto výkonu práce | место работы
+w pracovný pomer | трудовые отношения
+w Zákonník práce | Трудовой кодекс
+w nástup do práce | выход на работу
+s Mám pracovnú zmluvu na dobu neurčitú. | У меня бессрочный трудовой договор.
+s Pracovná náplň je uvedená v zmluve. | Должностные обязанности указаны в договоре.
+s Pracovný pomer vznikol dňom nástupu do práce. | Трудовые отношения возникли в день выхода на работу.
+s Podľa Zákonníka práce máte nárok na prestávku. | Согласно Трудовому кодексу вы имеете право на перерыв.
+s Zmluva na dobu určitú končí v decembri. | Срочный договор заканчивается в декабре.
+f Mám zmluvu na ___ neurčitú. | dobu | doba, doby, dobe | У меня бессрочный договор.
+f Máte ___ na obedňajšiu prestávku. | nárok | nároku, nárokom, náročný | Вы имеете право на обеденный перерыв.
+f Podľa ___ práce máte nárok na dovolenku. | Zákonníka | Zákonník, Zákonníku, Zákonníkom | Согласно Трудовому кодексу вы имеете право на отпуск.
+## Dovolenka a nadčasy
+w nárok | право (на что-то)
+w nadčasy | сверхурочные
+w príplatok | доплата
+w náhradné voľno | отгул
+w čerpať dovolenku | брать отпуск
+w sviatok | праздник
+w práca cez víkend | работа в выходные
+w evidencia dochádzky | учёт рабочего времени
+s Mám nárok na päť týždňov dovolenky. | У меня есть право на пять недель отпуска.
+s Za nadčasy dostávam príplatok. | За сверхурочные я получаю доплату.
+s Namiesto príplatku si zoberiem náhradné voľno. | Вместо доплаты я возьму отгул.
+s Dovolenku musím vyčerpať do konca roka. | Отпуск мне нужно использовать до конца года.
+s Počas sviatku je príplatok vyšší. | В праздник доплата выше.
+f Mám nárok ___ dovolenku. | na | o, za, k | У меня есть право на отпуск.
+f Za prácu cez ___ je príplatok. | víkend | víkendu, víkendom, víkende | За работу в выходные полагается доплата.
+f Chcem ___ dovolenku v auguste. | čerpať | čerpám, čerpal, čerpanie | Я хочу взять отпуск в августе.
+## Skončenie pomeru
+w výpoveď | расторжение (заявление об увольнении)
+w výpovedná lehota | срок предупреждения
+w dohoda o skončení | соглашение о расторжении
+w odstupné | выходное пособие
+w prepustiť | уволить
+w dať výpoveď | уволиться, уволить
+w zápočtový list | справка о стаже
+w potvrdenie o zamestnaní | справка с места работы
+s Dal som výpoveď, lebo som našiel lepšiu prácu. | Я уволился, потому что нашёл работу лучше.
+s Výpovedná lehota sú dva mesiace. | Срок предупреждения — два месяца.
+s Pracovný pomer sme skončili dohodou. | Мы расторгли трудовой договор по соглашению сторон.
+s Pri prepúšťaní môžete mať nárok na odstupné. | При сокращении вы можете иметь право на выходное пособие.
+s Na konci mi vydajú zápočtový list. | В конце мне выдадут справку о стаже.
+f Dal som ___. | výpoveď | výpovede, výpoveďou, výpovedný | Я подал заявление об увольнении.
+f Výpovedná ___ začína plynúť od prvého dňa mesiaca. | lehota | lehoty, lehotu, lehote | Срок предупреждения начинает течь с первого числа месяца.
+f Má nárok na ___. | odstupné | odstupného, odstupným, odstupnom | Он имеет право на выходное пособие.
+
+# 34 | B2 | Akademické písanie | Академический стиль и аргументация
+> **Книжные связки:**
+> • **Cieľom práce je...** — Цель работы — ...
+> • **V prvej kapitole...** — В первой главе...
+> • **Z výsledkov vyplýva, že...** — Из результатов следует, что...
+> • **Je potrebné zdôrazniť, že...** — Необходимо подчеркнуть, что...
+> • **Na jednej strane... na druhej strane...** — С одной стороны... с другой стороны...
+> • **Vzhľadom na** + вин.: vzhľadom **na** výsledky — учитывая результаты
+> • **V neposlednom rade** — не в последнюю очередь, наконец
+>
+> **Авторское «мы»:** Zistili **sme**, že... Analyzujeme... — так пишут даже в работе одного автора.
+>
+> **Ссылки на источники:** **podľa** + род. (podľa autora), **autor uvádza, že...**, **štúdia ukazuje...**
+## Štruktúra textu
+w kapitola | глава
+w abstrakt | аннотация
+w záver | заключение
+w metodológia | методология
+w hypotéza | гипотеза
+w analýza | анализ
+w zistenie | вывод, находка
+w prehľad literatúry | обзор литературы
+s Cieľom práce je analyzovať trh práce. | Цель работы — проанализировать рынок труда.
+s V prvej kapitole opisujeme metodológiu. | В первой главе мы описываем методологию.
+s Hypotéza sa potvrdila. | Гипотеза подтвердилась.
+s Hlavné zistenia sú zhrnuté v závere. | Основные выводы изложены в заключении.
+s Prehľad literatúry ukazuje viacero prístupov. | Обзор литературы показывает несколько подходов.
+f Cieľom ___ je porovnať dva systémy. | práce | práca, prácu, prácou | Цель работы — сравнить две системы.
+f V druhej ___ uvádzame výsledky. | kapitole | kapitola, kapitolu, kapitoly | Во второй главе мы приводим результаты.
+f Hypotéza sa ___. | potvrdila | potvrdil, potvrdilo, potvrdiť | Гипотеза подтвердилась.
+## Argumentácia
+w argument | аргумент
+w dokázať | доказать
+w vyvrátiť | опровергнуть
+w zdôrazniť | подчеркнуть
+w na jednej strane | с одной стороны
+w na druhej strane | с другой стороны
+w vzhľadom na | учитывая
+w v neposlednom rade | не в последнюю очередь
+s Na jednej strane je to lacnejšie, na druhej strane menej kvalitné. | С одной стороны, это дешевле, с другой — менее качественно.
+s Je potrebné zdôrazniť, že vzorka bola malá. | Необходимо подчеркнуть, что выборка была небольшой.
+s Vzhľadom na výsledky odporúčame zmenu. | Учитывая результаты, мы рекомендуем изменение.
+s Tento argument nemožno vyvrátiť. | Этот аргумент нельзя опровергнуть.
+s Údaje dokazujú, že trend pokračuje. | Данные доказывают, что тенденция продолжается.
+f Vzhľadom ___ situáciu sme plán zmenili. | na | k, o, pre | Учитывая ситуацию, мы изменили план.
+f Na druhej ___ treba povedať, že ide o odhad. | strane | strana, stranu, strany | С другой стороны, нужно сказать, что это оценка.
+f Je potrebné ___, že ide o odhad. | zdôrazniť | zdôrazňujem, zdôraznil, zdôraznenie | Необходимо подчеркнуть, что речь идёт об оценке.
+## Citovanie a zdroje
+w podľa autora | по мнению автора
+w uvádzať | приводить, указывать
+w bibliografický odkaz | библиографическая ссылка
+w výskum | исследование
+w štúdia | научная работа, исследование
+w údaje | данные
+w vzorka | выборка
+w respondent | респондент
+s Podľa autora ide o dlhodobý trend. | По мнению автора, речь идёт о долгосрочной тенденции.
+s Výskum prebiehal dva roky. | Исследование проводилось два года.
+s Štúdia uvádza, že sedemdesiat percent respondentov súhlasí. | Исследование указывает, что семьдесят процентов респондентов согласны.
+s Údaje pochádzajú zo Štatistického úradu. | Данные получены из Статистического управления.
+s Vzorka zahŕňala päťsto ľudí. | Выборка включала пятьсот человек.
+f Údaje ___ z roku 2023. | pochádzajú | pochádza, pochádzať, pochádzajúci | Данные относятся к 2023 году.
+f Do výskumu sa zapojilo tristo ___. | respondentov | respondenti, respondent, respondentom | В исследовании участвовали триста респондентов.
+f ___ autora je to chyba. | Podľa | Pre, Od, Za | По мнению автора, это ошибка.
+
+# 35 | B2 | Spoločnosť a médiá | Общество, СМИ, дискуссия
+> **Как спорить на B2:**
+> • **Podľa môjho názoru...** — По моему мнению...
+> • **Som presvedčený/á, že...** — Я убеждён(а), что...
+> • **Pochybujem, že...** — Сомневаюсь, что...
+> • **Chápem, že..., ale...** — Понимаю, что..., но...
+> • **Nemožno tvrdiť, že...** — Нельзя утверждать, что...
+> • **Závisí to od** + род.: Závisí to **od** situácie. — Это зависит от ситуации.
+>
+> **СМИ:** **správy / spravodajstvo** — новости, **článok** — статья, **titulok** — заголовок, **novinár** — журналист, **dezinformácia**, **verejná mienka** — общественное мнение, **prieskum** — опрос.
+>
+> **Большинство** — с единственным числом: **Väčšina** ľudí **podporuje** zmenu.
+>
+> Где читать и слушать: новости **STVR**, сайты **SME**, **Denník N**, **Aktuality**, подкасты на словацком.
+## Správy
+w správy | новости
+w článok | статья
+w titulok | заголовок
+w novinár | журналист
+w zdroj informácií | источник информации
+w dezinformácia | дезинформация
+w overiť | проверить
+w spravodajstvo | новостное вещание
+s Čítal som zaujímavý článok o trhu práce. | Я читал интересную статью о рынке труда.
+s Titulok je zavádzajúci. | Заголовок вводит в заблуждение.
+s Informácie si treba overiť z viacerých zdrojov. | Информацию нужно проверять по нескольким источникам.
+s Na sociálnych sieťach je veľa dezinformácií. | В социальных сетях много дезинформации.
+s Novinár sa pýtal ministra na rozpočet. | Журналист спрашивал министра о бюджете.
+f Čítal som článok ___ ekonomike. | o | na, za, pri | Я читал статью об экономике.
+f Treba si to ___. | overiť | overím, overil, overenie | Это нужно проверить.
+f Na internete je veľa ___. | dezinformácií | dezinformácie, dezinformácia, dezinformáciám | В интернете много дезинформации.
+## Diskusia
+w pochybovať | сомневаться
+w presvedčený | убеждённый
+w závisieť od | зависеть от
+w chápať | понимать
+w verejná mienka | общественное мнение
+w prieskum | опрос
+w kritizovať | критиковать
+w podporovať | поддерживать
+s Pochybujem, že to bude fungovať. | Сомневаюсь, что это будет работать.
+s Som presvedčená, že vzdelanie je kľúčové. | Я убеждена, что образование — ключевое.
+s Závisí to od situácie. | Это зависит от ситуации.
+s Podľa prieskumu väčšina ľudí podporuje zmenu. | Согласно опросу, большинство людей поддерживает изменение.
+s Chápem vaše argumenty, ale mám iný názor. | Я понимаю ваши аргументы, но у меня другое мнение.
+f Závisí to ___ ceny. | od | z, na, o | Это зависит от цены.
+f Ona je ___, že má pravdu. | presvedčená | presvedčený, presvedčené, presvedčiť | Она убеждена, что права.
+f Väčšina ľudí ___ tento návrh. | podporuje | podporujú, podporovať, podporujem | Большинство людей поддерживает это предложение.
+## Spoločenské témy
+w zamestnanosť | занятость
+w nezamestnanosť | безработица
+w migrácia | миграция
+w integrácia | интеграция
+w životné prostredie | окружающая среда
+w zdravotníctvo | здравоохранение
+w školstvo | система образования
+w dôchodok | пенсия
+s Nezamestnanosť v regióne je vysoká. | Безработица в регионе высокая.
+s Integrácia cudzincov je dôležitá téma. | Интеграция иностранцев — важная тема.
+s Musíme chrániť životné prostredie. | Мы должны защищать окружающую среду.
+s Zdravotníctvo potrebuje viac lekárov. | Здравоохранению нужно больше врачей.
+s Moji rodičia sú už na dôchodku. | Мои родители уже на пенсии.
+f Rodičia sú na ___. | dôchodku | dôchodok, dôchodkom, dôchodky | Родители на пенсии.
+f Musíme chrániť životné ___. | prostredie | prostredia, prostrediu, prostredím | Мы должны защищать окружающую среду.
+f ___ cudzincov trvá roky. | Integrácia | Integráciu, Integrácie, Integrovať | Интеграция иностранцев занимает годы.
+
+# 36 | B2 | Frazeológia | Пословицы, идиомы, разговорная речь
+> **Словаки любят пословицы:**
+> • **Bez práce nie sú koláče.** — Без труда не выловишь и рыбку из пруда.
+> • **Kto neskoro chodí, sám sebe škodí.** — Кто поздно приходит, сам себе вредит.
+> • **Robiť z komára somára.** — Делать из мухи слона.
+> • **Mať maslo na hlave.** — Рыльце в пушку.
+> • **Hodiť flintu do žita.** — Опустить руки, сдаться.
+>
+> **Идиомы:** **byť v siedmom nebi** — быть на седьмом небе, **ísť niekomu na nervy** — действовать на нервы, **trafiť klinec po hlavičke** — попасть в точку, **zabiť dve muchy jednou ranou** — убить двух зайцев.
+>
+> **Разговорное** (с друзьями, не на собеседовании!): **v pohode** — нормально, без проблем; **fakt** — реально, правда; **makať** — вкалывать; **kecať** — болтать; **kamoš** — приятель; **pivko** — пивко.
+## Príslovia
+w príslovie | пословица
+w koláč | пирог
+w komár | комар
+w somár | осёл
+w maslo | масло
+w flinta | ружьё (в идиоме)
+w žito | рожь
+w škodiť | вредить
+s Bez práce nie sú koláče. | Без труда не выловишь и рыбку из пруда.
+s Kto neskoro chodí, sám sebe škodí. | Кто поздно приходит, сам себе вредит.
+s Nerob z komára somára. | Не делай из мухи слона.
+s Nehádž flintu do žita! | Не опускай руки!
+s Má maslo na hlave. | У него рыльце в пушку.
+f Bez práce nie sú ___. | koláče | koláč, koláčov, koláčmi | Без труда не выловишь и рыбку из пруда.
+f Nerob z komára ___. | somára | somár, somárom, somárovi | Не делай из мухи слона.
+f Kto neskoro chodí, sám sebe ___. | škodí | škodia, škodiť, škodím | Кто поздно приходит, сам себе вредит.
+## Hovorová reč
+w v pohode | нормально, без проблем
+w fakt | реально, правда
+w makať | вкалывать
+w kecať | болтать
+w frajer | крутой парень
+w kamoš | приятель
+w pivko | пивко
+w šéfko | шеф (фамильярно)
+s V pohode, nič sa nestalo. | Всё нормально, ничего не случилось.
+s Fakt? To som nevedel. | Правда? Я этого не знал.
+s Celý týždeň som makal. | Я всю неделю вкалывал.
+s Ideme na pivko s kamošmi. | Идём на пивко с приятелями.
+s Nekecaj a poď! | Не болтай и пошли!
+f Ideme s ___ na pivko. | kamošmi | kamoši, kamošov, kamošom | Идём с приятелями на пивко.
+f Všetko je v ___. | pohode | pohoda, pohodu, pohody | Всё нормально.
+f Celý deň som ___. | makal | makať, makám, makali | Я весь день вкалывал.
+## Idiómy v práci
+w mať plné ruky práce | быть по уши в работе
+w trafiť klinec po hlavičke | попасть в точку
+w zabiť dve muchy jednou ranou | убить двух зайцев одним выстрелом
+w ťahať za kratší koniec | оказаться в проигрыше
+w mať niečo v malíčku | знать как свои пять пальцев
+w zobrať si niečo k srdcu | принять близко к сердцу
+w ísť na nervy | действовать на нервы
+w byť v siedmom nebi | быть на седьмом небе
+s Mám plné ruky práce. | Я по уши в работе.
+s Tým si trafil klinec po hlavičke. | Этим ты попал в точку.
+s Zabili sme dve muchy jednou ranou. | Мы убили двух зайцев одним выстрелом.
+s Excel má v malíčku. | Он знает Excel как свои пять пальцев.
+s Neber si to k srdcu. | Не принимай это близко к сердцу.
+f Ten hluk mi ide na ___. | nervy | nerv, nervoch, nervami | Этот шум действует мне на нервы.
+f Zabili sme dve muchy jednou ___. | ranou | rana, ranu, rane | Мы убили двух зайцев одним выстрелом.
+f Keď dostal ponuku, bol v siedmom ___. | nebi | nebo, neba, nebom | Когда он получил предложение, он был на седьмом небе.
+
+# 37 | B2 | Slovensko | Реалии: регионы, история, традиции
+> **Немного фактов:**
+> • Словакия независима с **1 января 1993** года — после мирного разделения Чехословакии.
+> • В **ЕС** — с **2004** года, **евро** — с **2009**, в Шенгене — с 2007.
+> • **8 краёв (kraje):** Bratislavský, Trnavský, Nitriansky, Trenčiansky, Žilinský, Banskobystrický, Prešovský, Košický.
+> • Население — около **5,4 млн** человек.
+>
+> **Праздники и традиции:**
+> • **Vianoce** — Рождество. Главный вечер — **Štedrý večer** (24 декабря): **kapustnica** (капустный суп) и **kapor** (карп).
+> • **Veľká noc** — Пасха; в понедельник **šibačka / oblievačka** — парни обливают девушек водой и стегают ивовыми прутиками «на здоровье».
+> • **29. august** — годовщина **SNP** (Словацкого национального восстания 1944 года).
+>
+> **Национальная кухня:** **bryndzové halušky**, **kapustnica**, **lokše**, **parenica**.
+## Krajina
+w kraj | край (регион)
+w hlavné mesto | столица
+w Dunaj | Дунай
+w hrad | замок, крепость
+w zámok | замок, дворец
+w jaskyňa | пещера
+w dedina | деревня
+w obyvateľ | житель
+s Slovensko má osem krajov. | В Словакии восемь краёв.
+s Bratislava leží na Dunaji. | Братислава расположена на Дунае.
+s Na Slovensku je veľa hradov a jaskýň. | В Словакии много замков и пещер.
+s Slovensko má asi päť a pol milióna obyvateľov. | В Словакии около пяти с половиной миллионов жителей.
+s Spišský hrad je jeden z najväčších hradov v Európe. | Спишский град — один из крупнейших замков Европы.
+f Bratislava leží na ___. | Dunaji | Dunaj, Dunaja, Dunajom | Братислава расположена на Дунае.
+f Na Slovensku je veľa ___. | hradov | hrady, hrad, hradoch | В Словакии много замков.
+f Býva na ___. | dedine | dedina, dedinu, dediny | Он живёт в деревне.
+## História
+w nezávislosť | независимость
+w Československo | Чехословакия
+w rozdelenie | разделение
+w povstanie | восстание
+w Európska únia | Европейский союз
+w euro | евро
+w storočie | век, столетие
+w udalosť | событие
+s Slovensko je nezávislé od roku 1993. | Словакия независима с 1993 года.
+s Rozdelenie Československa bolo pokojné. | Разделение Чехословакии было мирным.
+s Slovenské národné povstanie začalo v roku 1944. | Словацкое национальное восстание началось в 1944 году.
+s Do Európskej únie vstúpilo Slovensko v roku 2004. | В Европейский союз Словакия вступила в 2004 году.
+s Euro platí na Slovensku od roku 2009. | Евро действует в Словакии с 2009 года.
+f Slovensko je členom Európskej ___. | únie | únia, úniu, únii | Словакия — член Европейского союза.
+f Euro ___ na Slovensku od roku 2009. | platí | platia, platiť, platil | Евро действует в Словакии с 2009 года.
+f Bola to dôležitá ___. | udalosť | udalosti, udalosťou, udalostí | Это было важное событие.
+## Tradície
+w Vianoce | Рождество
+w Štedrý večer | Сочельник
+w kapustnica | капустница (суп)
+w kapor | карп
+w Veľká noc | Пасха
+w bryndzové halušky | брынзовые галушки
+w zvyk | обычай
+w oslavovať | праздновать
+s Na Štedrý večer jeme kapustnicu a kapra. | В Сочельник мы едим капустницу и карпа.
+s Bryndzové halušky sú národné jedlo. | Брынзовые галушки — национальное блюдо.
+s Na Veľkú noc je zvyk polievať dievčatá vodou. | На Пасху есть обычай обливать девушек водой.
+s Vianoce oslavujeme v kruhu rodiny. | Рождество мы празднуем в кругу семьи.
+s Každý región má svoje zvyky. | У каждого региона свои обычаи.
+f Na Štedrý večer jeme ___. | kapra | kapor, kaprovi, kaprom | В Сочельник мы едим карпа.
+f Na ___ noc je šibačka. | Veľkú | Veľká, Veľkej, Veľkou | На Пасху бывает шибачка.
+f Vianoce ___ v kruhu rodiny. | oslavujeme | oslavuje, oslavovať, oslávený | Рождество мы празднуем в кругу семьи.
+
+# 38 | B2 | Vedenie tímu | Руководство командой
+> **Руководитель говорит иначе:**
+> • Делегирование: **Mohli by ste prevziať...?** (взять на себя), **Poveril som vás...** (я поручил вам) — poveriť **niekoho niečím** (творительный!): poveril som Petra vedení**m** projektu.
+> • Обратная связь: **Oceňujem, že...** (ценю, что), **Bolo by dobré zlepšiť...**, **Čo by sme mohli urobiť inak?**
+> • Доверие: **dôverovať** + дательный (dôverujem svojmu tímu), **spoľahnúť sa na** + вин.
+> • Конфликты: **vypočuť si obe strany** — выслушать обе стороны, **nedorozumenie** — недоразумение.
+>
+> **Повелительное наклонение:** urob / urobte, pošli / pošlite, daj / dajte, **poďme** (давайте).
+>
+> «Мне важно» — **Záleží mi na** + местн.: Záleží mi na dobrej atmosfére.
+## Delegovanie
+w poveriť | поручить
+w prevziať | взять на себя
+w zodpovedný | ответственный
+w kontrolovať | контролировать
+w dôverovať | доверять
+w spoľahnúť sa na | положиться на
+w právomoc | полномочие
+w vedenie | руководство
+s Poveril som Petra vedením projektu. | Я поручил Петеру руководство проектом.
+s Mohli by ste prevziať túto úlohu? | Не могли бы вы взять на себя эту задачу?
+s Dôverujem svojmu tímu. | Я доверяю своей команде.
+s Môžem sa na vás spoľahnúť? | Могу я на вас положиться?
+s Má právomoc rozhodovať o rozpočte. | У него есть полномочия принимать решения о бюджете.
+f Môžem sa na teba ___? | spoľahnúť | spoľahnem, spoľahol, spoľahlivý | Могу я на тебя положиться?
+f Dôverujem ___ kolegom. | svojim | svojich, svoji, svojimi | Я доверяю своим коллегам.
+f Poverili ma ___ projektu. | vedením | vedenie, vedenia, vedení | Мне поручили руководство проектом.
+## Spätná väzba
+w oceniť | оценить по достоинству
+w pochváliť | похвалить
+w kritika | критика
+w konštruktívny | конструктивный
+w zlepšenie | улучшение
+w hodnotenie | оценка (работы)
+w výkon | производительность, результаты
+w rozvoj | развитие
+s Oceňujem, že ste to stihli načas. | Ценю, что вы успели вовремя.
+s Chcel by som vás pochváliť za prezentáciu. | Я хотел бы похвалить вас за презентацию.
+s Konštruktívna kritika nám pomáha rásť. | Конструктивная критика помогает нам расти.
+s Na ročnom hodnotení sme sa rozprávali o rozvoji. | На годовой оценке мы говорили о развитии.
+s Váš výkon sa výrazne zlepšil. | Ваши результаты значительно улучшились.
+f Chcem vás pochváliť ___ výsledky. | za | na, o, pre | Хочу похвалить вас за результаты.
+f Oceňujem ___ prácu. | vašu | váš, vaša, vašej | Ценю вашу работу.
+f Je tu priestor na ___. | zlepšenie | zlepšenia, zlepšením, zlepšeniu | Здесь есть пространство для улучшения.
+## Konflikty a motivácia
+w konflikt | конфликт
+w riešiť | решать
+w napätie | напряжение
+w nedorozumenie | недоразумение
+w vypočuť si | выслушать
+w motivovať | мотивировать
+w uznanie | признание
+w pracovná atmosféra | рабочая атмосфера
+s V tíme bolo cítiť napätie. | В команде чувствовалось напряжение.
+s Išlo len o nedorozumenie. | Это было просто недоразумение.
+s Najprv si vypočujem obe strany. | Сначала я выслушаю обе стороны.
+s Uznanie motivuje ľudí viac ako peniaze. | Признание мотивирует людей больше, чем деньги.
+s Záleží mi na dobrej pracovnej atmosfére. | Мне важна хорошая рабочая атмосфера.
+f Konflikt treba ___ hneď. | riešiť | riešim, riešil, riešenie | Конфликт нужно решать сразу.
+f Záleží mi ___ tíme. | na | o, v, pri | Мне важна команда.
+f Išlo len o ___. | nedorozumenie | nedorozumenia, nedorozumením, nedorozumení | Это было просто недоразумение.
+
+# 39 | B2 | Reklamácie a sťažnosti | Претензии, жалобы, решение проблем
+> **reklamácia** — претензия по товару (ремонт, замена, возврат по гарантии), **sťažnosť** — жалоба (на услугу, сотрудника, шум...).
+> Гарантия (**záruka**) на товары для потребителей в Словакии — обычно **24 месяца**. Сохраняйте **doklad o kúpe** (чек).
+>
+> **Обороты:**
+> • **Chcel by som reklamovať...** — Хотел бы подать претензию на...
+> • **Výrobok je chybný.** — Товар бракованный.
+> • **Žiadam o vrátenie peňazí / výmenu.** — Прошу вернуть деньги / заменить.
+> • **Nie som spokojný s...** — Я недоволен...
+> • **Očakávam nápravu do...** — Ожидаю исправления до...
+>
+> **Отвечая на жалобу:** **Prijmite naše ospravedlnenie.** · **Prijali sme opatrenia.** (Мы приняли меры.) · **Zabezpečíme, aby...** (Мы обеспечим, чтобы...)
+> «Из-за» — **kvôli** + дательный (kvôli chybe) или **pre** + винительный (pre chybu).
+## Reklamácia
+w reklamácia | претензия (по гарантии)
+w záruka | гарантия
+w chybný | бракованный
+w vrátenie peňazí | возврат денег
+w výmena | замена, обмен
+w doklad o kúpe | документ о покупке
+w výrobok | товар, изделие
+w oprava | ремонт
+s Chcel by som reklamovať tento výrobok. | Я хотел бы подать претензию на этот товар.
+s Výrobok je chybný, nefunguje displej. | Товар бракованный, не работает дисплей.
+s Záruka je dvadsaťštyri mesiacov. | Гарантия — двадцать четыре месяца.
+s Žiadam o vrátenie peňazí. | Прошу вернуть деньги.
+s Máte doklad o kúpe? | У вас есть документ о покупке?
+f Výrobok je ešte v ___. | záruke | záruka, záruku, záruky | Товар ещё на гарантии.
+f Žiadam o ___ peňazí. | vrátenie | vrátiť, vrátenia, vrátením | Прошу вернуть деньги.
+f Chcem ___ tento telefón. | reklamovať | reklamujem, reklamácia, reklamoval | Я хочу подать претензию на этот телефон.
+## Sťažnosť
+w sťažnosť | жалоба
+w sťažovať sa | жаловаться
+w spokojný | довольный
+w nespokojný | недовольный
+w služba | услуга, сервис
+w zákaznícky servis | служба поддержки
+w náprava | исправление (ситуации)
+w odškodnenie | компенсация
+s Chcem sa sťažovať na kvalitu služieb. | Я хочу пожаловаться на качество услуг.
+s Nie som spokojný s prístupom vášho zamestnanca. | Я недоволен отношением вашего сотрудника.
+s Kontaktoval som zákaznícky servis už trikrát. | Я уже трижды связывался со службой поддержки.
+s Očakávam nápravu do piatich pracovných dní. | Я ожидаю исправления в течение пяти рабочих дней.
+s Požadujem primerané odškodnenie. | Я требую соразмерной компенсации.
+f Sťažujem sa ___ hluk. | na | o, za, s | Я жалуюсь на шум.
+f Nie som ___ s výsledkom. | spokojný | spokojnosť, spokojne, spokojných | Я недоволен результатом.
+f Napísal som ___ na vedenie. | sťažnosť | sťažnosti, sťažnosťou, sťažovať | Я написал жалобу на руководство.
+## Riešenie problémov
+w príčina | причина
+w následok | последствие
+w predísť | предотвратить
+w opatrenie | мера
+w zlyhanie | сбой, провал
+w okamžite | немедленно
+w zabezpečiť | обеспечить
+w ospravedlnenie | извинение
+s Zisťujeme príčinu problému. | Мы выясняем причину проблемы.
+s Prijali sme opatrenia, aby sa to neopakovalo. | Мы приняли меры, чтобы это не повторилось.
+s Systém zlyhal kvôli chybe v softvéri. | Система дала сбой из-за ошибки в программе.
+s Prijmite naše úprimné ospravedlnenie. | Примите наши искренние извинения.
+s Zabezpečíme, aby ste dostali tovar okamžite. | Мы обеспечим, чтобы вы получили товар немедленно.
+f Musíme ___ podobným chybám. | predísť | predídeme, predišiel, predchádzajúci | Мы должны предотвратить подобные ошибки.
+f Aká je ___ problému? | príčina | príčinu, príčiny, príčinou | Какова причина проблемы?
+f Systém zlyhal ___ chybe. | kvôli | pre, cez, za | Система дала сбой из-за ошибки.
+
+# 40 | B2 | Záverečné opakovanie | Итоговое повторение B2
+> **Поздравляем — вы на финишной прямой!** Чек-лист уровня B2:
+> • все падежи в единственном и множественном числе, включая числа 2–4 и 5+;
+> • вид глагола и будущее время (**napíšem**, а не «budem napísať»);
+> • условное наклонение, **keby / aby / ak**;
+> • страдательный залог (**bol podpísaný**, **podpíše sa**) и причастия;
+> • книжные связки: **vzhľadom na, na základe, pokiaľ ide o, v súlade s, z uvedeného vyplýva**;
+> • предлоги-«ловушки»: **napriek** + дат., **počas** + род., **okrem** + род., **vďaka** + дат., **kvôli** + дат.
+>
+> **Что дальше:**
+> • каждый день — 10 минут разговора с репетитором (сценарии собеседования и совещания);
+> • новости STVR и подкасты на словацком, сериалы со словацкими субтитрами;
+> • официальный экзамен по словацкому как иностранному — узнайте даты в языковых центрах университетов (например, Studia Academica Slovaca при Университете Коменского).
+## Predložky a pády
+w napriek | несмотря на
+w počas | в течение, во время
+w okrem | кроме
+w namiesto | вместо
+w vďaka | благодаря
+w kvôli | из-за
+w pomocou | с помощью
+w v rámci | в рамках
+s Napriek problémom sme projekt dokončili. | Несмотря на проблемы, мы завершили проект.
+s Počas leta pracujem z domu. | Летом я работаю из дома.
+s Vďaka vašej pomoci sme to stihli. | Благодаря вашей помощи мы успели.
+s Okrem slovenčiny hovorím aj po anglicky. | Кроме словацкого, я говорю и по-английски.
+s V rámci projektu spolupracujeme s univerzitou. | В рамках проекта мы сотрудничаем с университетом.
+f Vďaka ___ pomoci sme to stihli. | vašej | vašu, vaša, vašou | Благодаря вашей помощи мы успели.
+f Napriek ___ sme prišli. | dažďu | dážď, dažďa, dažďom | Несмотря на дождь, мы пришли.
+f Okrem ___ prišli všetci. | Petra | Peter, Petrovi, Petrom | Кроме Петера, пришли все.
+## Slovesá na B2
+w rozhodovať sa | принимать решение, выбирать
+w zúčastniť sa | принять участие
+w zabezpečovať | обеспечивать
+w prispieť | внести вклад
+w uskutočniť sa | состояться
+w presadiť | продвинуть, добиться
+w ovplyvniť | повлиять
+w vyhovieť | удовлетворить, пойти навстречу
+s Konferencie sa zúčastnilo dvesto ľudí. | В конференции приняли участие двести человек.
+s Každý z nás môže prispieť k zmene. | Каждый из нас может внести вклад в изменения.
+s Stretnutie sa uskutoční v Žiline. | Встреча состоится в Жилине.
+s Podarilo sa mu presadiť svoj návrh. | Ему удалось продвинуть своё предложение.
+s Žiaľ, vašej žiadosti nemôžeme vyhovieť. | К сожалению, мы не можем удовлетворить ваше заявление.
+f Zúčastnil som sa ___. | konferencie | konferencia, konferenciu, konferencii | Я принял участие в конференции.
+f Stretnutie sa ___ zajtra. | uskutoční | uskutočnia, uskutočniť, uskutočnil | Встреча состоится завтра.
+f Môže to ___ výsledok. | ovplyvniť | ovplyvní, ovplyvnil, vplyv | Это может повлиять на результат.
+## Formálny štýl
+w avšak | однако (книжн.)
+w preto je nutné | поэтому необходимо
+w z uvedeného vyplýva | из вышесказанного следует
+w v súlade s | в соответствии с
+w s ohľadom na | с учётом
+w predovšetkým | прежде всего
+w napokon | наконец
+w okrem toho | кроме того
+s V súlade so zákonom vám oznamujeme zmenu. | В соответствии с законом сообщаем вам об изменении.
+s Z uvedeného vyplýva, že plán je reálny. | Из вышесказанного следует, что план реален.
+s Predovšetkým musíme znížiť náklady. | Прежде всего мы должны снизить расходы.
+s Okrem toho je potrebné školenie. | Кроме того, необходимо обучение.
+s Napokon by som chcel poďakovať všetkým. | Наконец, я хотел бы поблагодарить всех.
+f Postupujeme v súlade ___ zmluvou. | so | s, z, k | Мы действуем в соответствии с договором.
+f S ohľadom ___ situáciu sme termín posunuli. | na | o, k, za | С учётом ситуации мы перенесли срок.
+f Z ___ vyplýva, že plán je reálny. | uvedeného | uvedené, uvedenému, uvedeným | Из вышесказанного следует, что план реален.
