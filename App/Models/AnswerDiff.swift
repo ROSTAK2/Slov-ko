@@ -14,7 +14,7 @@ enum AnswerDiff {
         var userText = AttributedString()
         for (i, unit) in a.enumerated() {
             var piece = AttributedString(unit)
-            if !keepA.contains(i) && !unit.trimmingCharacters(in: .whitespaces).isEmpty {
+            if !keepA.contains(i) && isMeaningful(unit) {
                 piece.foregroundColor = wrongColor
                 piece.strikethroughStyle = Text.LineStyle.single
                 piece.backgroundColor = wrongColor.opacity(0.15)
@@ -26,7 +26,7 @@ enum AnswerDiff {
         var correctText = AttributedString()
         for (i, unit) in b.enumerated() {
             var piece = AttributedString(unit)
-            if !keepB.contains(i) && !unit.trimmingCharacters(in: .whitespaces).isEmpty {
+            if !keepB.contains(i) && isMeaningful(unit) {
                 piece.foregroundColor = fixColor
                 piece.backgroundColor = fixColor.opacity(0.18)
                 piece.underlineStyle = Text.LineStyle.single
@@ -43,6 +43,11 @@ enum AnswerDiff {
             return trimmed.split(separator: " ").map(String.init)
         }
         return trimmed.map { String($0) }
+    }
+
+    /// Пробелы и знаки препинания не подсвечиваем — при проверке они не учитываются.
+    private static func isMeaningful(_ unit: String) -> Bool {
+        !key(unit).trimmingCharacters(in: .whitespaces).isEmpty
     }
 
     /// Сравниваем без учёта регистра и знаков препинания по краям слова.
