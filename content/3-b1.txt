@@ -531,7 +531,7 @@ w bankový účet | банковский счёт
 w založiť si účet | открыть счёт
 w prevod | перевод
 w úver | кредит
-w úrok | процент (по кредиту)
+w úrok | процент (по кредиту) | ! урок
 w hypotéka | ипотека
 w poplatok | комиссия, сбор
 w bankomat | банкомат
@@ -641,3 +641,72 @@ s Rád by som doplnil jednu vec. | Я бы хотел дополнить одн�
 f Z toho ___, že plán funguje. | vyplýva | vyplývajú, vyplývať, vyplynul | Из этого следует, что план работает.
 f ___ záver chcem poďakovať tímu. | Na | Za, V, Do | В заключение хочу поблагодарить команду.
 f Ďakujem za ___. | pozornosť | pozornosti, pozornosťou, pozorný | Спасибо за внимание.
+
+# 43 | B1 | Falošní priatelia II | Ловушки: ложные друзья в работе и быту | 🎭 🔍
+> Ещё одна порция «ложных друзей» — на этот раз из работы, быта и повседневной речи:
+>
+> • **úrok** — процент по кредиту (урок — **lekcia, hodina**)
+> • **starosta** — мэр, глава общины (староста группы — **vedúci**)
+> • **čas** — время (час — **hodina**)
+> • **dovolenka** — отпуск
+> • **slobodný** — свободный, а в анкете — **холостой / незамужняя**
+> • **život** — жизнь (живот — **brucho**)
+> • **vedro** — ведро и… **жара**: Je vedro! — Жарко!
+> • **topánky** — обувь, ботинки (тапки — **papuče**)
+> • **hrad** — замок, крепость (град — **krupobitie**)
+> • **pivnica** — подвал (пивная — **krčma**)
+> • **zakázať** — **запретить** (заказать — **objednať**)
+> • **zastaviť** — остановить (заставить — **prinútiť**)
+> • **vonať** — **приятно** пахнуть (вонять — **smrdieť**)
+> • **skoro** — рано (скоро — **čoskoro**), **zrazu** — вдруг (сразу — **hneď**)
+## Úrad a práca
+w úrok | процент (по кредиту) | ! урок
+w starosta | мэр | ! староста
+w slobodný | холостой; свободный
+w dovolenka | отпуск | ! довольная
+w čas | время | ! час
+w lekcia | урок
+w list | письмо; лист
+w predseda | председатель
+s Úrok z úveru je päť percent. | Процент по кредиту — пять процентов.
+s Starosta mesta otvoril novú školu. | Мэр города открыл новую школу.
+s Vo formulári píšem: slobodný. | В анкете я пишу: холост.
+s Dnes nemám čas, mám lekciu slovenčiny. | Сегодня у меня нет времени, у меня урок словацкого.
+s Dostal som list z banky. | Я получил письмо из банка.
+f Banka zvýšila ___ z hypotéky. | úrok | lekciu, hodinu, úroku | Банк повысил процент по ипотеке.
+f Prepáč, teraz nemám ___. | čas | hodinu, času, časom | Извини, сейчас у меня нет времени.
+f V auguste idem na ___. | dovolenku | dovolenka, dovolenke, odpustok | В августе я иду в отпуск.
+## Telo a domov
+w život | жизнь | ! живот
+w brucho | живот
+w vedro | жара; ведро
+w topánky | обувь, ботинки | ! тапки
+w papuče | тапочки
+w krupobitie | град
+w hrad | замок, крепость | ! град
+w pivnica | подвал | ! пивная
+s Život na Slovensku je pokojný. | Жизнь в Словакии спокойная.
+s Dnes je vonku strašné vedro. | Сегодня на улице страшная жара.
+s Doma nosím papuče, nie topánky. | Дома я ношу тапочки, а не ботинки.
+s Krupobitie poškodilo autá. | Град повредил машины.
+s Víno máme v pivnici. | Вино у нас в подвале.
+f Vyzuj si ___, prosím. | topánky | papuče, topánok, topánkach | Сними, пожалуйста, обувь.
+f Bolí ma ___. | brucho | život, bruchom, brucha | У меня болит живот.
+f Je ___, dajme si zmrzlinu. | vedro | horúci, vedra, vedrom | Жарко, давай возьмём мороженое.
+## Pasce v slovesách
+w zakázať | запретить | ! заказать
+w objednať | заказать
+w zastaviť | остановить | ! заставить
+w vonať | приятно пахнуть | ! вонять
+w smrdieť | вонять
+w čoskoro | скоро
+w zrazu | вдруг | ! сразу
+w hneď | сразу
+s Fajčenie je tu zakázané. | Курение здесь запрещено.
+s Objednal som si pizzu. | Я заказал себе пиццу.
+s Zastavte, prosím, na rohu. | Остановите, пожалуйста, на углу.
+s Ráno vstávam skoro. | Утром я встаю рано.
+s Zrazu začalo pršať. | Вдруг начался дождь.
+f Chcem si ___ taxík. | objednať | zakázať, objednám, objednanie | Я хочу заказать такси.
+f Prídem ___, o päť minút. | čoskoro | skoro, neskoro, zrazu | Я приду скоро, через пять минут.
+f Kvety krásne ___. | vonajú | smrdia, vonia, voňať | Цветы прекрасно пахнут.

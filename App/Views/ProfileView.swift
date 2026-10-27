@@ -7,6 +7,7 @@ struct ProfileView: View {
     @State private var keySaved = TutorClient.hasKey
     @State private var confirmReset = false
     @State private var permissionDenied = false
+    @State private var showVoiceHelp = false
 
     var body: some View {
         NavigationStack {
@@ -64,6 +65,9 @@ struct ProfileView: View {
                             SoundFX.shared.enabled = on
                             if on { SoundFX.shared.play(.correct) }
                         }
+                    Button("Установить словацкий голос") {
+                        showVoiceHelp = true
+                    }
                     Button("Проверить голос") {
                         Speech.shared.speak("Dobrý deň! Volám sa Slovíčko a budem vás učiť po slovensky.")
                     }
@@ -104,9 +108,26 @@ struct ProfileView: View {
                     Text("Ключ с console.anthropic.com хранится только на этом iPhone и отправляется только в Anthropic API.")
                 }
 
-                Section("Сложность") {
+                Section {
                     Toggle("Бесконечные сердца", isOn: $store.state.unlimitedHearts)
+                    Toggle("Уведомлять, когда сердца восстановятся", isOn: $store.state.heartsNotify)
+                        .onChange(of: store.state.heartsNotify) { on in
+                            if on {
+                                NotificationManager.shared.requestPermission { _ in
+                                    NotificationManager.shared.reschedule(for: store)
+                                }
+                            } else {
+                                NotificationManager.shared.reschedule(for: store)
+                            }
+                        }
+                    Toggle("Упражнения на произношение", isOn: $store.state.speakingEnabled)
                     Toggle("Открыть все уроки", isOn: $store.state.unlockAll)
+                } header: {
+                    Text("Уроки и сердца")
+                } footer: {
+                    Text(SpeechRecognizer.isSupported
+                         ? "Произношение проверяется распознаванием речи iPhone (нужен интернет)."
+                         : "Распознавание словацкой речи на этом iPhone недоступно — упражнения на произношение не появятся.")
                 }
 
                 Section {
@@ -116,6 +137,9 @@ struct ProfileView: View {
                 }
             }
             .navigationTitle("Профиль")
+            .sheet(isPresented: $showVoiceHelp) {
+                VoiceHelpSheet()
+            }
             .confirmationDialog("Сбросить весь прогресс?", isPresented: $confirmReset, titleVisibility: .visible) {
                 Button("Сбросить", role: .destructive) { store.resetProgress() }
             } message: {

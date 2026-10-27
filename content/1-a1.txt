@@ -104,7 +104,7 @@ w Rusko | Россия
 w Ukrajina | Украина
 w Česko | Чехия
 w krajina | страна
-w mesto | город
+w mesto | город | ! место
 s Ona je Slovenka. | Она словачка.
 s Bratislava je hlavné mesto Slovenska. | Братислава — столица Словакии.
 s Som Ukrajinec a bývam v Košiciach. | Я украинец и живу в Кошице.
@@ -205,7 +205,7 @@ f V ___ pracujem z domu. | stredu | streda, strede, stredy | В среду я р
 >
 > **Прилагательные** согласуются по роду: nov**ý** byt, nov**á** práca, nov**é** auto; во мн. числе о людях — nov**í** kolegovia.
 ## Moja rodina
-w rodina | семья
+w rodina | семья | ! родина
 w otec | отец
 w mama | мама
 w brat | брат
@@ -271,7 +271,7 @@ f Môj brat je ___. | vysoký | vysoká, vysoké, vysokí | Мой брат вы
 ## Miesta v meste
 w banka | банк
 w pošta | почта
-w obchod | магазин
+w obchod | магазин | ! обход
 w lekáreň | аптека
 w stanica | вокзал, станция
 w námestie | площадь
@@ -310,7 +310,7 @@ w oproti | напротив
 w pred | перед
 w za | за
 w mapa | карта
-w hľadať | искать
+w hľadať | искать | ! глядеть
 s Hľadám stanicu. | Я ищу вокзал.
 s Je to ďaleko? | Это далеко?
 s Nie, je to blízko. | Нет, это близко.
@@ -370,7 +370,7 @@ w jedálny lístok | меню
 w polievka | суп
 w obed | обед
 w raňajky | завтрак
-w večera | ужин
+w večera | ужин | ! вечер
 w účet | счёт
 w čašník | официант
 s Jedálny lístok, prosím. | Меню, пожалуйста.
@@ -399,8 +399,8 @@ w obliekať sa | одеваться
 w raňajkovať | завтракать
 w ponáhľať sa | спешить
 w budík | будильник
-w skoro | рано
-w neskoro | поздно
+w skoro | рано | ! скоро
+w neskoro | поздно | ! нескоро
 s Vstávam o šiestej. | Я встаю в шесть.
 s Ráno sa ponáhľam do práce. | Утром я спешу на работу.
 s Raňajkujem doma. | Я завтракаю дома.
@@ -494,7 +494,7 @@ w pracovný čas | рабочее время
 w zmena | смена
 w nadčas | сверхурочная работа
 w voľno | выходной, свободное время
-w dovolenka | отпуск
+w dovolenka | отпуск | ! довольная
 w začínať | начинать(ся)
 w končiť | заканчивать(ся)
 w obedňajšia prestávka | обеденный перерыв
@@ -521,7 +521,7 @@ f Pracujem na rannú ___. | zmenu | zmena, zmene, zmeny | Я работаю в �
 > Полезное: **prepáčte** (извините), **samozrejme** (конечно), **žiaľ** (к сожалению), **v poriadku** (в порядке).
 ## Kancelárske veci
 w stôl | стол
-w stolička | стул
+w stolička | стул | ! столица
 w tlačiareň | принтер
 w papier | бумага
 w pero | ручка
@@ -635,3 +635,72 @@ s Po kurze dostanem certifikát. | После курса я получу сер�
 f Prihlásil som ___ na kurz. | sa | si, ma, mi | Я записался на курс.
 f Kurz je pre ___. | začiatočníkov | začiatočníci, začiatočník, začiatočníkom | Курс для начинающих.
 f Mám certifikát zo ___. | slovenčiny | slovenčina, slovenčinu, slovenčine | У меня сертификат по словацкому.
+
+# 41 | A1 | Falošní priatelia | Ловушки: слова, похожие на русские | ⚠️ 🎭
+> **Ложные друзья** — слова, которые звучат почти как русские, но значат другое. На них русскоговорящие ошибаются чаще всего.
+>
+> • **rodina** — семья (родина — **vlasť**)
+> • **mesto** — город (место — **miesto**)
+> • **stolička** — стул (столица — **hlavné mesto**)
+> • **obchod** — магазин, **záchod** — туалет
+> • **čerstvý** — свежий (а не черствый)
+> • **ovocie** — фрукты (овощи — **zelenina**)
+> • **horký** — горький (горячий — **horúci**)
+> • **jahoda** — клубника (ягода — **bobuľa**)
+> • **úžasný** — потрясающий (ужасный — **hrozný**)
+> • **pozor** — внимание! осторожно! (позор — **hanba**)
+> • **zápach** — вонь (приятный запах — **vôňa**)
+> • **chytrý** — умный (хитрый — **prefíkaný**)
+>
+> Совет: если словацкое слово «подозрительно похоже» на русское — проверьте значение.
+## Mesto a domov
+w rodina | семья | ! родина
+w vlasť | родина
+w mesto | город | ! место
+w miesto | место
+w stolička | стул | ! столица
+w hlavné mesto | столица
+w obchod | магазин | ! обход
+w záchod | туалет | ! заход
+s Moja rodina žije v malom meste. | Моя семья живёт в маленьком городе.
+s Je tu voľné miesto? | Здесь есть свободное место?
+s Bratislava je hlavné mesto, nie stolička! | Братислава — столица, а не стул!
+s Kde je záchod, prosím? | Где туалет, пожалуйста?
+s Moja vlasť je ďaleko, ale rodina je so mnou. | Моя родина далеко, но семья со мной.
+f Kúpim chlieb v ___. | obchode | záchode, obchod, obchodu | Я куплю хлеб в магазине.
+f Košice nie sú hlavné ___. | mesto | miesto, mesta, mestom | Кошице — не столица.
+f Moja ___ je Ukrajina. | vlasť | rodina, vlasti, rodinu | Моя родина — Украина.
+## Jedlo
+w čerstvý | свежий | ! черствый
+w ovocie | фрукты | ! овощи
+w zelenina | овощи
+w horký | горький | ! горячий
+w horúci | горячий
+w jahoda | клубника | ! ягода
+w večera | ужин | ! вечер
+w zmrzlina | мороженое
+s Tento chlieb je čerstvý. | Этот хлеб свежий.
+s Na trhu kupujem ovocie a zeleninu. | На рынке я покупаю фрукты и овощи.
+s Káva je horúca a horká. | Кофе горячий и горький.
+s Na večeru máme polievku. | На ужин у нас суп.
+s Jahody sú moje obľúbené ovocie. | Клубника — мои любимые фрукты.
+f Chlieb je ___, kúpil som ho ráno. | čerstvý | tvrdý, horký, čerstvá | Хлеб свежий, я купил его утром.
+f Pozor, čaj je ___! | horúci | horký, horúca, horúce | Осторожно, чай горячий!
+f Mrkva a kapusta sú ___. | zelenina | ovocie, zeleniny, zeleninou | Морковь и капуста — овощи.
+## Pozor!
+w pozor | внимание, осторожно | ! позор
+w hanba | позор
+w úžasný | потрясающий | ! ужасный
+w hrozný | ужасный
+w chytrý | умный | ! хитрый
+w zápach | вонь | ! запах
+w vôňa | приятный запах, аромат
+w hľadať | искать | ! глядеть
+s Pozor, schody! | Осторожно, ступеньки!
+s To je úžasný nápad! | Это потрясающая идея!
+s Počasie je dnes hrozné. | Погода сегодня ужасная.
+s Tvoj syn je veľmi chytrý. | Твой сын очень умный.
+s V kuchyni je krásna vôňa kávy. | На кухне прекрасный аромат кофе.
+f To je ___ film, musíš ho vidieť! | úžasný | hrozný, úžasná, úžasné | Это потрясающий фильм, ты должен его посмотреть!
+f Aký nepríjemný ___! Otvor okno. | zápach | vôňa, zápachu, vôňu | Какая неприятная вонь! Открой окно.
+f ___, auto! | Pozor | Hanba, Pozore, Pozoru | Осторожно, машина!

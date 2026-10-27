@@ -644,3 +644,70 @@ s Napokon by som chcel poďakovať všetkým. | Наконец, я хотел б
 f Postupujeme v súlade ___ zmluvou. | so | s, z, k | Мы действуем в соответствии с договором.
 f S ohľadom ___ situáciu sme termín posunuli. | na | o, k, za | С учётом ситуации мы перенесли срок.
 f Z ___ vyplýva, že plán je reálny. | uvedeného | uvedené, uvedenému, uvedeným | Из вышесказанного следует, что план реален.
+
+# 44 | B2 | Slovesá a predložky | Ловушки: глаголы с «чужими» предлогами и падежами | 🧷 🎯
+> Самые коварные ошибки на B2 — предлоги и падежи после глаголов: по-русски одно, по-словацки другое.
+>
+> • **zaujímať sa o** + вин.: zaujímam sa **o** politiku — интересуюсь политикой
+> • **starať sa o** + вин.: starám sa **o** deti — забочусь о детях
+> • **zvyknúť si na** + вин.: zvykol som si **na** život tu — привык **к** жизни здесь
+> • **pripraviť sa na** + вин. — подготовиться **к**
+> • **prísť o** + вин. — **лишиться**: prišiel **o** prácu — потерял работу
+> • **gratulovať / blahoželať** + **дат.**: gratulujem **ti** — поздравляю **тебя**
+> • **pomáhať, radiť** + дат. — как в русском
+> • **vážiť si** + вин. — ценить, уважать
+> • **učiť sa** + вин.: učím sa **slovenčinu** (не «slovenčine»)
+> • **ísť pre** + вин. — пойти **за** чем-то: idem **pre** chlieb
+> • **ísť za** + твор. — пойти **к** кому-то: idem **za** lekárom
+> • **hrať na** + местн. (инструмент), **hrať sa** — о детях
+## O a na
+w zaujímať sa o | интересоваться
+w starať sa o | заботиться о
+w zvyknúť si na | привыкнуть к
+w pripraviť sa na | подготовиться к
+w hnevať sa na | сердиться на
+w dbať na | следить за, обращать внимание на
+w pozerať sa na | смотреть на
+w prísť o | лишиться, потерять
+s Zaujímam sa o históriu Slovenska. | Я интересуюсь историей Словакии.
+s Kto sa stará o deti? | Кто заботится о детях?
+s Už som si zvykol na slovenské jedlo. | Я уже привык к словацкой еде.
+s Musím sa pripraviť na pohovor. | Мне нужно подготовиться к собеседованию.
+s Pre krízu prišiel o prácu. | Из-за кризиса он потерял работу.
+f Zaujímam sa ___ techniku. | o | na, s, za | Я интересуюсь техникой.
+f Zvykol som si ___ zimu. | na | k, o, za | Я привык к зиме.
+f Bojím sa, že prídem ___ byt. | o | na, z, bez | Боюсь, что лишусь квартиры.
+## Pády po slovesách
+w báť sa | бояться
+w vážiť si | ценить, уважать
+w vzdať sa | отказаться от
+w dotknúť sa | коснуться
+w pomáhať | помогать
+w gratulovať | поздравлять
+w blahoželať | поздравлять (торжественно)
+w radiť | советовать
+s Bojím sa veľkých psov. | Я боюсь больших собак.
+s Veľmi si vážim vašu prácu. | Я очень ценю вашу работу.
+s Nevzdám sa svojho sna. | Я не откажусь от своей мечты.
+s Gratulujem ti k narodeninám! | Поздравляю тебя с днём рождения!
+s Poradil mi dobrého lekára. | Он посоветовал мне хорошего врача.
+f Gratulujem ___ k sviatku. | vám | vás, vy, váš | Поздравляю вас с праздником.
+f Pomáham ___ s projektom. | kolegovi | kolegu, kolega, kolegom | Я помогаю коллеге с проектом.
+f Vážim si ___ názor. | váš | vášho, vášmu, vaším | Я ценю ваше мнение.
+## Ísť pre, ísť za
+w ísť pre | пойти за (чем-то)
+w ísť za | пойти к (кому-то)
+w hrať na | играть на (инструменте)
+w hrať sa | играть (о детях)
+w telefonovať | звонить по телефону
+w učiť sa | учить (язык, предмет)
+w prísť na | догадаться
+w zabudnúť na | забыть о
+s Učím sa slovenčinu už pol roka. | Я учу словацкий уже полгода.
+s Môj syn hrá na klavíri. | Мой сын играет на пианино.
+s Deti sa hrajú na ihrisku. | Дети играют на площадке.
+s Idem do obchodu pre chlieb. | Я иду в магазин за хлебом.
+s Zajtra idem za lekárom. | Завтра я иду к врачу.
+f Idem ___ mlieko. | pre | za, na, o | Я иду за молоком.
+f Učím sa ___. | slovenčinu | slovenčine, slovenčiny, slovenčinou | Я учу словацкий язык.
+f Zajtra idem ___ lekárom. | za | k, pre, na | Завтра я иду к врачу.

@@ -174,7 +174,8 @@ struct TutorView: View {
                 let exercises = ExerciseFactory.make(lesson: lesson, unitWords: lesson.words,
                                                      allWords: course.allWords,
                                                      unitSentences: lesson.sentences,
-                                                     known: Set(store.state.cards.keys))
+                                                     known: Set(store.state.cards.keys),
+                                                     speaking: false)
                 generated = PracticeSet(lesson: lesson, exercises: exercises)
             } catch {
                 generateError = error.localizedDescription
@@ -206,7 +207,6 @@ struct ChatView: View {
     @State private var error: String?
     @State private var started = false
     @State private var exchanges = 0
-    @FocusState private var focused: Bool
 
     var body: some View {
         VStack(spacing: 0) {
@@ -248,12 +248,13 @@ struct ChatView: View {
             }
             Divider()
             VStack(spacing: 8) {
-                if focused { DiacriticsBar { input.append($0) } }
+                if !Keyboards.hasSlovak { DiacriticsBar { input.append($0) } }
                 HStack(alignment: .bottom, spacing: 10) {
-                    TextField("Napíšte po slovensky…", text: $input, axis: .vertical)
-                        .lineLimit(1...5)
-                        .textInputAutocapitalization(.sentences)
-                        .focused($focused)
+                    KeyboardTextField(text: $input, placeholder: "Napíšte po slovensky…", language: "sk",
+                                      autoFocus: false, fontSize: 17) {
+                        send()
+                    }
+                    .frame(height: 24)
                         .padding(10)
                         .background(RoundedRectangle(cornerRadius: 18).fill(Color(.secondarySystemGroupedBackground)))
                     Button {

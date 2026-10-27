@@ -50,7 +50,7 @@ struct PromptBubble: View {
     }
 }
 
-/// Талисман приложения — словечко в облачке.
+/// Талисман приложения — герб в звёздах ЕС.
 struct Mascot: View {
     var size: CGFloat = 54
 
@@ -124,12 +124,35 @@ struct InstructionText: View {
     }
 }
 
+/// Цвет варианта после проверки: правильный — зелёный, выбранный неверный — красный.
+enum OptionState {
+    case normal, selected, correct, wrong, dimmed
+
+    static func of(_ option: String, selection: String?, answer: String, result: CheckResult?) -> OptionState {
+        guard let result else { return selection == option ? .selected : .normal }
+        if Checker.normalize(option) == Checker.normalize(answer) { return .correct }
+        if selection == option && result == .wrong { return .wrong }
+        return .dimmed
+    }
+
+    var tint: Color {
+        switch self {
+        case .correct: return Theme.green
+        case .wrong: return Theme.red
+        case .selected: return Theme.blue
+        default: return Color(.systemGray4)
+        }
+    }
+
+    var highlighted: Bool { self == .selected || self == .correct || self == .wrong }
+}
+
 // MARK: - Выбор варианта
 
 struct ChoiceExerciseView: View {
     let exercise: Exercise
     @Binding var selection: String?
-    let locked: Bool
+    let result: CheckResult?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 22) {
@@ -137,27 +160,42 @@ struct ChoiceExerciseView: View {
             PromptBubble(exercise: exercise)
             VStack(spacing: 12) {
                 ForEach(Array(exercise.options.enumerated()), id: \.offset) { index, option in
+                    let state = OptionState.of(option, selection: selection, answer: exercise.answer, result: result)
                     Button {
-                        guard !locked else { return }
+                        guard result == nil else { return }
                         Haptics.tap()
                         selection = option
                         if exercise.optionsSlovak { Speech.shared.speak(option) }
                     } label: {
-                        OptionCard(selected: selection == option) {
-                            HStack(spacing: 12) {
-                                Text("\(index + 1)")
-                                    .font(.subheadline.weight(.bold))
-                                    .foregroundColor(.secondary)
-                                    .frame(width: 26, height: 26)
-                                    .overlay(RoundedRectangle(cornerRadius: 6).stroke(Color(.systemGray4), lineWidth: 1.5))
-                                Text(option)
-                                    .font(.body.weight(.semibold))
-                                    .foregroundColor(.primary)
-                                    .multilineTextAlignment(.leading)
+                        HStack(spacing: 12) {
+                            Text("\(index + 1)")
+                                .font(.subheadline.weight(.bold))
+                                .foregroundColor(state.highlighted ? state.tint : .secondary)
+                                .frame(width: 26, height: 26)
+                                .overlay(RoundedRectangle(cornerRadius: 6).stroke(state.highlighted ? state.tint : Color(.systemGray4), lineWidth: 1.5))
+                            Text(option)
+                                .font(.body.weight(.semibold))
+                                .foregroundColor(state == .dimmed ? .secondary : .primary)
+                                .multilineTextAlignment(.leading)
+                            Spacer(minLength: 0)
+                            if state == .correct {
+                                Image(systemName: "checkmark.circle.fill").foregroundColor(Theme.green)
+                            } else if state == .wrong {
+                                Image(systemName: "xmark.circle.fill").foregroundColor(Theme.red)
                             }
                         }
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 14)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(
+                            RoundedRectangle(cornerRadius: 14)
+                                .fill(state.highlighted ? state.tint.opacity(0.12) : Color(.secondarySystemGroupedBackground))
+                        )
+                        .overlay(RoundedRectangle(cornerRadius: 14).stroke(state.tint, lineWidth: 2))
+                        .shadow(color: state.highlighted ? .clear : Color(.systemGray4), radius: 0, x: 0, y: 2)
                     }
                     .buttonStyle(PressScale())
+                    .animation(.easeOut(duration: 0.2), value: state)
                 }
             }
         }
@@ -169,20 +207,21 @@ struct ChoiceExerciseView: View {
 struct WordTile: View {
     let text: String
     var ghost = false
+    var tint: Color? = nil
 
     var body: some View {
         Text(text)
             .font(.body.weight(.semibold))
-            .foregroundColor(ghost ? .clear : .primary)
+            .foregroundColor(ghost ? .clear : (tint ?? .primary))
             .padding(.horizontal, 14)
             .padding(.vertical, 10)
             .background(
                 RoundedRectangle(cornerRadius: 12)
-                    .fill(ghost ? Color(.systemGray5) : Color(.secondarySystemGroupedBackground))
+                    .fill(ghost ? Color(.systemGray5) : (tint?.opacity(0.12) ?? Color(.secondarySystemGroupedBackground)))
             )
             .overlay(
                 RoundedRectangle(cornerRadius: 12)
-                    .stroke(Color(.systemGray4), lineWidth: ghost ? 0 : 1.5)
+                    .stroke(tint ?? Color(.systemGray4), lineWidth: ghost ? 0 : 1.5)
             )
             .shadow(color: ghost ? .clear : Color(.systemGray4), radius: 0, x: 0, y: 2)
     }
@@ -191,8 +230,13 @@ struct WordTile: View {
 struct BuildExerciseView: View {
     let exercise: Exercise
     @Binding var answer: String?
-    let locked: Bool
+    let result: CheckResult?
     @State private var picked: [Int] = []
+
+    private var answerTint: Color? {
+        guard let result else { return nil }
+        return result == .wrong ? Theme.red : Theme.green
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 22) {
@@ -202,14 +246,17 @@ struct BuildExerciseView: View {
             FlowLayout(spacing: 8) {
                 ForEach(picked, id: \.self) { index in
                     Button {
-                        guard !locked else { return }
+                        guard result == nil else { return }
                         Haptics.tap()
-                        picked.removeAll { $0 == index }
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.75)) {
+                            picked.removeAll { $0 == index }
+                        }
                         update()
                     } label: {
-                        WordTile(text: exercise.options[index])
+                        WordTile(text: exercise.options[index], tint: answerTint)
                     }
                     .buttonStyle(PressScale())
+                    .transition(.scale.combined(with: .opacity))
                 }
             }
             .frame(maxWidth: .infinity, minHeight: 112, alignment: .topLeading)
@@ -226,9 +273,11 @@ struct BuildExerciseView: View {
                 ForEach(exercise.options.indices, id: \.self) { index in
                     let used = picked.contains(index)
                     Button {
-                        guard !locked, !used else { return }
+                        guard result == nil, !used else { return }
                         Haptics.tap()
-                        picked.append(index)
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.75)) {
+                            picked.append(index)
+                        }
                         update()
                         if exercise.optionsSlovak { Speech.shared.speak(exercise.options[index]) }
                     } label: {
@@ -251,33 +300,37 @@ struct BuildExerciseView: View {
 struct TypeExerciseView: View {
     let exercise: Exercise
     @Binding var answer: String?
-    let locked: Bool
+    let result: CheckResult?
+    var onSubmit: () -> Void = {}
     @State private var text = ""
-    @FocusState private var focused: Bool
+
+    private var borderColor: Color {
+        guard let result else { return Color(.systemGray4) }
+        return result == .wrong ? Theme.red : Theme.green
+    }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 22) {
+        VStack(alignment: .leading, spacing: 18) {
             InstructionText(text: exercise.instruction)
             PromptBubble(exercise: exercise)
-            TextField(exercise.answerIsSlovak ? "Напишите по-словацки" : "Напишите ответ", text: $text, axis: .vertical)
-                .lineLimit(2...5)
-                .font(.title3)
-                .textInputAutocapitalization(.never)
-                .autocorrectionDisabled()
-                .focused($focused)
-                .disabled(locked)
-                .padding(14)
-                .background(RoundedRectangle(cornerRadius: 14).fill(Color(.secondarySystemGroupedBackground)))
-                .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color(.systemGray4), lineWidth: 1.5))
-                .onChange(of: text) { value in
-                    answer = value.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? nil : value
-                }
-            if exercise.answerIsSlovak && !locked {
-                DiacriticsBar { letter in text.append(letter) }
+            KeyboardTextField(
+                text: $text,
+                placeholder: exercise.answerIsSlovak ? "Napíšte po slovensky…" : "Напишите ответ",
+                language: exercise.answerIsSlovak ? "sk" : "ru",
+                isEnabled: result == nil,
+                onSubmit: onSubmit
+            )
+            .frame(height: 30)
+            .padding(14)
+            .background(RoundedRectangle(cornerRadius: 14).fill(Color(.secondarySystemGroupedBackground)))
+            .overlay(RoundedRectangle(cornerRadius: 14).stroke(borderColor, lineWidth: 2))
+            .onChange(of: text) { value in
+                answer = value.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? nil : value
             }
-        }
-        .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { focused = true }
+            if exercise.answerIsSlovak && result == nil && !Keyboards.hasSlovak {
+                DiacriticsBar { letter in text.append(letter) }
+                SlovakKeyboardHint()
+            }
         }
     }
 }
@@ -287,7 +340,7 @@ struct TypeExerciseView: View {
 struct FillExerciseView: View {
     let exercise: Exercise
     @Binding var selection: String?
-    let locked: Bool
+    let result: CheckResult?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 22) {
@@ -315,27 +368,27 @@ struct FillExerciseView: View {
             }
             FlowLayout(spacing: 10) {
                 ForEach(exercise.options, id: \.self) { option in
+                    let state = OptionState.of(option, selection: selection, answer: exercise.answer, result: result)
                     Button {
-                        guard !locked else { return }
+                        guard result == nil else { return }
                         Haptics.tap()
                         selection = option
                         Speech.shared.speak(option)
                     } label: {
                         Text(option)
                             .font(.body.weight(.semibold))
-                            .foregroundColor(.primary)
+                            .foregroundColor(state == .dimmed ? .secondary : .primary)
                             .padding(.horizontal, 16)
                             .padding(.vertical, 12)
                             .background(
                                 RoundedRectangle(cornerRadius: 12)
-                                    .fill(selection == option ? Theme.blue.opacity(0.12) : Color(.secondarySystemGroupedBackground))
+                                    .fill(state.highlighted ? state.tint.opacity(0.12) : Color(.secondarySystemGroupedBackground))
                             )
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .stroke(selection == option ? Theme.blue : Color(.systemGray4), lineWidth: 2)
-                            )
+                            .overlay(RoundedRectangle(cornerRadius: 12).stroke(state.tint, lineWidth: 2))
+                            .shadow(color: state.highlighted ? .clear : Color(.systemGray4), radius: 0, x: 0, y: 2)
                     }
                     .buttonStyle(PressScale())
+                    .animation(.easeOut(duration: 0.2), value: state)
                 }
             }
             .frame(maxWidth: .infinity)
@@ -351,6 +404,144 @@ struct FillExerciseView: View {
         return Text(before)
             + Text(blank).foregroundColor(Theme.blue).underline()
             + Text(after)
+    }
+}
+
+// MARK: - Найдите ошибку
+
+struct SpotErrorView: View {
+    let exercise: Exercise
+    @Binding var selection: String?
+    let result: CheckResult?
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 22) {
+            InstructionText(text: exercise.instruction)
+            HStack(alignment: .top, spacing: 12) {
+                Mascot(size: 54)
+                Text(exercise.prompt)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .padding(14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(RoundedRectangle(cornerRadius: 16).fill(Color(.secondarySystemGroupedBackground)))
+                    .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color(.systemGray4), lineWidth: 1.5))
+            }
+            Text("Нажмите на неправильное слово:")
+                .font(.subheadline.weight(.semibold))
+                .foregroundColor(.secondary)
+            FlowLayout(spacing: 8) {
+                ForEach(Array(exercise.spotTokens.enumerated()), id: \.offset) { index, token in
+                    let key = "\(index)"
+                    let state = OptionState.of(key, selection: selection, answer: exercise.answer, result: result)
+                    Button {
+                        guard result == nil else { return }
+                        Haptics.tap()
+                        selection = key
+                    } label: {
+                        Text(token)
+                            .font(.title3.weight(.semibold))
+                            .foregroundColor(state.highlighted ? state.tint : .primary)
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 8)
+                            .background(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .fill(state.highlighted ? state.tint.opacity(0.14) : Color(.secondarySystemGroupedBackground))
+                            )
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(state.highlighted ? state.tint : Color(.systemGray5), lineWidth: 2)
+                            )
+                    }
+                    .buttonStyle(PressScale())
+                    .animation(.easeOut(duration: 0.2), value: state)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+    }
+}
+
+// MARK: - Произнесите вслух
+
+struct SpeakExerciseView: View {
+    let exercise: Exercise
+    @Binding var answer: String?
+    let result: CheckResult?
+    let onSkip: () -> Void
+    @StateObject private var recognizer = SpeechRecognizer()
+    @State private var pulse = false
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 22) {
+            InstructionText(text: exercise.instruction)
+            PromptBubble(exercise: exercise)
+            VStack(spacing: 14) {
+                Button {
+                    Haptics.tap()
+                    recognizer.toggle()
+                } label: {
+                    ZStack {
+                        if recognizer.isRecording {
+                            Circle()
+                                .stroke(Theme.red.opacity(0.35), lineWidth: 8)
+                                .frame(width: 122, height: 122)
+                                .scaleEffect(pulse ? 1.18 : 0.95)
+                                .animation(.easeInOut(duration: 0.7).repeatForever(autoreverses: true), value: pulse)
+                                .onAppear { pulse = true }
+                                .onDisappear { pulse = false }
+                        }
+                        Circle()
+                            .fill(recognizer.isRecording ? Theme.red : Theme.blue)
+                            .frame(width: 96, height: 96)
+                            .shadow(color: (recognizer.isRecording ? Theme.red : Theme.blue).opacity(0.4), radius: 10, y: 4)
+                        Image(systemName: recognizer.isRecording ? "stop.fill" : "mic.fill")
+                            .font(.system(size: 36, weight: .bold))
+                            .foregroundColor(.white)
+                    }
+                    .frame(width: 130, height: 130)
+                }
+                .buttonStyle(PressScale())
+                .disabled(result != nil)
+
+                Text(statusText)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .multilineTextAlignment(.center)
+                if !recognizer.transcript.isEmpty {
+                    Text(recognizer.transcript)
+                        .font(.title3.weight(.semibold))
+                        .multilineTextAlignment(.center)
+                        .transition(.opacity)
+                }
+                if let error = recognizer.error {
+                    Text(error)
+                        .font(.footnote)
+                        .foregroundColor(Theme.red)
+                        .multilineTextAlignment(.center)
+                }
+                if result == nil {
+                    Button("Сейчас не могу говорить") {
+                        recognizer.stop()
+                        onSkip()
+                    }
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundColor(.secondary)
+                    .padding(.top, 4)
+                }
+            }
+            .frame(maxWidth: .infinity)
+        }
+        .onChange(of: recognizer.transcript) { value in
+            answer = value.isEmpty ? nil : value
+        }
+        .onDisappear { recognizer.stop() }
+    }
+
+    private var statusText: String {
+        if recognizer.isRecording { return "Говорите… Нажмите ещё раз, чтобы закончить" }
+        if recognizer.transcript.isEmpty { return "Нажмите на микрофон и прочитайте фразу вслух" }
+        return "Распознано:"
     }
 }
 
@@ -374,7 +565,8 @@ struct MatchExerciseView: View {
             HStack(alignment: .top, spacing: 12) {
                 VStack(spacing: 12) {
                     ForEach(left, id: \.sk) { pair in
-                        cell(text: pair.sk, key: pair.sk, selected: selectedLeft == pair.sk, wrong: wrongLeft == pair.sk) {
+                        cell(text: pair.sk, key: pair.sk, audio: exercise.audioPairs,
+                             selected: selectedLeft == pair.sk, wrong: wrongLeft == pair.sk) {
                             selectedLeft = pair.sk
                             Speech.shared.speak(pair.sk)
                             tryMatch()
@@ -383,7 +575,8 @@ struct MatchExerciseView: View {
                 }
                 VStack(spacing: 12) {
                     ForEach(right, id: \.sk) { pair in
-                        cell(text: pair.ru, key: pair.sk, selected: selectedRight == pair.sk, wrong: wrongRight == pair.sk) {
+                        cell(text: pair.ru, key: pair.sk, audio: false,
+                             selected: selectedRight == pair.sk, wrong: wrongRight == pair.sk) {
                             selectedRight = pair.sk
                             tryMatch()
                         }
@@ -399,30 +592,41 @@ struct MatchExerciseView: View {
         }
     }
 
-    private func cell(text: String, key: String, selected: Bool, wrong: Bool, action: @escaping () -> Void) -> some View {
+    private func cell(text: String, key: String, audio: Bool, selected: Bool, wrong: Bool,
+                      action: @escaping () -> Void) -> some View {
         let done = matched.contains(key)
-        let tint: Color = wrong ? Theme.red : (selected ? Theme.blue : Color(.systemGray4))
+        let tint: Color = done ? Theme.green : (wrong ? Theme.red : (selected ? Theme.blue : Color(.systemGray4)))
         return Button {
             guard !done else { return }
             Haptics.tap()
             action()
         } label: {
-            Text(text)
-                .font(.body.weight(.semibold))
-                .foregroundColor(done ? Color(.systemGray3) : (wrong ? Theme.red : .primary))
-                .multilineTextAlignment(.center)
-                .frame(maxWidth: .infinity, minHeight: 54)
-                .padding(.horizontal, 6)
-                .background(
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(selected && !done ? Theme.blue.opacity(0.12) : Color(.secondarySystemGroupedBackground))
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 12)
-                        .stroke(done ? Color(.systemGray5) : tint, lineWidth: 2)
-                )
+            Group {
+                if audio && !done {
+                    Image(systemName: "speaker.wave.2.fill")
+                        .font(.title3.weight(.bold))
+                        .foregroundColor(selected ? Theme.blue : .secondary)
+                } else {
+                    Text(text)
+                        .font(.body.weight(.semibold))
+                        .foregroundColor(done ? Theme.green.opacity(0.7) : (wrong ? Theme.red : .primary))
+                        .multilineTextAlignment(.center)
+                }
+            }
+            .frame(maxWidth: .infinity, minHeight: 54)
+            .padding(.horizontal, 6)
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(done ? Theme.green.opacity(0.08) : (selected ? Theme.blue.opacity(0.12) : Color(.secondarySystemGroupedBackground)))
+            )
+            .overlay(RoundedRectangle(cornerRadius: 12).stroke(tint, lineWidth: 2))
+            .scaleEffect(done ? 0.96 : 1)
+            .opacity(done ? 0.6 : 1)
         }
         .buttonStyle(PressScale())
+        .modifier(Shake(amount: 6, shakes: 3, animatableData: wrong ? 1 : 0))
+        .animation(.easeOut(duration: 0.3), value: wrong)
+        .animation(.spring(response: 0.3, dampingFraction: 0.6), value: done)
         .disabled(done)
     }
 

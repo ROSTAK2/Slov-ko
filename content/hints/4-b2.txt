@@ -257,3 +257,29 @@ a Napokon = Наконец | by som chcel = я хотел бы | poďakovať = �
 h Postupujeme v súlade ___ zmluvou. => Перед «z» пишут **so**: so zmluvou.
 h S ohľadom ___ situáciu sme termín posunuli. => «с учётом» = s ohľadom **na** + винительный.
 h Z ___ vyplýva, že plán je reálny. => z + родительный: uvedené → z uveden**ého**.
+
+# 44
+a Zaujímam sa o = Я интересуюсь | históriu = историей | Slovenska = Словакии
+a Kto = Кто | sa stará o = заботится о | deti = детях
+a Už = уже | som si zvykol na = Я привык к | slovenské = словацкой | jedlo = еде
+a Musím = Мне нужно | sa pripraviť na = подготовиться к | pohovor = собеседованию
+a Pre krízu = Из-за кризиса | prišiel o = он потерял | prácu = работу
+h Zaujímam sa ___ techniku. => zaujímať sa **o** + винительный (по-русски — «интересоваться **чем**» без предлога).
+h Zvykol som si ___ zimu. => zvyknúť si **na** + винительный (по-русски «привык **к**»).
+h Bojím sa, že prídem ___ byt. => **prísť o** niečo — лишиться чего-то.
+a Bojím sa = Я боюсь | veľkých psov = больших собак
+a Veľmi = очень | si vážim = Я ценю | vašu prácu = вашу работу
+a Nevzdám sa = Я не откажусь от | svojho sna = своей мечты
+a Gratulujem = Поздравляю | ti = тебя | k narodeninám = с днём рождения
+a Poradil = Он посоветовал | mi = мне | dobrého lekára = хорошего врача
+h Gratulujem ___ k sviatku. => gratulovať **komu** — дательный: **vám** (по-русски «поздравляю **вас**»).
+h Pomáham ___ s projektom. => pomáhať **komu** — дательный: koleg**ovi**.
+h Vážim si ___ názor. => vážiť si **čo** — винительный: **váš** názor.
+a Učím sa = Я учу | slovenčinu = словацкий | už = уже | pol roka = полгода
+a Môj syn = Мой сын | hrá na = играет на | klavíri = пианино
+a Deti = Дети | sa hrajú = играют | na ihrisku = на площадке
+a Idem = Я иду | do obchodu = в магазин | pre chlieb = за хлебом
+a Zajtra = Завтра | idem = я иду | za lekárom = к врачу
+h Idem ___ mlieko. => «Пойти за чем-то» = ísť **pre** + винительный. «Za» — калька с русского.
+h Učím sa ___. => učiť sa **čo** — винительный: slovenčin**u** (не «slovenčine»).
+h Zajtra idem ___ lekárom. => «Пойти к кому-то» = ísť **za** + творительный: za lekár**om**.

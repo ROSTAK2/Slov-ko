@@ -11,6 +11,7 @@ struct ReviewView: View {
     @EnvironmentObject var course: CourseStore
     @State private var showCards = false
     @State private var practice: PracticeSet?
+    @State private var showBlitz = false
     @State private var search = ""
 
     var body: some View {
@@ -34,6 +35,11 @@ struct ReviewView: View {
                         Button("ТРЕНИРОВКА СЛОВ  +❤️") { startPractice() }
                             .buttonStyle(ChunkyButtonStyle(color: Theme.green))
                             .disabled(store.state.cards.count < 4)
+                        Button(store.state.blitzBest > 0 ? "⚡ БЛИЦ 60 СЕКУНД · РЕКОРД \(store.state.blitzBest)" : "⚡ БЛИЦ 60 СЕКУНД") {
+                            showBlitz = true
+                        }
+                        .buttonStyle(ChunkyButtonStyle(color: Theme.gold))
+                        .disabled(store.state.cards.count < 4)
                         if store.state.cards.count < 4 {
                             Text("Пройдите первый урок — слова из уроков попадают сюда автоматически.")
                                 .font(.footnote)
@@ -64,6 +70,11 @@ struct ReviewView: View {
             .navigationTitle("Повторение")
             .fullScreenCover(isPresented: $showCards) {
                 FlashcardSessionView()
+            }
+            .fullScreenCover(isPresented: $showBlitz) {
+                BlitzView(words: store.state.cards.values.map { WordPair(sk: $0.sk, ru: $0.ru) },
+                          pool: course.allWords)
+                    .environmentObject(store)
             }
             .fullScreenCover(item: $practice) { set in
                 LessonView(lesson: set.lesson, exercises: set.exercises, kind: .practice)

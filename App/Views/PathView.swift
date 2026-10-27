@@ -4,6 +4,7 @@ import SwiftUI
 struct StatsBar: View {
     @EnvironmentObject var store: ProgressStore
     @EnvironmentObject var course: CourseStore
+    @State private var showHearts = false
 
     var body: some View {
         let progress = min(1, Double(store.xpToday) / Double(max(store.state.dailyGoal, 1)))
@@ -21,6 +22,7 @@ struct StatsBar: View {
             Spacer()
             HStack(spacing: 4) {
                 Image(systemName: "flame.fill")
+                    .modifier(Flicker(active: store.practicedToday))
                 Text("\(store.currentStreak)")
             }
             .foregroundColor(store.practicedToday ? Theme.orange : Color(.systemGray3))
@@ -41,13 +43,53 @@ struct StatsBar: View {
             }
             .foregroundColor(goalDone ? Theme.gold : Theme.blue)
             Spacer()
-            Label(store.state.unlimitedHearts ? "∞" : "\(store.state.hearts)", systemImage: "heart.fill")
-                .foregroundColor(Theme.red)
+            Button {
+                Haptics.tap()
+                showHearts = true
+            } label: {
+                Label(store.state.unlimitedHearts ? "∞" : "\(store.state.hearts)", systemImage: "heart.fill")
+                    .foregroundColor(Theme.red)
+            }
+            .buttonStyle(PressScale())
         }
         .font(.headline.weight(.heavy))
         .padding(.horizontal, 20)
         .padding(.vertical, 8)
         .background(.bar)
+        .sheet(isPresented: $showHearts) {
+            HeartsSheet().environmentObject(store)
+        }
+    }
+}
+
+/// Предупреждение, если на iPhone нет словацкого голоса.
+struct VoiceBanner: View {
+    @State private var showHelp = false
+
+    var body: some View {
+        if !Speech.shared.hasSlovakVoice {
+            Button {
+                showHelp = true
+            } label: {
+                HStack(spacing: 10) {
+                    Image(systemName: "speaker.slash.fill")
+                    Text("Нет словацкого голоса — слова могут звучать неправильно")
+                        .font(.footnote.weight(.semibold))
+                        .multilineTextAlignment(.leading)
+                    Spacer(minLength: 4)
+                    Text("Исправить")
+                        .font(.footnote.weight(.heavy))
+                }
+                .foregroundColor(.white)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 9)
+                .background(Theme.orange)
+            }
+            .buttonStyle(.plain)
+            .sheet(isPresented: $showHelp) {
+                VoiceHelpSheet()
+            }
+        }
     }
 }
 
@@ -71,29 +113,38 @@ struct PathView: View {
                             LevelDivider(level: unit.level)
                                 .padding(.top, unitIndex == 0 ? 16 : 36)
                         }
-                        UnitHeader(unit: unit, done: doneCount(unit)) { guideUnit = unit }
-                            .padding(.horizontal, 16)
-                            .padding(.top, 20)
-                            .padding(.bottom, 18)
-                        ForEach(Array(unit.lessons.enumerated()), id: \.element.id) { index, lesson in
-                            let swing = zigzag(index) * (unit.id.isMultiple(of: 2) ? -1 : 1)
-                            ZStack {
-                                if index == 1, let art = unit.art {
-                                    UnitArt(art: art, color: Theme.unitColor(unit.id))
-                                        .offset(x: swing > 0 ? -110 : 110, y: 44)
+                        VStack(spacing: 0) {
+                            UnitHeader(unit: unit, done: doneCount(unit)) { guideUnit = unit }
+                                .padding(.horizontal, 16)
+                                .padding(.top, 20)
+                                .padding(.bottom, 18)
+                            ForEach(Array(unit.lessons.enumerated()), id: \.element.id) { index, lesson in
+                                let swing = zigzag(index) * (unit.id.isMultiple(of: 2) ? -1 : 1)
+                                ZStack {
+                                    if index == 1, let art = unit.art {
+                                        UnitArt(art: art, color: Theme.unitColor(unit.id))
+                                            .offset(x: swing > 0 ? -110 : 110, y: 44)
+                                    }
+                                    LessonNode(
+                                        lesson: lesson,
+                                        color: Theme.unitColor(unit.id),
+                                        status: status(of: lesson, current: current)
+                                    ) {
+                                        open(lesson)
+                                    }
+                                    .offset(x: swing)
                                 }
-                                LessonNode(
-                                    lesson: lesson,
-                                    color: Theme.unitColor(unit.id),
-                                    status: status(of: lesson, current: current)
-                                ) {
-                                    open(lesson)
-                                }
-                                .offset(x: swing)
+                                .padding(.vertical, 10)
+                                .id(lesson.id)
                             }
-                            .padding(.vertical, 10)
-                            .id(lesson.id)
                         }
+                        .padding(.bottom, 16)
+                        .background(
+                            RoundedRectangle(cornerRadius: 30)
+                                .fill(Theme.unitColor(unit.id).opacity(0.07))
+                                .padding(.horizontal, 6)
+                        )
+                        .padding(.top, 8)
                     }
                     if current == nil && !course.units.isEmpty {
                         VStack(spacing: 8) {
@@ -109,7 +160,12 @@ struct PathView: View {
                 }
             }
             .background(Color(.systemGroupedBackground))
-            .safeAreaInset(edge: .top, spacing: 0) { StatsBar() }
+            .safeAreaInset(edge: .top, spacing: 0) {
+                VStack(spacing: 0) {
+                    StatsBar()
+                    VoiceBanner()
+                }
+            }
             .overlay(alignment: .bottomTrailing) {
                 if let current {
                     Button {
@@ -192,7 +248,8 @@ struct PathView: View {
             unitWords: unit?.lessons.filter { !$0.isReview }.flatMap { $0.words } ?? [],
             allWords: course.allWords,
             unitSentences: unit?.lessons.filter { !$0.isReview }.flatMap { $0.sentences } ?? [],
-            known: Set(store.state.cards.keys)
+            known: Set(store.state.cards.keys),
+            speaking: store.speakingAllowed
         )
     }
 
@@ -271,7 +328,7 @@ struct UnitHeader: View {
                         .background(Circle().fill(Color.white.opacity(0.22)))
                 }
                 VStack(alignment: .leading, spacing: 3) {
-                    Text("РАЗДЕЛ \(unit.id) · \(unit.level)")
+                    Text("РАЗДЕЛ \(unit.displayNumber) · \(unit.level)")
                         .font(.caption.weight(.heavy))
                         .foregroundColor(.white.opacity(0.85))
                     Text(unit.title)
@@ -443,7 +500,7 @@ struct GuideView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 14) {
-                    Text("Раздел \(unit.id) · \(unit.level)")
+                    Text("Раздел \(unit.displayNumber) · \(unit.level)")
                         .font(.subheadline.weight(.bold))
                         .foregroundColor(Theme.unitColor(unit.id))
                     Text(unit.title).font(.largeTitle.weight(.heavy))
@@ -466,6 +523,9 @@ struct GuideView: View {
                             HStack(spacing: 12) {
                                 SpeakerButton(text: word.sk)
                                 Text(word.sk).font(.body.weight(.semibold))
+                                if word.trap != nil {
+                                    Text("⚠️").font(.caption)
+                                }
                                 Spacer()
                                 Text(word.ru)
                                     .foregroundColor(.secondary)

@@ -642,3 +642,68 @@ s Ďakujem za pozvanie, rád prídem. | Спасибо за приглашени
 f Všetko najlepšie k ___! | narodeninám | narodeniny, narodenín, narodeninách | С днём рождения!
 f Pozývam vás na ___. | oslavu | oslava, oslavy, oslave | Приглашаю вас на праздник.
 f Chcem ti ___ k sviatku. | zablahoželať | zablahoželám, zablahoželal, blahoželáš | Хочу поздравить тебя с праздником.
+
+# 42 | A2 | Pasce gramatiky | Ловушки: где нельзя переводить дословно | 🪤 🧠
+> Здесь собраны конструкции, в которых русскоговорящие ошибаются чаще всего — дословный перевод с русского не работает.
+>
+> • **Mám 30 rokov** — «мне 30 лет» (не «Mne je 30»)
+> • **Bolí ma hlava** — «у меня болит голова» (не «U mňa bolí»)
+> • **čakať na** + вин. — ждать **кого-то**: Čakám **na** autobus.
+> • **myslieť na** + вин. — думать **о**: Myslím **na** teba.
+> • **pýtať sa na** + вин. — спрашивать **о**: Pýtal sa **na** cestu.
+> • **o hodinu** — **через** час (не «cez hodinu»), **pred hodinou** — час назад
+>
+> **Прошедшее время:** не теряйте **som / si**: «Bol **som** doma», а не «Ja bol doma». Местоимение «ja» обычно вообще не нужно.
+>
+> **Порядок слов:** короткие слова **som, si, sa, mi, ti, ho, mu** стоят на **втором месте** в предложении: «Včera **som sa** učil», «Dám **ti** to zajtra».
+## Čakám a myslím
+w čakať na | ждать (кого-то, что-то)
+w myslieť na | думать о
+w pýtať sa na | спрашивать о
+w tešiť sa na | радоваться (предстоящему)
+w o hodinu | через час
+w pred hodinou | час назад
+w je mi zima | мне холодно
+w bolí ma | у меня болит
+s Čakám na autobus už pol hodiny. | Я жду автобус уже полчаса.
+s Myslím na teba každý deň. | Я думаю о тебе каждый день.
+s Pýtal sa ma na cestu do centra. | Он спросил меня о дороге в центр.
+s Prídem o hodinu. | Я приду через час.
+s Mám dvadsaťosem rokov. | Мне двадцать восемь лет.
+f Čakám ___ kamaráta. | na | pre, o, k | Я жду друга.
+f Myslím ___ teba. | na | o, pre, s | Я думаю о тебе.
+f Prídem ___ desať minút. | o | cez, po, pri | Я приду через десять минут.
+## Minulý čas bez chýb
+w bol som | я был
+w bola si | ты была
+w nebol som | я не был
+w išiel som | я пошёл, поехал
+w mal som | у меня был
+w musel som | мне пришлось
+w videl som | я видел
+w povedal som | я сказал
+s Včera som bol v kine. | Вчера я был в кино.
+s Kde si bola cez víkend? | Где ты была на выходных?
+s Mal som veľa práce. | У меня было много работы.
+s Musel som ísť k lekárovi. | Мне пришлось пойти к врачу.
+s Nikdy som tam nebol. | Я никогда там не был.
+f Včera ___ bol chorý. | som | ja, sa, mi | Вчера я был болен.
+f Ty ___ bola v Prahe? | si | som, sa, je | Ты была в Праге?
+f ___ som veľa práce. | Mal | Bol, Mám, Mať | У меня было много работы.
+## Slovosled
+w sa | (возвратная частица, как «-ся»)
+w si | (себе; «ты» в прошедшем времени)
+w ho | его
+w mu | ему
+w jej | ей, её
+w ich | их
+w mi | мне
+w ťa | тебя
+s Včera som sa učil celý deň. | Вчера я учился весь день.
+s Dám ti to zajtra. | Я дам тебе это завтра.
+s Poznáš ho? | Ты его знаешь?
+s Páči sa mi tvoja nová práca. | Мне нравится твоя новая работа.
+s Povedal som mu pravdu. | Я сказал ему правду.
+f Včera ___ sa učil. | som | si, sme, sú | Вчера я учился.
+f Dám ___ to zajtra. | ti | ťa, teba, tvoj | Я дам тебе это завтра.
+f Poznáš ___? | ho | on, mu, jemu | Ты его знаешь?

@@ -44,6 +44,17 @@ final class NotificationManager: NSObject, UNUserNotificationCenterDelegate {
         let streak = store.currentStreak
         center.removeAllPendingNotificationRequests()
         center.removeAllDeliveredNotifications()
+
+        // Сердца восстановились — отдельное уведомление, работает и без ежедневных напоминаний.
+        if state.heartsNotify, let full = store.heartsFullAt, full > Date() {
+            let content = UNMutableNotificationContent()
+            content.title = "❤️ Сердца восстановлены!"
+            content.body = "Все 5 сердец снова с тобой. Самое время для урока."
+            content.sound = .default
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: full.timeIntervalSinceNow, repeats: false)
+            center.add(UNNotificationRequest(identifier: "hearts-full", content: content, trigger: trigger))
+        }
+
         guard state.reminderEnabled else { return }
 
         let calendar = Calendar.current

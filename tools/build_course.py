@@ -45,11 +45,16 @@ def parse_course(path, units, errors):
             tip.append(line[1:].strip())
         elif line[:2] in ("w ", "s "):
             parts = [p.strip() for p in line[2:].split("|")]
+            # Слово может иметь третью часть «! ложное значение» — ложный друг.
+            trap = parts.pop() if line[0] == "w" and len(parts) == 3 and parts[2].startswith("!") else None
             if len(parts) != 2 or not all(parts):
                 errors.append(f"{where}: ожидалось «sk | ru»")
                 continue
             key = "words" if line[0] == "w" else "sentences"
-            lesson[key].append({"sk": parts[0], "ru": parts[1]})
+            item = {"sk": parts[0], "ru": parts[1]}
+            if trap:
+                item["trap"] = trap.lstrip("! ").strip()
+            lesson[key].append(item)
         elif line.startswith("f "):
             parts = [p.strip() for p in line[2:].split("|")]
             if len(parts) != 4:
@@ -144,9 +149,13 @@ def main():
     sk_votes, ru_votes = Counter(), Counter()
     missing_align = missing_tips = 0
 
+    seen_ids = set()
     for i, unit in enumerate(units, 1):
-        if unit["id"] != i:
-            errors.append(f"раздел {unit['id']}: ожидался номер {i}")
+        # id раздела не меняется (на нём держится прогресс), а номер на карте — по порядку.
+        if unit["id"] in seen_ids:
+            errors.append(f"раздел {unit['id']}: номер уже занят")
+        seen_ids.add(unit["id"])
+        unit["number"] = i
         for lesson in unit["lessons"]:
             sks = [w["sk"] for w in lesson["words"]]
             if len(sks) != len(set(sks)):

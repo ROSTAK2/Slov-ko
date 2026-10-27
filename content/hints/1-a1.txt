@@ -262,3 +262,29 @@ a Po kurze = После курса | dostanem = я получу | certifikát = 
 h Prihlásil som ___ na kurz. => prihlásiť **sa** — записаться («записать себя»).
 h Kurz je pre ___. => pre + винительный; о людях во мн. ч. — **-ov**: začiatočník**ov**.
 h Mám certifikát zo ___. => z / zo + родительный: slovenčina → slovenčin**y**. Перед «s» пишут **zo**.
+
+# 41
+a Moja = Моя | rodina = семья | žije = живёт | v malom meste = в маленьком городе
+a Je tu = Здесь есть | voľné = свободное | miesto = место
+a Bratislava = Братислава | je = (есть — глагол «быть») | hlavné mesto = столица | nie = не | stolička = стул
+a Kde = Где | je = (есть — глагол «быть») | záchod = туалет | prosím = пожалуйста
+a Moja = Моя | vlasť = родина | je = (есть — глагол «быть») | ďaleko = далеко | ale = но | rodina = семья | je so mnou = со мной
+h Kúpim chlieb v ___. => ⚠️ **obchod** — магазин, а **záchod** — туалет! «В магазине» — v obchod**e**.
+h Košice nie sú hlavné ___. => ⚠️ «Столица» = hlavné **mesto** (город). **Miesto** — это «место».
+h Moja ___ je Ukrajina. => ⚠️ **vlasť** — родина, а **rodina** — это семья!
+a Tento = Этот | chlieb = хлеб | je = (есть — глагол «быть») | čerstvý = свежий
+a Na trhu = На рынке | kupujem = я покупаю | ovocie = фрукты | a = и | zeleninu = овощи
+a Káva = Кофе | je = (есть — глагол «быть») | horúca = горячий | a = и | horká = горький
+a Na večeru = На ужин | máme = у нас | polievku = суп
+a Jahody = Клубника | sú = (есть — глагол «быть») | moje = мои | obľúbené = любимые | ovocie = фрукты
+h Chlieb je ___, kúpil som ho ráno. => ⚠️ **čerstvý** — свежий (а не «черствый»!). Черствый хлеб — **tvrdý**.
+h Pozor, čaj je ___! => ⚠️ **horúci** — горячий, а **horký** — горький.
+h Mrkva a kapusta sú ___. => ⚠️ **zelenina** — овощи, а **ovocie** — фрукты.
+a Pozor = Осторожно | schody = ступеньки
+a To = Это | je = (есть — глагол «быть») | úžasný = потрясающая | nápad = идея
+a Počasie = Погода | je = (есть — глагол «быть») | dnes = сегодня | hrozné = ужасная
+a Tvoj = Твой | syn = сын | je = (есть — глагол «быть») | veľmi = очень | chytrý = умный
+a V kuchyni = На кухне | je = (есть — глагол «быть») | krásna = прекрасный | vôňa = аромат | kávy = кофе
+h To je ___ film, musíš ho vidieť! => ⚠️ **úžasný** — потрясающий (это похвала!), а «ужасный» — **hrozný**.
+h Aký nepríjemný ___! Otvor okno. => ⚠️ **zápach** — вонь, а приятный запах — **vôňa**.
+h ___, auto! => ⚠️ **Pozor!** — «Осторожно! Внимание!». Позор — это **hanba**.

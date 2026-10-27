@@ -52,6 +52,20 @@ final class LessonSession: ObservableObject {
     func check(store: ProgressStore) {
         guard let exercise = current, let input = pending, result == nil else { return }
         lastAnswer = input
+        if exercise.kind == .speak {
+            // Распознавание речи неточное: сердца не отнимаем и задание не повторяем.
+            let outcome = Checker.speech(input, answer: exercise.answer)
+            result = outcome
+            if outcome == .wrong {
+                completedCount += 1
+                combo = 0
+                Haptics.error()
+                SoundFX.shared.play(.wrong)
+            } else {
+                registerCorrect()
+            }
+            return
+        }
         let outcome = Checker.check(input, answer: exercise.answer, alternatives: exercise.alternatives)
         result = outcome
         if outcome == .wrong {
@@ -92,6 +106,21 @@ final class LessonSession: ObservableObject {
         combo == 3 || combo == 5 || (combo >= 10 && combo % 5 == 0)
     }
 
+    /// «Сейчас не могу говорить»: убираем упражнения на произношение на час.
+    func skipSpeaking(store: ProgressStore) {
+        guard position < queue.count else { return }
+        let rest = queue[position...]
+        completedCount += rest.filter { $0.kind == .speak }.count
+        queue = Array(queue[..<position]) + rest.filter { $0.kind != .speak }
+        store.state.speakingPausedUntil = Date().addingTimeInterval(3600)
+        pending = nil
+        result = nil
+        step += 1
+        if position >= queue.count {
+            finished = true
+        }
+    }
+
     func next(store: ProgressStore) {
         if usesHearts && !store.hasHearts {
             outOfHearts = true
@@ -115,6 +144,7 @@ struct LessonView: View {
     @State private var showExplain = false
     @State private var heartHit = false
     @State private var lastHearts = Int.max
+    @State private var showHearts = false
 
     init(lesson: Lesson, exercises: [Exercise], kind: LessonKind) {
         _session = StateObject(wrappedValue: LessonSession(lesson: lesson, exercises: exercises, kind: kind))
@@ -133,6 +163,8 @@ struct LessonView: View {
                         exerciseView(exercise)
                             .padding(20)
                             .frame(maxWidth: .infinity, alignment: .leading)
+                            .modifier(Shake(animatableData: CGFloat(session.mistakes)))
+                            .animation(.linear(duration: 0.4), value: session.mistakes)
                             .id(session.step)
                             .transition(.asymmetric(
                                 insertion: .move(edge: .trailing).combined(with: .opacity),
@@ -144,6 +176,10 @@ struct LessonView: View {
             }
         }
         .background(Color(.systemGroupedBackground).ignoresSafeArea())
+        .roundedDesign()
+        .sheet(isPresented: $showHearts) {
+            HeartsSheet().environmentObject(store)
+        }
         .confirmationDialog("Закончить урок?", isPresented: $confirmExit, titleVisibility: .visible) {
             Button("Выйти", role: .destructive) { dismiss() }
             Button("Продолжить урок", role: .cancel) {}
@@ -219,6 +255,8 @@ struct LessonView: View {
                             .transition(.move(edge: .bottom).combined(with: .opacity))
                     }
                 }
+                .contentShape(Rectangle())
+                .onTapGesture { showHearts = true }
                 .onAppear { lastHearts = store.state.hearts }
                 .onChange(of: store.state.hearts) { hearts in
                     if hearts < lastHearts {
@@ -238,20 +276,33 @@ struct LessonView: View {
 
     @ViewBuilder
     private func exerciseView(_ exercise: Exercise) -> some View {
-        let locked = session.result != nil
+        let result = session.result
         switch exercise.kind {
         case .choice:
-            ChoiceExerciseView(exercise: exercise, selection: $session.pending, locked: locked)
+            ChoiceExerciseView(exercise: exercise, selection: $session.pending, result: result)
         case .match:
             MatchExerciseView(exercise: exercise) {
                 withAnimation(.spring(response: 0.35, dampingFraction: 0.85)) { session.matchCompleted() }
             }
         case .build:
-            BuildExerciseView(exercise: exercise, answer: $session.pending, locked: locked)
+            BuildExerciseView(exercise: exercise, answer: $session.pending, result: result)
         case .typing:
-            TypeExerciseView(exercise: exercise, answer: $session.pending, locked: locked)
+            TypeExerciseView(exercise: exercise, answer: $session.pending, result: result) {
+                guard session.pending != nil, session.result == nil else { return }
+                withAnimation(.spring(response: 0.35, dampingFraction: 0.85)) {
+                    session.check(store: store)
+                }
+            }
         case .fill:
-            FillExerciseView(exercise: exercise, selection: $session.pending, locked: locked)
+            FillExerciseView(exercise: exercise, selection: $session.pending, result: result)
+        case .spot:
+            SpotErrorView(exercise: exercise, selection: $session.pending, result: result)
+        case .speak:
+            SpeakExerciseView(exercise: exercise, answer: $session.pending, result: result) {
+                withAnimation(.easeInOut(duration: 0.3)) {
+                    session.skipSpeaking(store: store)
+                }
+            }
         }
     }
 
@@ -276,8 +327,8 @@ struct LessonView: View {
         let isWrong = result == .wrong
         let color = isWrong ? Theme.red : Theme.green
         return VStack(alignment: .leading, spacing: 10) {
-            HStack {
-                Image(systemName: isWrong ? "xmark.circle.fill" : "checkmark.circle.fill")
+            HStack(spacing: 10) {
+                MascotReaction(positive: !isWrong)
                 Text(title(for: result)).font(.title3.weight(.heavy))
                 if !isWrong && session.combo >= 3 {
                     Text(verbatim: "🔥 \(session.combo) подряд")
@@ -303,7 +354,14 @@ struct LessonView: View {
             if case .almost(let hint) = result {
                 Text(hint).font(.subheadline).foregroundColor(color)
             }
-            if result != .correct, let tip = exercise.tip {
+            if result != .correct && (exercise.kind == .typing || exercise.kind == .build) {
+                DiffAnswerView(user: session.lastAnswer, correct: exercise.answer,
+                               byWords: exercise.kind == .build)
+            }
+            if exercise.kind == .speak && result != .correct && !session.lastAnswer.isEmpty {
+                DiffAnswerView(user: session.lastAnswer, correct: exercise.answer, byWords: true)
+            }
+            if result != .correct || exercise.tipAlways, let tip = exercise.tip {
                 HStack(alignment: .top, spacing: 8) {
                     Text("💡")
                     markdownText(tip)
@@ -315,7 +373,7 @@ struct LessonView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(RoundedRectangle(cornerRadius: 10).fill(Color(.systemBackground).opacity(0.8)))
             }
-            if isWrong {
+            if isWrong && exercise.kind != .typing && exercise.kind != .build && exercise.kind != .speak {
                 Text("Правильный ответ:").font(.subheadline.weight(.bold)).foregroundColor(color)
                 Text(exercise.speakAfter ?? exercise.answer).font(.body).foregroundColor(color)
             }

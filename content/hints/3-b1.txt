@@ -257,3 +257,29 @@ a Rád by som = Я бы хотел | doplnil = дополнить | jednu vec = 
 h Z toho ___, že plán funguje. => «Из этого следует» = z toho **vyplýva** (ед. ч., настоящее время).
 h ___ záver chcem poďakovať tímu. => «в заключение» = **na** záver.
 h Ďakujem za ___. => za + винительный; pozornosť не меняется.
+
+# 43
+a Úrok = Процент | z úveru = по кредиту | je = (есть — глагол «быть») | päť percent = пять процентов
+a Starosta = Мэр | mesta = города | otvoril = открыл | novú školu = новую школу
+a Vo formulári = В анкете | píšem = я пишу | slobodný = холост
+a Dnes = Сегодня | nemám čas = у меня нет времени | mám = у меня | lekciu = урок | slovenčiny = словацкого
+a Dostal som = Я получил | list = письмо | z banky = из банка
+h Banka zvýšila ___ z hypotéky. => ⚠️ **úrok** — процент по кредиту. Урок — **lekcia** или **hodina**.
+h Prepáč, teraz nemám ___. => ⚠️ **čas** — время. «Час» по-словацки — **hodina**.
+h V auguste idem na ___. => **dovolenka** — отпуск: ísť na dovolenk**u**.
+a Život = Жизнь | na Slovensku = в Словакии | je = (есть — глагол «быть») | pokojný = спокойная
+a Dnes = Сегодня | je = (есть — глагол «быть») | vonku = на улице | strašné = страшная | vedro = жара
+a Doma = Дома | nosím = я ношу | papuče = тапочки | nie = не | topánky = ботинки
+a Krupobitie = Град | poškodilo = повредил | autá = машины
+a Víno = Вино | máme = у нас | v pivnici = в подвале
+h Vyzuj si ___, prosím. => ⚠️ **topánky** — обувь, ботинки. Тапки — **papuče**.
+h Bolí ma ___. => ⚠️ **brucho** — живот, а **život** — это жизнь!
+h Je ___, dajme si zmrzlinu. => ⚠️ **vedro** — это и «ведро», и «жара»: Je vedro! — Жарко!
+a Fajčenie = Курение | je = (есть — глагол «быть») | tu = здесь | zakázané = запрещено
+a Objednal som si = Я заказал себе | pizzu = пиццу
+a Zastavte = Остановите | prosím = пожалуйста | na rohu = на углу
+a Ráno = Утром | vstávam = я встаю | skoro = рано
+a Zrazu = Вдруг | začalo pršať = начался дождь
+h Chcem si ___ taxík. => ⚠️ «Заказать» = **objednať**. **Zakázať** — это «запретить»!
+h Prídem ___, o päť minút. => ⚠️ «Скоро» = **čoskoro**. **Skoro** — это «рано» или «почти».
+h Kvety krásne ___. => ⚠️ **voňať** — приятно пахнуть (kvety vonia**jú**). «Вонять» — **smrdieť**.

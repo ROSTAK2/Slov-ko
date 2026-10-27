@@ -34,6 +34,10 @@ struct AppState: Codable {
     var speechRate: Double = 0.45
     var tutorModel: String = "claude-opus-5-5"
     var soundsOn: Bool = true
+    var heartsNotify: Bool = true
+    var speakingEnabled: Bool = true
+    var speakingPausedUntil: Date = .distantPast
+    var blitzBest: Int = 0
 
     init() {}
 
@@ -60,6 +64,10 @@ struct AppState: Codable {
         speechRate = try c.decodeIfPresent(Double.self, forKey: .speechRate) ?? d.speechRate
         tutorModel = try c.decodeIfPresent(String.self, forKey: .tutorModel) ?? d.tutorModel
         soundsOn = try c.decodeIfPresent(Bool.self, forKey: .soundsOn) ?? d.soundsOn
+        heartsNotify = try c.decodeIfPresent(Bool.self, forKey: .heartsNotify) ?? d.heartsNotify
+        speakingEnabled = try c.decodeIfPresent(Bool.self, forKey: .speakingEnabled) ?? d.speakingEnabled
+        speakingPausedUntil = try c.decodeIfPresent(Date.self, forKey: .speakingPausedUntil) ?? d.speakingPausedUntil
+        blitzBest = try c.decodeIfPresent(Int.self, forKey: .blitzBest) ?? d.blitzBest
     }
 }
 
@@ -137,6 +145,24 @@ final class ProgressStore: ObservableObject {
         state = s
     }
 
+    /// Когда появится следующее сердце (nil — сердца полные или бесконечные).
+    var nextHeartAt: Date? {
+        guard !state.unlimitedHearts, state.hearts < Self.maxHearts else { return nil }
+        return state.heartsUpdatedAt.addingTimeInterval(Self.heartRefill)
+    }
+
+    /// Когда сердца восстановятся полностью.
+    var heartsFullAt: Date? {
+        guard !state.unlimitedHearts, state.hearts < Self.maxHearts else { return nil }
+        let missing = Double(Self.maxHearts - state.hearts)
+        return state.heartsUpdatedAt.addingTimeInterval(missing * Self.heartRefill)
+    }
+
+    /// Можно ли сейчас давать упражнения на произношение.
+    var speakingAllowed: Bool {
+        state.speakingEnabled && Date() >= state.speakingPausedUntil && SpeechRecognizer.isSupported
+    }
+
     /// Минут до следующего сердца (nil, если сердца полные).
     var minutesToNextHeart: Int? {
         guard state.hearts < Self.maxHearts else { return nil }
@@ -150,6 +176,7 @@ final class ProgressStore: ObservableObject {
         if s.hearts >= Self.maxHearts { s.heartsUpdatedAt = Date() }
         s.hearts = max(0, s.hearts - 1)
         state = s
+        NotificationManager.shared.reschedule(for: self)
     }
 
     func gainHeart() {
@@ -258,6 +285,8 @@ final class ProgressStore: ObservableObject {
         fresh.tutorModel = state.tutorModel
         fresh.speechRate = state.speechRate
         fresh.soundsOn = state.soundsOn
+        fresh.heartsNotify = state.heartsNotify
+        fresh.speakingEnabled = state.speakingEnabled
         state = fresh
         NotificationManager.shared.reschedule(for: self)
     }

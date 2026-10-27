@@ -257,3 +257,29 @@ a Ďakujem = Спасибо | za pozvanie = за приглашение | rád p
 h Všetko najlepšie k ___! => k + дательный: narodeniny → k narodenin**ám**.
 h Pozývam vás na ___. => na + винительный: oslava → oslav**u**.
 h Chcem ti ___ k sviatku. => После «chcem» — инфинитив: zablahoželať.
+
+# 42
+a Čakám na = Я жду | autobus = автобус | už = уже | pol hodiny = полчаса
+a Myslím na = Я думаю о | teba = тебе | každý deň = каждый день
+a Pýtal sa = Он спросил | ma = меня | na cestu = о дороге | do centra = в центр
+a Prídem = Я приду | o hodinu = через час
+a Mám = Мне | dvadsaťosem = двадцать восемь | rokov = лет
+h Čakám ___ kamaráta. => Ждать кого-то = čakať **na** + винительный: čakám na kamaráta.
+h Myslím ___ teba. => «Думать о» = myslieť **na** + винительный (не «o»!).
+h Prídem ___ desať minút. => «Через (сколько времени)» = **o**: o desať minút. «Cez» здесь — калька с русского.
+a Včera = Вчера | som bol = я был | v kine = в кино
+a Kde = Где | si bola = ты была | cez víkend = на выходных
+a Mal som = У меня было | veľa = много | práce = работы
+a Musel som = Мне пришлось | ísť = пойти | k lekárovi = к врачу
+a Nikdy = никогда | som tam nebol = Я там не был
+h Včera ___ bol chorý. => В прошедшем времени нужен **som**, а «ja» не нужно: Včera **som** bol chorý.
+h Ty ___ bola v Prahe? => «Ты была» = bola **si**: с «ty» вспомогательный глагол — **si**.
+h ___ som veľa práce. => «У меня было» = **mal som** (от «mať»), а не «bol som».
+a Včera = Вчера | som sa učil = я учился | celý deň = весь день
+a Dám = Я дам | ti = тебе | to = это | zajtra = завтра
+a Poznáš = Ты знаешь | ho = его
+a Páči sa mi = Мне нравится | tvoja = твоя | nová = новая | práca = работа
+a Povedal som = Я сказал | mu = ему | pravdu = правду
+h Včera ___ sa učil. => Порядок: сначала **som**, потом **sa** — Včera som sa učil.
+h Dám ___ to zajtra. => «Тебе» (кому?) — короткая форма дательного: **ti**.
+h Poznáš ___? => «Его» (кого?) — короткая форма: **ho**.

@@ -19,6 +19,7 @@ struct SlovickoApp: App {
                 .onChange(of: scenePhase) { phase in
                     if phase == .active {
                         store.refreshHearts()
+                        Speech.shared.refreshVoice()
                         NotificationManager.shared.reschedule(for: store)
                     }
                 }
@@ -43,6 +44,7 @@ struct RootView: View {
                 .tabItem { Label("Профиль", systemImage: "person.crop.circle.fill") }
         }
         .tint(Theme.blue)
+        .roundedDesign()
         .onAppear {
             Speech.shared.rate = Float(store.state.speechRate)
             SoundFX.shared.enabled = store.state.soundsOn

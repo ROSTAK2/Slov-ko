@@ -123,3 +123,90 @@ enum LevelInfo {
         }
     }
 }
+
+/// Тряска «нет-нет» — при ошибке. Анимируется изменением animatableData (0 → 1).
+struct Shake: GeometryEffect {
+    var amount: CGFloat = 8
+    var shakes: CGFloat = 3
+    var animatableData: CGFloat
+
+    func effectValue(size: CGSize) -> ProjectionTransform {
+        ProjectionTransform(CGAffineTransform(translationX: amount * sin(animatableData * .pi * shakes * 2), y: 0))
+    }
+}
+
+/// Округлый шрифт во всём приложении (как в игровых приложениях).
+struct RoundedDesign: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 16.1, *) {
+            content.fontDesign(.rounded)
+        } else {
+            content
+        }
+    }
+}
+
+extension View {
+    func roundedDesign() -> some View {
+        modifier(RoundedDesign())
+    }
+}
+
+/// Талисман реагирует на ответ: подпрыгивает со звёздочками или огорчённо качается.
+struct MascotReaction: View {
+    let positive: Bool
+    @State private var animate = false
+
+    var body: some View {
+        ZStack {
+            if positive {
+                StarBurst(active: animate)
+            }
+            Mascot(size: 40)
+                .scaleEffect(animate ? 1 : 0.4)
+                .rotationEffect(.degrees(positive ? (animate ? 0 : -20) : 0))
+                .modifier(Shake(amount: positive ? 0 : 5, shakes: 2, animatableData: animate ? 1 : 0))
+        }
+        .frame(width: 44, height: 44)
+        .onAppear {
+            withAnimation(.spring(response: 0.45, dampingFraction: 0.45)) {
+                animate = true
+            }
+        }
+    }
+}
+
+/// Звёздочки разлетаются из центра.
+struct StarBurst: View {
+    let active: Bool
+
+    var body: some View {
+        ZStack {
+            ForEach(0..<8, id: \.self) { i in
+                Image(systemName: "star.fill")
+                    .font(.system(size: 9, weight: .bold))
+                    .foregroundColor(Theme.gold)
+                    .offset(y: active ? -36 : -6)
+                    .scaleEffect(active ? 1.1 : 0.4)
+                    .opacity(active ? 0 : 1)
+                    .frame(width: 90, height: 90)
+                    .rotationEffect(.degrees(Double(i) * 45))
+                    .animation(.easeOut(duration: 0.8), value: active)
+            }
+        }
+        .allowsHitTesting(false)
+    }
+}
+
+/// Пламя серии «мерцает», если сегодня уже занимались.
+struct Flicker: ViewModifier {
+    var active: Bool
+    @State private var on = false
+
+    func body(content: Content) -> some View {
+        content
+            .scaleEffect(active && on ? 1.15 : 1, anchor: .bottom)
+            .animation(active ? .easeInOut(duration: 0.6).repeatForever(autoreverses: true) : .default, value: on)
+            .onAppear { on = true }
+    }
+}

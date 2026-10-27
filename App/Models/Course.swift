@@ -3,6 +3,8 @@ import Foundation
 struct WordPair: Codable, Hashable {
     var sk: String
     var ru: String
+    /// «Ложный друг»: значение, которое русскоговорящий ошибочно ожидает (čerstvý ≠ черствый).
+    var trap: String? = nil
 }
 
 /// Слово предложения с подсказкой: t — как написано, h — перевод части, g — номер части (-1 — сама по себе).
@@ -50,6 +52,10 @@ struct CourseUnit: Codable, Identifiable {
     /// Значок раздела и картинка-украшение для карты (эмодзи).
     var icon: String? = nil
     var art: String? = nil
+    /// Номер на карте (по порядку); id не меняется, на нём держится прогресс.
+    var number: Int? = nil
+
+    var displayNumber: Int { number ?? id }
 }
 
 struct Course: Codable {
